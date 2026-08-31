@@ -1,0 +1,8839 @@
+[
+  {
+    "id": "LINK-液压伺服阀-包含-液压伺服阀",
+    "source": "液压伺服阀",
+    "target": "液压伺服阀",
+    "source_name": "液压伺服阀",
+    "target_name": "液压伺服阀",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-TEXT-004"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "现代液压控制技术"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "第一章 液压伺服阀结构组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成",
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定",
+      "电液伺服阀的静态特性包括空载流量特性、压力增益特性和内泄漏特性"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含伺服阀",
+      "电液伺服阀包含伺服阀"
+    ],
+    "triple_id": "MRG-TRP-000001",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-阀芯",
+    "source": "液压伺服阀",
+    "target": "阀芯",
+    "source_name": "液压伺服阀",
+    "target_name": "阀芯",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-PAPER-001"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "相关论文"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成",
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定",
+      "伺服阀的常见故障模式包括阀芯卡滞、喷嘴堵塞、力矩马达"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含阀芯",
+      "伺服阀包含阀芯"
+    ],
+    "triple_id": "MRG-TRP-000002",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-阀芯阀套",
+    "source": "液压伺服阀",
+    "target": "阀芯阀套",
+    "source_name": "液压伺服阀",
+    "target_name": "阀芯阀套",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含阀芯阀套"
+    ],
+    "triple_id": "MRG-TRP-000003",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-阀套",
+    "source": "液压伺服阀",
+    "target": "阀套",
+    "source_name": "液压伺服阀",
+    "target_name": "阀套",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含阀套"
+    ],
+    "triple_id": "MRG-TRP-000004",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-喷嘴挡板",
+    "source": "液压伺服阀",
+    "target": "喷嘴挡板",
+    "source_name": "液压伺服阀",
+    "target_name": "喷嘴挡板",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含喷嘴挡板"
+    ],
+    "triple_id": "MRG-TRP-000005",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-喷嘴",
+    "source": "液压伺服阀",
+    "target": "喷嘴",
+    "source_name": "液压伺服阀",
+    "target_name": "喷嘴",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-PAPER-001"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "相关论文"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成",
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定",
+      "伺服阀的常见故障模式包括阀芯卡滞、喷嘴堵塞、力矩马达"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含喷嘴",
+      "伺服阀包含喷嘴"
+    ],
+    "triple_id": "MRG-TRP-000006",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-挡板",
+    "source": "液压伺服阀",
+    "target": "挡板",
+    "source_name": "液压伺服阀",
+    "target_name": "挡板",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含挡板"
+    ],
+    "triple_id": "MRG-TRP-000007",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-力矩马达",
+    "source": "液压伺服阀",
+    "target": "力矩马达",
+    "source_name": "液压伺服阀",
+    "target_name": "力矩马达",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-PAPER-001"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "相关论文"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成",
+      "伺服阀的常见故障模式包括阀芯卡滞、喷嘴堵塞、力矩马达"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含力矩马达",
+      "伺服阀包含力矩马达"
+    ],
+    "triple_id": "MRG-TRP-000008",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-衔铁组件",
+    "source": "液压伺服阀",
+    "target": "衔铁组件",
+    "source_name": "液压伺服阀",
+    "target_name": "衔铁组件",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含衔铁组件"
+    ],
+    "triple_id": "MRG-TRP-000009",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-衔铁",
+    "source": "液压伺服阀",
+    "target": "衔铁",
+    "source_name": "液压伺服阀",
+    "target_name": "衔铁",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含衔铁"
+    ],
+    "triple_id": "MRG-TRP-000010",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-反馈杆",
+    "source": "液压伺服阀",
+    "target": "反馈杆",
+    "source_name": "液压伺服阀",
+    "target_name": "反馈杆",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含反馈杆"
+    ],
+    "triple_id": "MRG-TRP-000011",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-气隙垫片",
+    "source": "液压伺服阀",
+    "target": "气隙垫片",
+    "source_name": "液压伺服阀",
+    "target_name": "气隙垫片",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含气隙垫片"
+    ],
+    "triple_id": "MRG-TRP-000012",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-线圈与磁路",
+    "source": "液压伺服阀",
+    "target": "线圈与磁路",
+    "source_name": "液压伺服阀",
+    "target_name": "线圈与磁路",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含线圈与磁路"
+    ],
+    "triple_id": "MRG-TRP-000013",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-线圈",
+    "source": "液压伺服阀",
+    "target": "线圈",
+    "source_name": "液压伺服阀",
+    "target_name": "线圈",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成",
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含线圈"
+    ],
+    "triple_id": "MRG-TRP-000014",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-磁路",
+    "source": "液压伺服阀",
+    "target": "磁路",
+    "source_name": "液压伺服阀",
+    "target_name": "磁路",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含磁路"
+    ],
+    "triple_id": "MRG-TRP-000015",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-密封组件",
+    "source": "液压伺服阀",
+    "target": "密封组件",
+    "source_name": "液压伺服阀",
+    "target_name": "密封组件",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀包含阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件等关键部件",
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路和密封组件组成"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含密封组件"
+    ],
+    "triple_id": "MRG-TRP-000016",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-过滤组件",
+    "source": "液压伺服阀",
+    "target": "过滤组件",
+    "source_name": "液压伺服阀",
+    "target_name": "过滤组件",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压伺服阀主要由阀芯阀套、喷嘴挡板、力矩马达、衔铁组件、反馈杆、气隙垫片、线圈与磁路、密封组件和过滤组件等部件组成",
+      "液压伺服阀还包含过滤组件，过滤组件保护先导级不受污染颗粒影响"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含过滤组件"
+    ],
+    "triple_id": "MRG-TRP-000017",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯-发生于-阀芯卡滞",
+    "source": "阀芯",
+    "target": "阀芯卡滞",
+    "source_name": "阀芯",
+    "target_name": "阀芯卡滞",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-MANUAL-001",
+      "SRC-MANUAL-003",
+      "SRC-MANUAL-004",
+      "SRC-PAPER-001",
+      "SRC-PAPER-002",
+      "SRC-TEXT-001",
+      "SRC-TEXT-002",
+      "SRC-TEXT-003",
+      "SRC-TEXT-004",
+      "SRC-CASE-001",
+      "SRC-MANUAL-005",
+      "SRC-TEXT-006",
+      "SRC-TEXT-007",
+      "SRC-CASE-005"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "公开维修手册",
+      "公开维修手册",
+      "公开维修手册",
+      "相关论文",
+      "相关论文",
+      "液压教材",
+      "液压教材",
+      "液压教材",
+      "液压教材",
+      "公开故障案例",
+      "公开维修手册",
+      "液压教材",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "液压伺服阀日常维护与故障检修手册",
+      "液压伺服阀测试曲线判读与故障识别手册",
+      "液压伺服系统油液污染控制与过滤指南",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究",
+      "油液污染对电液伺服阀性能退化的影响机理研究",
+      "液压伺服控制系统（第三版）",
+      "电液伺服阀设计与分析",
+      "液压系统故障诊断与可靠性分析",
+      "现代液压控制技术",
+      "某型液压伺服阀响应迟缓与压力波动故障分析案例",
+      "液压伺服阀故障诊断与维修手册",
+      "液压伺服系统故障诊断学",
+      "液压元件失效分析与可靠性评估",
+      "注塑机伺服阀阀芯卡滞导致产品不合格的维修案例"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "第二章 油液污染与阀芯卡滞故障",
+      "1 油液污染导致阀芯卡滞的机理研究",
+      "第一节 油液污染引起的阀芯卡滞",
+      "阀芯阀套发生于阀芯卡滞，当污染颗粒进入配合间隙时导致阀芯运动受阻",
+      "案例一：注塑机液压伺服阀阀芯卡滞故障",
+      "阀芯卡滞是液压伺服阀最常见的故障模式",
+      "随滞环增大时，通常指向阀芯卡滞或力矩马达异常",
+      "间隙会导致阀芯卡滞，进入喷嘴会导致喷嘴堵塞，进入力矩马达气隙会导致",
+      "实验结果表明，该方法对阀芯卡滞",
+      "表明大于5微米的固体颗粒是导致阀芯卡滞的主要因素",
+      "阀芯卡滞是伺服阀最常见的故障模式",
+      "泄漏增大和零位漂移，配合间隙过小会增加阀芯卡滞风险",
+      "电液伺服阀的FMEA分析表明，最高风险的故障模式依次为：阀芯卡滞(风险",
+      "后增大通常指向力矩马达性能退化或阀芯卡滞",
+      "判断：油液污染导致阀芯表面受损和沉积物附着，引起阀芯卡滞",
+      "本章收录15个伺服阀典型故障案例：阀芯卡滞导致滞环增大、喷嘴堵塞导致零位漂移、力矩马达线圈短路导致输出不对称、气隙垫片磨损导致正反向特性不一致、反馈杆疲劳导致响应迟缓等",
+      "伺服阀的主要失效模式按频率排序：阀芯卡滞(35%)、喷嘴堵塞(22%)、力矩马达故障(18%)、零位漂移超限(12%)、内泄漏超标(8%)、其他(5%)",
+      "注塑机伺服阀阀芯卡滞导致产品不合格的维修案例"
+    ],
+    "evidence_spans": [
+      "阀芯→阀芯卡滞"
+    ],
+    "triple_id": "MRG-TRP-000018",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯阀套污染-导致-阀芯卡滞",
+    "source": "阀芯阀套污染",
+    "target": "阀芯卡滞",
+    "source_name": "阀芯阀套污染",
+    "target_name": "阀芯卡滞",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯阀套污染会导致阀芯卡滞，使得阀芯运动受阻",
+      "阀芯阀套污染导致阀芯卡滞，使阀芯运动摩擦力显著增大",
+      "阀芯阀套污染导致阀芯卡滞，阀芯的滑动摩擦力显著增大",
+      "阀芯阀套污染导致阀芯卡滞，阀芯表面出现划痕使滑动摩擦力增大"
+    ],
+    "evidence_spans": [
+      "阀芯阀套污染导致阀芯卡滞"
+    ],
+    "triple_id": "MRG-TRP-000019",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯阀套-发生于-阀芯卡滞",
+    "source": "阀芯阀套",
+    "target": "阀芯卡滞",
+    "source_name": "阀芯阀套",
+    "target_name": "阀芯卡滞",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯阀套污染会导致阀芯卡滞，使得阀芯运动受阻",
+      "阀芯阀套污染导致阀芯卡滞，使阀芯运动摩擦力显著增大",
+      "阀芯阀套污染导致阀芯卡滞，阀芯的滑动摩擦力显著增大",
+      "阀芯阀套发生于阀芯卡滞，当污染颗粒进入配合间隙时导致阀芯运动受阻",
+      "阀芯阀套污染导致阀芯卡滞，阀芯表面出现划痕使滑动摩擦力增大"
+    ],
+    "evidence_spans": [
+      "阀芯阀套→阀芯卡滞"
+    ],
+    "triple_id": "MRG-TRP-000020",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-导致-响应迟缓",
+    "source": "阀芯卡滞",
+    "target": "响应迟缓",
+    "source_name": "阀芯卡滞",
+    "target_name": "响应迟缓",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-TEXT-006"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统故障诊断学"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞表现为流量控制异常和压力波动，流量控制异常进一步导致响应迟缓",
+      "本章收录15个伺服阀典型故障案例：阀芯卡滞导致滞环增大、喷嘴堵塞导致零位漂移、力矩马达线圈短路导致输出不对称、气隙垫片磨损导致正反向特性不一致、反馈杆疲劳导致响应迟缓等"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞导致响应迟缓"
+    ],
+    "triple_id": "MRG-TRP-000021",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-流量控制异常-导致-响应迟缓",
+    "source": "流量控制异常",
+    "target": "响应迟缓",
+    "source_name": "流量控制异常",
+    "target_name": "响应迟缓",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞表现为流量控制异常和压力波动，流量控制异常进一步导致响应迟缓"
+    ],
+    "evidence_spans": [
+      "流量控制异常导致响应迟缓"
+    ],
+    "triple_id": "MRG-TRP-000022",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-压力波动-导致-响应迟缓",
+    "source": "压力波动",
+    "target": "响应迟缓",
+    "source_name": "压力波动",
+    "target_name": "响应迟缓",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞表现为流量控制异常和压力波动，流量控制异常进一步导致响应迟缓",
+      "压力波动导致响应迟缓，伺服阀的阶跃响应时间从正常状态的8ms延长至25ms",
+      "压力波动导致响应迟缓，伺服阀的动态特性恶化",
+      "压力波动导致响应迟缓，系统无法及时补偿泄漏"
+    ],
+    "evidence_spans": [
+      "压力波动导致响应迟缓"
+    ],
+    "triple_id": "MRG-TRP-000023",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-表现为-压力波动",
+    "source": "阀芯卡滞",
+    "target": "压力波动",
+    "source_name": "阀芯卡滞",
+    "target_name": "压力波动",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞表现为流量控制异常和压力波动，流量控制异常进一步导致响应迟缓"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞表现为压力波动"
+    ],
+    "triple_id": "MRG-TRP-000024",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-表现为-响应迟缓",
+    "source": "阀芯卡滞",
+    "target": "响应迟缓",
+    "source_name": "阀芯卡滞",
+    "target_name": "响应迟缓",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞表现为流量控制异常和压力波动，流量控制异常进一步导致响应迟缓"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞表现为响应迟缓"
+    ],
+    "triple_id": "MRG-TRP-000025",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-表现为-流量控制异常",
+    "source": "阀芯卡滞",
+    "target": "流量控制异常",
+    "source_name": "阀芯卡滞",
+    "target_name": "流量控制异常",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞表现为流量控制异常和压力波动，流量控制异常进一步导致响应迟缓",
+      "阀芯卡滞表现为流量控制异常，伺服阀的输出流量无法线性跟踪输入信号",
+      "阀芯卡滞表现为流量控制异常，输出流量与输入信号不成线性关系"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞表现为流量控制异常"
+    ],
+    "triple_id": "MRG-TRP-000026",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-由检测确认-响应曲线检测",
+    "source": "阀芯卡滞",
+    "target": "响应曲线检测",
+    "source_name": "阀芯卡滞",
+    "target_name": "响应曲线检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞可通过响应曲线检测和污染度检测确认",
+      "阀芯卡滞可通过响应曲线检测和滞环增大检测确认",
+      "阀芯卡滞可通过响应曲线检测确认，正常响应曲线应平滑对称，卡滞时曲线出现滞环增大和左右不对称",
+      "阀芯卡滞可通过响应曲线检测确认，检测滞环和线性度"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞——响应曲线检测"
+    ],
+    "triple_id": "MRG-TRP-000027",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-由检测确认-污染度检测",
+    "source": "阀芯卡滞",
+    "target": "污染度检测",
+    "source_name": "阀芯卡滞",
+    "target_name": "污染度检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞可通过响应曲线检测和污染度检测确认"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞——污染度检测"
+    ],
+    "triple_id": "MRG-TRP-000028",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-由维修处理-清洗阀芯",
+    "source": "阀芯卡滞",
+    "target": "清洗阀芯",
+    "source_name": "阀芯卡滞",
+    "target_name": "清洗阀芯",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修阀芯卡滞时应清洗阀芯并更换液压油",
+      "阀芯卡滞的维修措施包括清洗阀芯，使用清洁溶剂浸泡阀芯阀套组件",
+      "维修阀芯卡滞时应清洗阀芯，用超声波清洗设备清洗阀芯阀套",
+      "维修措施：阀芯卡滞的维修措施包括清洗阀芯，使用专用清洗剂浸泡阀芯阀套组件2小时后超声波清洗"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞——清洗阀芯"
+    ],
+    "triple_id": "MRG-TRP-000029",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-由维修处理-更换液压油",
+    "source": "阀芯卡滞",
+    "target": "更换液压油",
+    "source_name": "阀芯卡滞",
+    "target_name": "更换液压油",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修阀芯卡滞时应清洗阀芯并更换液压油",
+      "阀芯卡滞的维修措施还包括更换液压油，将系统内的污染油液全部排出",
+      "阀芯卡滞的维修措施包括更换液压油，将系统内约600升液压油全部排出更换为新油"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞——更换液压油"
+    ],
+    "triple_id": "MRG-TRP-000030",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-更换液压油-复测验证-维修后复测",
+    "source": "更换液压油",
+    "target": "维修后复测",
+    "source_name": "更换液压油",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "更换液压油后应更换滤芯，清洗阀芯后需复测验证维修后复测，确保阀芯运动恢复正常"
+    ],
+    "evidence_spans": [
+      "更换液压油复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000031",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-更换滤芯-复测验证-维修后复测",
+    "source": "更换滤芯",
+    "target": "维修后复测",
+    "source_name": "更换滤芯",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "更换液压油后应更换滤芯，清洗阀芯后需复测验证维修后复测，确保阀芯运动恢复正常"
+    ],
+    "evidence_spans": [
+      "更换滤芯复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000032",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-清洗阀芯-复测验证-维修后复测",
+    "source": "清洗阀芯",
+    "target": "维修后复测",
+    "source_name": "清洗阀芯",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "更换液压油后应更换滤芯，清洗阀芯后需复测验证维修后复测，确保阀芯运动恢复正常",
+      "清洗阀芯后应复测验证维修后复测，确保响应曲线恢复正常",
+      "清洗阀芯后应复测验证维修后复测，确认响应曲线恢复正常"
+    ],
+    "evidence_spans": [
+      "清洗阀芯复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000033",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-导致-喷嘴堵塞",
+    "source": "喷嘴堵塞",
+    "target": "喷嘴堵塞",
+    "source_name": "喷嘴堵塞",
+    "target_name": "喷嘴堵塞",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴污染会导致喷嘴堵塞",
+      "喷嘴污染导致喷嘴堵塞，当颗粒直径超过喷嘴孔径的1/3时，堵塞概率显著增大",
+      "喷嘴污染导致喷嘴堵塞，当颗粒尺寸超过喷嘴孔径的1/3时发生堵塞",
+      "喷嘴污染导致喷嘴堵塞，颗粒直径超过喷嘴孔径1/3时堵塞风险显著增加",
+      "喷嘴污染导致喷嘴堵塞，先导控制流量受限"
+    ],
+    "evidence_spans": [
+      "喷嘴污染导致喷嘴堵塞"
+    ],
+    "triple_id": "MRG-TRP-000034",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴-发生于-喷嘴堵塞",
+    "source": "喷嘴",
+    "target": "喷嘴堵塞",
+    "source_name": "喷嘴",
+    "target_name": "喷嘴堵塞",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-MANUAL-001",
+      "SRC-MANUAL-004",
+      "SRC-PAPER-001",
+      "SRC-PAPER-004",
+      "SRC-TEXT-001",
+      "SRC-TEXT-003",
+      "SRC-COMP-002",
+      "SRC-CASE-001",
+      "SRC-PAPER-008",
+      "SRC-TEXT-006",
+      "SRC-TEXT-007",
+      "SRC-CASE-006"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "公开维修手册",
+      "公开维修手册",
+      "相关论文",
+      "相关论文",
+      "液压教材",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "相关论文",
+      "液压教材",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "液压伺服阀日常维护与故障检修手册",
+      "液压伺服系统油液污染控制与过滤指南",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究",
+      "电液伺服阀喷嘴挡板堵塞故障的早期检测方法",
+      "液压伺服控制系统（第三版）",
+      "液压系统故障诊断与可靠性分析",
+      "喷嘴挡板式伺服阀前置级维护说明",
+      "某型液压伺服阀响应迟缓与压力波动故障分析案例",
+      "喷嘴挡板式伺服阀前置级堵塞故障的声发射检测方法",
+      "液压伺服系统故障诊断学",
+      "液压元件失效分析与可靠性评估",
+      "冶金轧机伺服阀响应迟缓故障的快速诊断与修复"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴污染会导致喷嘴堵塞",
+      "针对液压伺服阀在服役过程中的典型故障模式，本文系统综述了油液污染、喷嘴堵塞、气隙不对称、力矩马达异常、密封内泄漏和线圈发热异常六类主要故障的演化机理",
+      "油液污染导致喷嘴污染",
+      "油液污染导致喷嘴污染，微小颗粒在喷嘴孔周围积聚",
+      "喷嘴污染导致喷嘴堵塞，当颗粒尺寸超过喷嘴孔径的1/3时发生堵塞",
+      "喷嘴挡板发生于喷嘴堵塞，油液中的微小颗粒在喷嘴孔处积聚",
+      "案例二：轧机AGC系统伺服阀喷嘴堵塞故障",
+      "油液污染导致喷嘴污染，微小颗粒在喷嘴孔处积聚",
+      "喷嘴堵塞是伺服阀前置级的常见故障",
+      "间隙会导致阀芯卡滞，进入喷嘴会导致喷嘴堵塞，进入力矩马达气隙会导致",
+      "故障的识别准确率达到 96.5%，对喷嘴堵塞故障的识别准确率达到 94.2%，",
+      "喷嘴堵塞会导致伺服阀零位漂移增大、",
+      "喷嘴堵塞的后果：",
+      "优先数RPN=240)、喷嘴堵塞(RPN=210)、力矩马达线圈故障(RPN=180)、",
+      "判断为喷嘴堵塞",
+      "- 喷嘴堵塞：微小颗粒堵塞喷嘴孔",
+      "该方法可在喷嘴堵塞初期发出预警，比传统零位检测方法提前约150工作小时",
+      "本章收录15个伺服阀典型故障案例：阀芯卡滞导致滞环增大、喷嘴堵塞导致零位漂移、力矩马达线圈短路导致输出不对称、气隙垫片磨损导致正反向特性不一致、反馈杆疲劳导致响应迟缓等",
+      "伺服阀的主要失效模式按频率排序：阀芯卡滞(35%)、喷嘴堵塞(22%)、力矩马达故障(18%)、零位漂移超限(12%)、内泄漏超标(8%)、其他(5%)",
+      "油液污染是喷嘴堵塞的根本原因"
+    ],
+    "evidence_spans": [
+      "喷嘴→喷嘴堵塞",
+      "喷嘴→喷嘴污染"
+    ],
+    "triple_id": "MRG-TRP-000035",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-导致-压差异常",
+    "source": "喷嘴堵塞",
+    "target": "压差异常",
+    "source_name": "喷嘴堵塞",
+    "target_name": "压差异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞会导致压差异常，控制腔两侧压力不平衡",
+      "喷嘴堵塞导致压差异常，控制腔两侧压力出现不对称",
+      "喷嘴堵塞导致压差异常，先导控制腔两侧压力失去平衡",
+      "喷嘴堵塞导致压差异常，控制腔两侧压力失去平衡"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞导致压差异常"
+    ],
+    "triple_id": "MRG-TRP-000036",
+    "matched_template_ids": [
+      "T2"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-压差异常-导致-阀芯偏移异常",
+    "source": "压差异常",
+    "target": "阀芯偏移异常",
+    "source_name": "压差异常",
+    "target_name": "阀芯偏移异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "压差异常进一步导致阀芯偏移异常，阀芯偏移异常会导致流量输出异常",
+      "压差异常导致阀芯偏移异常，阀芯偏离零位位置",
+      "压差异常导致阀芯偏移异常，阀芯偏离设计零位",
+      "压差异常导致阀芯偏移异常，阀芯偏离零位"
+    ],
+    "evidence_spans": [
+      "压差异常导致阀芯偏移异常"
+    ],
+    "triple_id": "MRG-TRP-000037",
+    "matched_template_ids": [
+      "T2"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-压差异常-导致-阀芯偏移",
+    "source": "压差异常",
+    "target": "阀芯偏移",
+    "source_name": "压差异常",
+    "target_name": "阀芯偏移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "压差异常进一步导致阀芯偏移异常，阀芯偏移异常会导致流量输出异常",
+      "压差异常导致阀芯偏移异常，阀芯偏离零位位置",
+      "压差异常导致阀芯偏移异常，阀芯偏离设计零位",
+      "压差异常导致阀芯偏移异常，阀芯偏离零位"
+    ],
+    "evidence_spans": [
+      "压差异常导致阀芯偏移"
+    ],
+    "triple_id": "MRG-TRP-000038",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-压差异常-导致-流量输出异常",
+    "source": "压差异常",
+    "target": "流量输出异常",
+    "source_name": "压差异常",
+    "target_name": "流量输出异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "压差异常进一步导致阀芯偏移异常，阀芯偏移异常会导致流量输出异常"
+    ],
+    "evidence_spans": [
+      "压差异常导致流量输出异常"
+    ],
+    "triple_id": "MRG-TRP-000039",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯偏移异常-导致-流量输出异常",
+    "source": "阀芯偏移异常",
+    "target": "流量输出异常",
+    "source_name": "阀芯偏移异常",
+    "target_name": "流量输出异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "压差异常进一步导致阀芯偏移异常，阀芯偏移异常会导致流量输出异常",
+      "阀芯偏移异常导致流量输出异常，伺服阀的输出流量与控制信号不再成线性关系",
+      "阀芯偏移异常导致流量输出异常，伺服阀的输出流量与控制信号不成比例",
+      "阀芯偏移异常导致流量输出异常，输出流量与控制信号不匹配",
+      "阀芯偏移异常导致流量输出异常，输出流量与控制信号不成比例"
+    ],
+    "evidence_spans": [
+      "阀芯偏移异常会导致流量输出异常",
+      "阀芯偏移异常导致流量输出异常"
+    ],
+    "triple_id": "MRG-TRP-000040",
+    "matched_template_ids": [
+      "T2"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯偏移-导致-流量输出异常",
+    "source": "阀芯偏移",
+    "target": "流量输出异常",
+    "source_name": "阀芯偏移",
+    "target_name": "流量输出异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "压差异常进一步导致阀芯偏移异常，阀芯偏移异常会导致流量输出异常",
+      "阀芯偏移异常导致流量输出异常，伺服阀的输出流量与控制信号不再成线性关系",
+      "阀芯偏移异常导致流量输出异常，伺服阀的输出流量与控制信号不成比例",
+      "阀芯偏移异常导致流量输出异常，输出流量与控制信号不匹配",
+      "阀芯偏移异常导致流量输出异常，输出流量与控制信号不成比例"
+    ],
+    "evidence_spans": [
+      "阀芯偏移会导致流量输出异常",
+      "阀芯偏移导致流量输出异常"
+    ],
+    "triple_id": "MRG-TRP-000041",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-流量输出异常-导致-输出偏差",
+    "source": "流量输出异常",
+    "target": "输出偏差",
+    "source_name": "流量输出异常",
+    "target_name": "输出偏差",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "流量输出异常最终导致输出偏差，影响液压系统的位置控制精度",
+      "流量输出异常导致输出偏差，影响液压系统的位置控制精度",
+      "流量输出异常导致输出偏差，影响执行机构的位置精度",
+      "流量输出异常导致输出偏差，影响系统控制精度",
+      "流量输出异常导致输出偏差，带钢厚度控制精度下降"
+    ],
+    "evidence_spans": [
+      "流量输出异常导致输出偏差"
+    ],
+    "triple_id": "MRG-TRP-000042",
+    "matched_template_ids": [
+      "T2"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由检测确认-压差检测",
+    "source": "喷嘴堵塞",
+    "target": "压差检测",
+    "source_name": "喷嘴堵塞",
+    "target_name": "压差检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞可通过压差检测和流量检测确认",
+      "喷嘴堵塞可通过压差检测确认，测量控制腔两侧压差"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——压差检测"
+    ],
+    "triple_id": "MRG-TRP-000043",
+    "matched_template_ids": [
+      "T2"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由检测确认-流量检测",
+    "source": "喷嘴堵塞",
+    "target": "流量检测",
+    "source_name": "喷嘴堵塞",
+    "target_name": "流量检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞可通过压差检测和流量检测确认",
+      "喷嘴堵塞可通过流量检测确认，检测伺服阀在零输入时的泄漏流量变化"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——流量检测"
+    ],
+    "triple_id": "MRG-TRP-000044",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴-包含-喷嘴挡板",
+    "source": "喷嘴",
+    "target": "喷嘴挡板",
+    "source_name": "喷嘴",
+    "target_name": "喷嘴挡板",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-TEXT-001",
+      "SRC-COMP-002"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "液压伺服控制系统（第三版）",
+      "喷嘴挡板式伺服阀前置级维护说明"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板和更换液压油",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用超声波清洗",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴用放大镜检查并用超声波清洗",
+      "维修措施：喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用放大镜检查确认堵塞，超声波清洗10分钟",
+      "喷嘴挡板式伺服阀由力矩马达、喷嘴挡板前置级和滑阀功率级组成",
+      "喷嘴挡板式前置级由两个固定喷嘴和一个可动挡板组成"
+    ],
+    "evidence_spans": [
+      "喷嘴包含喷嘴挡板"
+    ],
+    "triple_id": "MRG-TRP-000045",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴-包含-挡板",
+    "source": "喷嘴",
+    "target": "挡板",
+    "source_name": "喷嘴",
+    "target_name": "挡板",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-TEXT-001",
+      "SRC-COMP-002"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "液压伺服控制系统（第三版）",
+      "喷嘴挡板式伺服阀前置级维护说明"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板和更换液压油",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用超声波清洗",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴用放大镜检查并用超声波清洗",
+      "维修措施：喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用放大镜检查确认堵塞，超声波清洗10分钟",
+      "喷嘴挡板式伺服阀由力矩马达、喷嘴挡板前置级和滑阀功率级组成",
+      "喷嘴挡板式前置级由两个固定喷嘴和一个可动挡板组成"
+    ],
+    "evidence_spans": [
+      "喷嘴包含挡板"
+    ],
+    "triple_id": "MRG-TRP-000046",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由维修处理-清洗喷嘴挡板",
+    "source": "喷嘴堵塞",
+    "target": "清洗喷嘴挡板",
+    "source_name": "喷嘴堵塞",
+    "target_name": "清洗喷嘴挡板",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板和更换液压油",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用超声波清洗",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴用放大镜检查并用超声波清洗",
+      "维修措施：喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用放大镜检查确认堵塞，超声波清洗10分钟"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——清洗喷嘴挡板"
+    ],
+    "triple_id": "MRG-TRP-000047",
+    "matched_template_ids": [
+      "T2"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由维修处理-更换液压油",
+    "source": "喷嘴堵塞",
+    "target": "更换液压油",
+    "source_name": "喷嘴堵塞",
+    "target_name": "更换液压油",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板和更换液压油",
+      "喷嘴堵塞的维修措施包括更换液压油和更换滤芯"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——更换液压油"
+    ],
+    "triple_id": "MRG-TRP-000048",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴挡板-发生于-喷嘴堵塞",
+    "source": "喷嘴挡板",
+    "target": "喷嘴堵塞",
+    "source_name": "喷嘴挡板",
+    "target_name": "喷嘴堵塞",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板和更换液压油",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用超声波清洗",
+      "喷嘴挡板发生于喷嘴堵塞，油液中的微小颗粒在喷嘴孔处积聚",
+      "维修措施：喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用放大镜检查确认堵塞，超声波清洗10分钟"
+    ],
+    "evidence_spans": [
+      "喷嘴挡板→喷嘴堵塞"
+    ],
+    "triple_id": "MRG-TRP-000049",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-清洗喷嘴挡板-复测验证-维修后复测",
+    "source": "清洗喷嘴挡板",
+    "target": "维修后复测",
+    "source_name": "清洗喷嘴挡板",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "清洗喷嘴挡板后应复测验证维修后复测，确认控制压力恢复对称",
+      "清洗喷嘴挡板后应复测验证维修后复测，确认控制压差恢复对称"
+    ],
+    "evidence_spans": [
+      "清洗喷嘴挡板复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000050",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙垫片厚度不一致-导致-气隙不对称",
+    "source": "气隙垫片厚度不一致",
+    "target": "气隙不对称",
+    "source_name": "气隙垫片厚度不一致",
+    "target_name": "气隙不对称",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙垫片厚度不一致会导致气隙不对称",
+      "气隙垫片厚度不一致导致气隙不对称",
+      "气隙垫片厚度不一致导致气隙不对称，力矩马达两侧气隙不相等",
+      "气隙垫片厚度不一致导致气隙不对称，两侧气隙值不相等",
+      "故障原因分析：气隙垫片厚度不一致导致气隙不对称"
+    ],
+    "evidence_spans": [
+      "气隙垫片厚度不一致导致气隙不对称"
+    ],
+    "triple_id": "MRG-TRP-000051",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙垫片-发生于-气隙不对称",
+    "source": "气隙垫片",
+    "target": "气隙不对称",
+    "source_name": "气隙垫片",
+    "target_name": "气隙不对称",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙垫片厚度不一致会导致气隙不对称",
+      "气隙垫片厚度不一致导致气隙不对称",
+      "气隙垫片厚度不一致导致气隙不对称，力矩马达两侧气隙不相等",
+      "气隙垫片厚度不一致导致气隙不对称，两侧气隙值不相等",
+      "故障原因分析：气隙垫片厚度不一致导致气隙不对称"
+    ],
+    "evidence_spans": [
+      "气隙垫片→气隙不对称"
+    ],
+    "triple_id": "MRG-TRP-000052",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-导致-力矩马达磁路不平衡",
+    "source": "气隙不对称",
+    "target": "力矩马达磁路不平衡",
+    "source_name": "气隙不对称",
+    "target_name": "力矩马达磁路不平衡",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称会造成力矩马达磁路不平衡，引起衔铁两侧电磁力矩不相等",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端受到的电磁力不相等",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端电磁力不对称",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端电磁力矩不对称",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两侧电磁力矩不等"
+    ],
+    "evidence_spans": [
+      "气隙不对称造成力矩马达磁路不平衡",
+      "气隙不对称导致力矩马达磁路不平衡"
+    ],
+    "triple_id": "MRG-TRP-000053",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-导致-磁路不平衡",
+    "source": "气隙不对称",
+    "target": "磁路不平衡",
+    "source_name": "气隙不对称",
+    "target_name": "磁路不平衡",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称会造成力矩马达磁路不平衡，引起衔铁两侧电磁力矩不相等",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端受到的电磁力不相等",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端电磁力不对称",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端电磁力矩不对称",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两侧电磁力矩不等"
+    ],
+    "evidence_spans": [
+      "气隙不对称造成磁路不平衡",
+      "气隙不对称导致磁路不平衡"
+    ],
+    "triple_id": "MRG-TRP-000054",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-磁路-发生于-磁路不平衡",
+    "source": "磁路",
+    "target": "磁路不平衡",
+    "source_name": "磁路",
+    "target_name": "磁路不平衡",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称会造成力矩马达磁路不平衡，引起衔铁两侧电磁力矩不相等",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端受到的电磁力不相等",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端电磁力不对称",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两端电磁力矩不对称",
+      "气隙不对称导致力矩马达磁路不平衡，衔铁两侧电磁力矩不等"
+    ],
+    "evidence_spans": [
+      "磁路→磁路不平衡"
+    ],
+    "triple_id": "MRG-TRP-000055",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达磁路不平衡-导致-零位漂移",
+    "source": "力矩马达磁路不平衡",
+    "target": "零位漂移",
+    "source_name": "力矩马达磁路不平衡",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达磁路不平衡导致零位漂移，伺服阀在无控制信号时仍有输出流量",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀在零输入信号时产生非零输出流量",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀在零输入时出现非零输出",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀出现零位偏移",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀出现明显零偏"
+    ],
+    "evidence_spans": [
+      "力矩马达磁路不平衡导致零位漂移",
+      "力矩马达磁路不平衡导致零位偏移"
+    ],
+    "triple_id": "MRG-TRP-000056",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-磁路不平衡-导致-零位漂移",
+    "source": "磁路不平衡",
+    "target": "零位漂移",
+    "source_name": "磁路不平衡",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达磁路不平衡导致零位漂移，伺服阀在无控制信号时仍有输出流量",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀在零输入信号时产生非零输出流量",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀在零输入时出现非零输出",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀出现零位偏移",
+      "力矩马达磁路不平衡导致零位漂移，伺服阀出现明显零偏"
+    ],
+    "evidence_spans": [
+      "磁路不平衡导致零位漂移",
+      "磁路不平衡导致零位偏移"
+    ],
+    "triple_id": "MRG-TRP-000057",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-导致-伺服阀输出偏差",
+    "source": "零位漂移",
+    "target": "伺服阀输出偏差",
+    "source_name": "零位漂移",
+    "target_name": "伺服阀输出偏差",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "零位漂移导致伺服阀输出偏差，影响系统的控制精度",
+      "零位漂移导致伺服阀输出偏差，使液压执行机构偏离目标位置",
+      "零位漂移导致伺服阀输出偏差，影响液压系统的定位精度",
+      "零位漂移导致伺服阀输出偏差，影响控制精度",
+      "零位漂移导致伺服阀输出偏差，正反向流量增益不一致"
+    ],
+    "evidence_spans": [
+      "零位漂移导致伺服阀输出偏差"
+    ],
+    "triple_id": "MRG-TRP-000058",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-导致-输出偏差",
+    "source": "零位漂移",
+    "target": "输出偏差",
+    "source_name": "零位漂移",
+    "target_name": "输出偏差",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "零位漂移导致伺服阀输出偏差，影响系统的控制精度",
+      "零位漂移最终导致输出不对称，伺服阀正反方向的流量增益不一致",
+      "零位漂移导致伺服阀输出偏差，使液压执行机构偏离目标位置",
+      "零位漂移导致输出不对称，伺服阀正反向流量增益不一致",
+      "零位漂移导致伺服阀输出偏差，影响液压系统的定位精度",
+      "零位漂移导致输出不对称，正反两个方向的流量增益不一致",
+      "零位漂移导致输出不对称，正反向流量增益不一致",
+      "零位漂移导致伺服阀输出偏差，影响控制精度",
+      "零位漂移导致伺服阀输出偏差，正反向流量增益不一致"
+    ],
+    "evidence_spans": [
+      "零位漂移导致输出偏差",
+      "零位漂移导致输出不对称"
+    ],
+    "triple_id": "MRG-TRP-000059",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-由检测确认-气隙检测",
+    "source": "气隙不对称",
+    "target": "气隙检测",
+    "source_name": "气隙不对称",
+    "target_name": "气隙检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称可通过气隙检测和零位检测确认",
+      "气隙不对称可通过气隙检测确认，使用塞尺测量两侧气隙尺寸",
+      "气隙不对称可通过气隙检测确认，使用塞尺测量两侧气隙值",
+      "气隙不对称可通过气隙检测确认，用塞尺测量两侧气隙值"
+    ],
+    "evidence_spans": [
+      "气隙不对称——气隙检测"
+    ],
+    "triple_id": "MRG-TRP-000060",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-由检测确认-零位检测",
+    "source": "气隙不对称",
+    "target": "零位检测",
+    "source_name": "气隙不对称",
+    "target_name": "零位检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称可通过气隙检测和零位检测确认"
+    ],
+    "evidence_spans": [
+      "气隙不对称——零位检测"
+    ],
+    "triple_id": "MRG-TRP-000061",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由检测确认-零位检测",
+    "source": "零位漂移",
+    "target": "零位检测",
+    "source_name": "零位漂移",
+    "target_name": "零位检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "零位漂移可通过零位检测和样本曲线比对确认",
+      "零位漂移可通过零位检测确认",
+      "零位漂移可通过零位检测确认，检测零输入时的输出流量",
+      "检测过程：首先进行零位检测，发现伺服阀零位漂移达到4.2%(正常<2%)"
+    ],
+    "evidence_spans": [
+      "零位漂移——零位检测"
+    ],
+    "triple_id": "MRG-TRP-000062",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由检测确认-样本曲线比对",
+    "source": "零位漂移",
+    "target": "样本曲线比对",
+    "source_name": "零位漂移",
+    "target_name": "样本曲线比对",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "零位漂移可通过零位检测和样本曲线比对确认"
+    ],
+    "evidence_spans": [
+      "零位漂移——样本曲线比对"
+    ],
+    "triple_id": "MRG-TRP-000063",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-由维修处理-调整零位",
+    "source": "气隙不对称",
+    "target": "调整零位",
+    "source_name": "气隙不对称",
+    "target_name": "调整零位",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称时需调整零位和重新标定",
+      "气隙不对称的维修措施还包括调整零位，通过调整零位螺钉校正零位"
+    ],
+    "evidence_spans": [
+      "气隙不对称——调整零位"
+    ],
+    "triple_id": "MRG-TRP-000064",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-由维修处理-重新标定",
+    "source": "气隙不对称",
+    "target": "重新标定",
+    "source_name": "气隙不对称",
+    "target_name": "重新标定",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称时需调整零位和重新标定"
+    ],
+    "evidence_spans": [
+      "气隙不对称——重新标定"
+    ],
+    "triple_id": "MRG-TRP-000065",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-调整零位-复测验证-维修后复测",
+    "source": "调整零位",
+    "target": "维修后复测",
+    "source_name": "调整零位",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "调整零位后应复测验证维修后复测，确保零位精度满足要求",
+      "调整零位后应复测验证维修后复测，确保零位精度符合要求",
+      "调整零位后应复测验证维修后复测，确认零位精度达标",
+      "调整零位后应复测验证维修后复测，零位漂移恢复至1.3%，正反向增益比恢复至1:0.97"
+    ],
+    "evidence_spans": [
+      "调整零位复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000066",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达-发生于-力矩马达异常",
+    "source": "力矩马达",
+    "target": "力矩马达异常",
+    "source_name": "力矩马达",
+    "target_name": "力矩马达异常",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-MANUAL-003",
+      "SRC-MANUAL-004",
+      "SRC-PAPER-001",
+      "SRC-TEXT-003",
+      "SRC-MANUAL-005"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开维修手册",
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀测试曲线判读与故障识别手册",
+      "液压伺服系统油液污染控制与过滤指南",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究",
+      "液压系统故障诊断与可靠性分析",
+      "液压伺服阀故障诊断与维修手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "第五章 力矩马达异常与衔铁偏移故障",
+      "针对液压伺服阀在服役过程中的典型故障模式，本文系统综述了油液污染、喷嘴堵塞、气隙不对称、力矩马达异常、密封内泄漏和线圈发热异常六类主要故障的演化机理",
+      "第四节 力矩马达异常",
+      "力矩马达发生于力矩马达异常，当线圈绝缘老化或永磁体退磁时性能退化",
+      "随滞环增大时，通常指向阀芯卡滞或力矩马达异常",
+      "力矩马达异常",
+      "对力矩马达异常故障的识别准确率达到 92.8%",
+      "喷嘴堵塞、力矩马达异常、反馈杆变形和电气故障",
+      "力矩马达异常表现为线圈发热和输出力矩下降"
+    ],
+    "evidence_spans": [
+      "力矩马达→力矩马达异常"
+    ],
+    "triple_id": "MRG-TRP-000067",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-衔铁-发生于-衔铁偏移",
+    "source": "衔铁",
+    "target": "衔铁偏移",
+    "source_name": "衔铁",
+    "target_name": "衔铁偏移",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "第五章 力矩马达异常与衔铁偏移故障"
+    ],
+    "evidence_spans": [
+      "衔铁→衔铁偏移"
+    ],
+    "triple_id": "MRG-TRP-000068",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-导致-电磁力矩异常",
+    "source": "力矩马达异常",
+    "target": "电磁力矩异常",
+    "source_name": "力矩马达异常",
+    "target_name": "电磁力矩异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达异常会导致电磁力矩异常",
+      "力矩马达异常导致电磁力矩异常",
+      "力矩马达异常导致电磁力矩异常，输出力矩无法线性跟踪输入电流"
+    ],
+    "evidence_spans": [
+      "力矩马达异常导致电磁力矩异常"
+    ],
+    "triple_id": "MRG-TRP-000069",
+    "matched_template_ids": [
+      "T4"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-电磁力矩异常-导致-衔铁偏转异常",
+    "source": "电磁力矩异常",
+    "target": "衔铁偏转异常",
+    "source_name": "电磁力矩异常",
+    "target_name": "衔铁偏转异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "电磁力矩异常会造成衔铁偏转异常，衔铁组件无法按比例跟踪输入电流信号",
+      "电磁力矩异常导致衔铁偏转异常，衔铁无法按比例响应输入电流的变化",
+      "电磁力矩异常导致衔铁偏转异常，衔铁偏转角度与输入电流不成比例",
+      "电磁力矩异常导致衔铁偏转异常，衔铁偏转角度与电流不成比例"
+    ],
+    "evidence_spans": [
+      "电磁力矩异常造成衔铁偏转异常",
+      "电磁力矩异常导致衔铁偏转异常"
+    ],
+    "triple_id": "MRG-TRP-000070",
+    "matched_template_ids": [
+      "T4"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-衔铁组件-发生于-衔铁偏转异常",
+    "source": "衔铁组件",
+    "target": "衔铁偏转异常",
+    "source_name": "衔铁组件",
+    "target_name": "衔铁偏转异常",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "电磁力矩异常会造成衔铁偏转异常，衔铁组件无法按比例跟踪输入电流信号"
+    ],
+    "evidence_spans": [
+      "衔铁组件→衔铁偏转异常"
+    ],
+    "triple_id": "MRG-TRP-000071",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-衔铁偏转异常-导致-阀芯偏移",
+    "source": "衔铁偏转异常",
+    "target": "阀芯偏移",
+    "source_name": "衔铁偏转异常",
+    "target_name": "阀芯偏移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "衔铁偏转异常进一步导致阀芯偏移，阀芯偏移引起零位漂移",
+      "衔铁偏转异常导致阀芯偏移，阀芯位置偏离正常控制范围",
+      "衔铁偏转异常导致阀芯偏移，阀芯偏离正常控制位置",
+      "衔铁偏转异常导致阀芯偏移，阀芯偏离正常位置"
+    ],
+    "evidence_spans": [
+      "衔铁偏转异常导致阀芯偏移"
+    ],
+    "triple_id": "MRG-TRP-000072",
+    "matched_template_ids": [
+      "T4"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-衔铁偏转异常-导致-零位漂移",
+    "source": "衔铁偏转异常",
+    "target": "零位漂移",
+    "source_name": "衔铁偏转异常",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "衔铁偏转异常进一步导致阀芯偏移，阀芯偏移引起零位漂移"
+    ],
+    "evidence_spans": [
+      "衔铁偏转异常导致零位漂移"
+    ],
+    "triple_id": "MRG-TRP-000073",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯偏移-导致-零位漂移",
+    "source": "阀芯偏移",
+    "target": "零位漂移",
+    "source_name": "阀芯偏移",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "衔铁偏转异常进一步导致阀芯偏移，阀芯偏移引起零位漂移",
+      "阀芯偏移导致零位漂移，伺服阀的零位稳定性下降",
+      "阀芯偏移导致零位漂移，伺服阀零位出现偏移"
+    ],
+    "evidence_spans": [
+      "阀芯偏移引起零位漂移",
+      "阀芯偏移导致零位漂移"
+    ],
+    "triple_id": "MRG-TRP-000074",
+    "matched_template_ids": [
+      "T4"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-由检测确认-线圈电阻检测",
+    "source": "力矩马达异常",
+    "target": "线圈电阻检测",
+    "source_name": "力矩马达异常",
+    "target_name": "线圈电阻检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达异常可通过线圈电阻检测和电流检测确认",
+      "力矩马达异常可通过线圈电阻检测确认，正常电阻值为80±4欧姆",
+      "力矩马达异常可通过线圈电阻检测确认，测量线圈电阻值"
+    ],
+    "evidence_spans": [
+      "力矩马达异常——线圈电阻检测"
+    ],
+    "triple_id": "MRG-TRP-000075",
+    "matched_template_ids": [
+      "T4"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-由检测确认-电流检测",
+    "source": "力矩马达异常",
+    "target": "电流检测",
+    "source_name": "力矩马达异常",
+    "target_name": "电流检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达异常可通过线圈电阻检测和电流检测确认",
+      "力矩马达异常可通过电流检测确认，检测工作电流是否在正常范围",
+      "力矩马达异常可通过电流检测确认，监测工作电流"
+    ],
+    "evidence_spans": [
+      "力矩马达异常——电流检测"
+    ],
+    "triple_id": "MRG-TRP-000076",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由检测确认-线圈电阻检测",
+    "source": "线圈发热异常",
+    "target": "线圈电阻检测",
+    "source_name": "线圈发热异常",
+    "target_name": "线圈电阻检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常可通过线圈电阻检测和温升检测确认",
+      "线圈发热异常可通过温升检测和线圈电阻检测确认",
+      "线圈发热异常可通过线圈电阻检测确认"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——线圈电阻检测"
+    ],
+    "triple_id": "MRG-TRP-000077",
+    "matched_template_ids": [
+      "T6"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由检测确认-温升检测",
+    "source": "线圈发热异常",
+    "target": "温升检测",
+    "source_name": "线圈发热异常",
+    "target_name": "温升检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常可通过线圈电阻检测和温升检测确认",
+      "线圈发热异常表现为线圈运行温度超过85度，可通过温升检测和红外测温确认",
+      "线圈发热异常可通过温升检测和线圈电阻检测确认",
+      "线圈发热异常可通过温升检测确认，正常工作温度不超过85度"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——温升检测"
+    ],
+    "triple_id": "MRG-TRP-000078",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈-发生于-线圈发热异常",
+    "source": "线圈",
+    "target": "线圈发热异常",
+    "source_name": "线圈",
+    "target_name": "线圈发热异常",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-MANUAL-001",
+      "SRC-PAPER-001",
+      "SRC-PAPER-003",
+      "SRC-COMP-003"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "公开维修手册",
+      "相关论文",
+      "相关论文",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "液压伺服阀日常维护与故障检修手册",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究",
+      "电液伺服阀力矩马达线圈发热异常诊断与预防",
+      "力矩马达组件技术说明与维护指南"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常可通过线圈电阻检测和温升检测确认",
+      "针对液压伺服阀在服役过程中的典型故障模式，本文系统综述了油液污染、喷嘴堵塞、气隙不对称、力矩马达异常、密封内泄漏和线圈发热异常六类主要故障的演化机理",
+      "线圈发热异常导致电流异常，温度升高使线圈电阻增大",
+      "线圈与磁路发生于线圈发热异常，当线圈过载或散热不良时温度升高",
+      "故障原因分析：线圈发热异常导致电流异常，温度升高使铜线电阻增大",
+      "- 线圈发热异常，温度超过正常值",
+      "异常、零位漂移、滞环增大、线圈发热异常、气隙不对称和反馈异常等",
+      "摘要：针对电液伺服阀力矩马达线圈发热异常问题，本文分析了线圈发热的",
+      "线圈发热异常：输入电流过大或散热不良"
+    ],
+    "evidence_spans": [
+      "线圈→线圈发热异常"
+    ],
+    "triple_id": "MRG-TRP-000079",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-由维修处理-检查力矩马达",
+    "source": "力矩马达异常",
+    "target": "检查力矩马达",
+    "source_name": "力矩马达异常",
+    "target_name": "检查力矩马达",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修力矩马达异常时应检查力矩马达、检查线圈电阻和检查衔铁组件",
+      "力矩马达异常的维修措施包括检查力矩马达，检查线圈和永磁体状态",
+      "维修力矩马达异常时应检查力矩马达，检查线圈绝缘和永磁体"
+    ],
+    "evidence_spans": [
+      "力矩马达异常——检查力矩马达"
+    ],
+    "triple_id": "MRG-TRP-000080",
+    "matched_template_ids": [
+      "T4"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-由维修处理-检查线圈电阻",
+    "source": "力矩马达异常",
+    "target": "检查线圈电阻",
+    "source_name": "力矩马达异常",
+    "target_name": "检查线圈电阻",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修力矩马达异常时应检查力矩马达、检查线圈电阻和检查衔铁组件",
+      "力矩马达异常的维修措施还包括检查线圈电阻，测量并记录线圈电阻值",
+      "维修力矩马达异常时应检查线圈电阻，测量并记录电阻值"
+    ],
+    "evidence_spans": [
+      "力矩马达异常——检查线圈电阻"
+    ],
+    "triple_id": "MRG-TRP-000081",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-由维修处理-检查衔铁组件",
+    "source": "力矩马达异常",
+    "target": "检查衔铁组件",
+    "source_name": "力矩马达异常",
+    "target_name": "检查衔铁组件",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修力矩马达异常时应检查力矩马达、检查线圈电阻和检查衔铁组件",
+      "力矩马达异常的维修措施还包括检查衔铁组件，确认衔铁无机械变形",
+      "维修力矩马达异常时应检查衔铁组件，确认无机械变形或卡滞"
+    ],
+    "evidence_spans": [
+      "力矩马达异常——检查衔铁组件"
+    ],
+    "triple_id": "MRG-TRP-000082",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-由检测确认-维修后复测",
+    "source": "力矩马达异常",
+    "target": "维修后复测",
+    "source_name": "力矩马达异常",
+    "target_name": "维修后复测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修后应进行重新标定，力矩马达异常维修后需复测验证维修后复测"
+    ],
+    "evidence_spans": [
+      "力矩马达异常——维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000083",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达异常-由维修处理-重新标定",
+    "source": "力矩马达异常",
+    "target": "重新标定",
+    "source_name": "力矩马达异常",
+    "target_name": "重新标定",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修后应进行重新标定，力矩马达异常维修后需复测验证维修后复测",
+      "力矩马达异常维修后应重新标定零位和增益"
+    ],
+    "evidence_spans": [
+      "力矩马达异常——重新标定"
+    ],
+    "triple_id": "MRG-TRP-000084",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-重新标定-复测验证-维修后复测",
+    "source": "重新标定",
+    "target": "维修后复测",
+    "source_name": "重新标定",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修后应进行重新标定，力矩马达异常维修后需复测验证维修后复测"
+    ],
+    "evidence_spans": [
+      "重新标定复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000085",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-密封组件-发生于-内泄漏",
+    "source": "密封组件",
+    "target": "内泄漏",
+    "source_name": "密封组件",
+    "target_name": "内泄漏",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "第六章 密封组件内泄漏故障",
+      "内泄漏的维修措施包括更换密封组件，更换所有老化的密封圈和密封垫",
+      "内泄漏的维修措施包括更换密封组件，更换所有老化和损坏的密封件",
+      "维修措施：内泄漏的维修措施包括更换密封组件，更换全部密封圈和密封垫"
+    ],
+    "evidence_spans": [
+      "密封组件→内泄漏"
+    ],
+    "triple_id": "MRG-TRP-000086",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-密封组件磨损-导致-内泄漏",
+    "source": "密封组件磨损",
+    "target": "内泄漏",
+    "source_name": "密封组件磨损",
+    "target_name": "内泄漏",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "密封组件磨损会导致内泄漏",
+      "密封组件磨损导致内泄漏",
+      "密封组件磨损导致内泄漏，长期运行后密封圈老化",
+      "密封组件磨损导致内泄漏，液压油从高压腔向低压腔泄漏",
+      "故障原因分析：密封组件磨损导致内泄漏"
+    ],
+    "evidence_spans": [
+      "密封组件磨损导致内泄漏"
+    ],
+    "triple_id": "MRG-TRP-000087",
+    "matched_template_ids": [
+      "T5"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-密封组件-发生于-密封组件磨损",
+    "source": "密封组件",
+    "target": "密封组件磨损",
+    "source_name": "密封组件",
+    "target_name": "密封组件磨损",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "密封组件磨损会导致内泄漏",
+      "密封组件磨损导致内泄漏",
+      "密封组件磨损导致内泄漏，长期运行后密封圈老化",
+      "密封组件发生于密封组件磨损，长期往复运动导致密封圈老化",
+      "故障原因分析：密封组件磨损导致内泄漏"
+    ],
+    "evidence_spans": [
+      "密封组件→密封组件磨损"
+    ],
+    "triple_id": "MRG-TRP-000088",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-内泄漏-导致-压力下降",
+    "source": "内泄漏",
+    "target": "压力下降",
+    "source_name": "内泄漏",
+    "target_name": "压力下降",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "内泄漏会导致压力下降，控制腔内压力无法保持稳定",
+      "内泄漏导致压力下降，控制腔压力无法维持稳定",
+      "内泄漏导致压力下降，控制腔压力无法维持",
+      "内泄漏导致压力下降，控制腔压力无法稳定维持"
+    ],
+    "evidence_spans": [
+      "内泄漏导致压力下降"
+    ],
+    "triple_id": "MRG-TRP-000089",
+    "matched_template_ids": [
+      "T5"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-压力下降-导致-流量损失",
+    "source": "压力下降",
+    "target": "流量损失",
+    "source_name": "压力下降",
+    "target_name": "流量损失",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "压力下降进一步导致流量损失，有效输出流量减少",
+      "压力下降导致流量损失，有效输出流量减小",
+      "压力下降导致流量损失，有效输出流量减少"
+    ],
+    "evidence_spans": [
+      "压力下降导致流量损失"
+    ],
+    "triple_id": "MRG-TRP-000090",
+    "matched_template_ids": [
+      "T5"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-流量损失-导致-响应迟缓",
+    "source": "流量损失",
+    "target": "响应迟缓",
+    "source_name": "流量损失",
+    "target_name": "响应迟缓",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "流量损失最终导致响应迟缓，伺服阀的动态响应性能下降",
+      "流量损失导致响应迟缓，系统的动态响应性能下降",
+      "流量损失导致响应迟缓，伺服阀的动态响应变慢",
+      "流量损失导致响应迟缓，伺服阀动态响应变慢",
+      "流量损失导致响应迟缓，阀门跟踪指令延迟增大"
+    ],
+    "evidence_spans": [
+      "流量损失导致响应迟缓",
+      "流量损失导致响应变慢"
+    ],
+    "triple_id": "MRG-TRP-000091",
+    "matched_template_ids": [
+      "T5"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-内泄漏-由检测确认-泄漏检测",
+    "source": "内泄漏",
+    "target": "泄漏检测",
+    "source_name": "内泄漏",
+    "target_name": "泄漏检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "内泄漏可通过泄漏检测和压力检测确认",
+      "内泄漏可通过泄漏检测确认，在额定压力下测量内部泄漏量",
+      "更换密封组件后应复测验证泄漏检测，内泄漏量降至0.3L/min"
+    ],
+    "evidence_spans": [
+      "内泄漏——泄漏检测"
+    ],
+    "triple_id": "MRG-TRP-000092",
+    "matched_template_ids": [
+      "T5"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-内泄漏-由检测确认-压力检测",
+    "source": "内泄漏",
+    "target": "压力检测",
+    "source_name": "内泄漏",
+    "target_name": "压力检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "内泄漏可通过泄漏检测和压力检测确认",
+      "内泄漏可通过压力检测确认，监测控制压力的变化",
+      "内泄漏可通过压力检测确认，监测控制压力是否稳定"
+    ],
+    "evidence_spans": [
+      "内泄漏——压力检测"
+    ],
+    "triple_id": "MRG-TRP-000093",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-内泄漏-由维修处理-更换密封组件",
+    "source": "内泄漏",
+    "target": "更换密封组件",
+    "source_name": "内泄漏",
+    "target_name": "更换密封组件",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "内泄漏的维修措施包括更换密封组件",
+      "内泄漏的维修措施包括更换密封组件，更换所有老化的密封圈和密封垫",
+      "内泄漏的维修措施包括更换密封组件，更换所有老化和损坏的密封件",
+      "维修措施：内泄漏的维修措施包括更换密封组件，更换全部密封圈和密封垫"
+    ],
+    "evidence_spans": [
+      "内泄漏——更换密封组件"
+    ],
+    "triple_id": "MRG-TRP-000094",
+    "matched_template_ids": [
+      "T5"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-更换密封组件-复测验证-复测压力曲线",
+    "source": "更换密封组件",
+    "target": "复测压力曲线",
+    "source_name": "更换密封组件",
+    "target_name": "复测压力曲线",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "更换密封组件后应复测压力曲线，确认控制压力恢复正常"
+    ],
+    "evidence_spans": [
+      "更换密封组件复测复测压力曲线"
+    ],
+    "triple_id": "MRG-TRP-000095",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-密封件损坏-导致-内泄漏",
+    "source": "密封件损坏",
+    "target": "内泄漏",
+    "source_name": "密封件损坏",
+    "target_name": "内泄漏",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "密封失效也会导致内泄漏，密封失效的维修方法与密封组件磨损相同",
+      "密封失效导致内泄漏，密封面出现损伤",
+      "密封失效也会导致内泄漏，密封面损伤或密封圈破裂"
+    ],
+    "evidence_spans": [
+      "密封失效导致内泄漏"
+    ],
+    "triple_id": "MRG-TRP-000096",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-密封件损坏-导致-密封组件磨损",
+    "source": "密封件损坏",
+    "target": "密封组件磨损",
+    "source_name": "密封件损坏",
+    "target_name": "密封组件磨损",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "密封失效也会导致内泄漏，密封失效的维修方法与密封组件磨损相同"
+    ],
+    "evidence_spans": [
+      "密封失效导致密封组件磨损"
+    ],
+    "triple_id": "MRG-TRP-000097",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-密封组件-发生于-密封件损坏",
+    "source": "密封组件",
+    "target": "密封件损坏",
+    "source_name": "密封组件",
+    "target_name": "密封件损坏",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "密封失效也会导致内泄漏，密封失效的维修方法与密封组件磨损相同"
+    ],
+    "evidence_spans": [
+      "密封组件→密封失效"
+    ],
+    "triple_id": "MRG-TRP-000098",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-导致-电流异常",
+    "source": "线圈发热异常",
+    "target": "电流异常",
+    "source_name": "线圈发热异常",
+    "target_name": "电流异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常会导致电流异常",
+      "线圈发热异常导致电流异常",
+      "线圈发热异常导致电流异常，温度升高使线圈电阻增大",
+      "线圈发热异常导致电流异常，温度升高使电阻增大电流减小",
+      "故障原因分析：线圈发热异常导致电流异常，温度升高使铜线电阻增大"
+    ],
+    "evidence_spans": [
+      "线圈发热异常导致电流异常"
+    ],
+    "triple_id": "MRG-TRP-000099",
+    "matched_template_ids": [
+      "T6"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-电流异常-导致-电磁力矩波动",
+    "source": "电流异常",
+    "target": "电磁力矩波动",
+    "source_name": "电流异常",
+    "target_name": "电磁力矩波动",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "电流异常会导致电磁力矩波动，力矩马达的输出力矩不稳定",
+      "电流异常导致电磁力矩波动，力矩马达的输出力矩出现脉动",
+      "电流异常导致电磁力矩波动，力矩马达输出力矩不稳定"
+    ],
+    "evidence_spans": [
+      "电流异常导致电磁力矩波动"
+    ],
+    "triple_id": "MRG-TRP-000100",
+    "matched_template_ids": [
+      "T6"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-电磁力矩波动-导致-输出不稳定",
+    "source": "电磁力矩波动",
+    "target": "输出不稳定",
+    "source_name": "电磁力矩波动",
+    "target_name": "输出不稳定",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "电磁力矩波动导致输出不稳定，伺服阀的流量输出出现脉动",
+      "电磁力矩波动导致输出不稳定，伺服阀的流量输出出现同频率的波动",
+      "电磁力矩波动导致输出不稳定，伺服阀流量输出出现脉动",
+      "电磁力矩波动导致输出不稳定，伺服阀流量输出脉动"
+    ],
+    "evidence_spans": [
+      "电磁力矩波动导致输出不稳定"
+    ],
+    "triple_id": "MRG-TRP-000101",
+    "matched_template_ids": [
+      "T6"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-输出不稳定-导致-响应异常",
+    "source": "输出不稳定",
+    "target": "响应异常",
+    "source_name": "输出不稳定",
+    "target_name": "响应异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "输出不稳定最终导致响应异常，伺服阀无法准确跟踪输入信号的变化",
+      "输出不稳定导致响应异常，伺服阀无法准确跟踪高频输入信号",
+      "输出不稳定导致响应异常，伺服阀无法准确响应输入信号"
+    ],
+    "evidence_spans": [
+      "输出不稳定导致响应异常"
+    ],
+    "triple_id": "MRG-TRP-000102",
+    "matched_template_ids": [
+      "T6"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-电流异常-由检测确认-电流检测",
+    "source": "电流异常",
+    "target": "电流检测",
+    "source_name": "电流异常",
+    "target_name": "电流检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "电流异常可通过电流检测和线圈电阻检测确认",
+      "电流异常可通过电流检测确认，监测工作电流的稳定性"
+    ],
+    "evidence_spans": [
+      "电流异常——电流检测"
+    ],
+    "triple_id": "MRG-TRP-000103",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-电流异常-由检测确认-线圈电阻检测",
+    "source": "电流异常",
+    "target": "线圈电阻检测",
+    "source_name": "电流异常",
+    "target_name": "线圈电阻检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "电流异常可通过电流检测和线圈电阻检测确认"
+    ],
+    "evidence_spans": [
+      "电流异常——线圈电阻检测"
+    ],
+    "triple_id": "MRG-TRP-000104",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由维修处理-检查线圈电阻",
+    "source": "线圈发热异常",
+    "target": "检查线圈电阻",
+    "source_name": "线圈发热异常",
+    "target_name": "检查线圈电阻",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修线圈发热异常时应检查线圈电阻并检查力矩马达",
+      "维修线圈发热异常时应检查线圈电阻和绝缘电阻，必要时应检查力矩马达整体状态",
+      "维修线圈发热异常时应检查线圈电阻和绝缘电阻",
+      "线圈发热异常的维修措施包括检查线圈电阻和绝缘电阻",
+      "维修措施：线圈发热异常的维修措施包括检查线圈电阻，确认线圈电阻异常后更换力矩马达线圈组件"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——检查线圈电阻"
+    ],
+    "triple_id": "MRG-TRP-000105",
+    "matched_template_ids": [
+      "T6"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由维修处理-检查力矩马达",
+    "source": "线圈发热异常",
+    "target": "检查力矩马达",
+    "source_name": "线圈发热异常",
+    "target_name": "检查力矩马达",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修线圈发热异常时应检查线圈电阻并检查力矩马达",
+      "维修线圈发热异常时应检查线圈电阻和绝缘电阻，必要时应检查力矩马达整体状态",
+      "线圈发热异常的维修措施包括检查力矩马达，确认永磁体无退磁"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——检查力矩马达"
+    ],
+    "triple_id": "MRG-TRP-000106",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由检测确认-维修后复测",
+    "source": "线圈发热异常",
+    "target": "维修后复测",
+    "source_name": "线圈发热异常",
+    "target_name": "维修后复测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常维修后需复测验证维修后复测响应曲线，确认输出恢复稳定",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线，波形恢复正常"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000107",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由检测确认-复测响应曲线",
+    "source": "线圈发热异常",
+    "target": "复测响应曲线",
+    "source_name": "线圈发热异常",
+    "target_name": "复测响应曲线",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常维修后需复测验证维修后复测响应曲线，确认输出恢复稳定",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线，波形恢复正常"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——复测响应曲线"
+    ],
+    "triple_id": "MRG-TRP-000108",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由维修处理-复测响应曲线",
+    "source": "线圈发热异常",
+    "target": "复测响应曲线",
+    "source_name": "线圈发热异常",
+    "target_name": "复测响应曲线",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常维修后需复测验证维修后复测响应曲线，确认输出恢复稳定",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线，波形恢复正常"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——复测响应曲线"
+    ],
+    "triple_id": "MRG-TRP-000109",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-复测响应曲线-复测验证-维修后复测",
+    "source": "复测响应曲线",
+    "target": "维修后复测",
+    "source_name": "复测响应曲线",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常维修后需复测验证维修后复测响应曲线，确认输出恢复稳定",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线",
+      "维修后应复测验证维修后复测响应曲线，确保输出稳定",
+      "线圈发热异常维修后应复测验证维修后复测响应曲线，波形恢复正常"
+    ],
+    "evidence_spans": [
+      "复测响应曲线复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000110",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-滞环增大-由检测确认-零位检测",
+    "source": "滞环增大",
+    "target": "零位检测",
+    "source_name": "滞环增大",
+    "target_name": "零位检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压检测包括零位检测、响应曲线检测、压力检测、流量检测和滞环增大检测"
+    ],
+    "evidence_spans": [
+      "滞环增大——零位检测"
+    ],
+    "triple_id": "MRG-TRP-000111",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-滞环增大-由检测确认-响应曲线检测",
+    "source": "滞环增大",
+    "target": "响应曲线检测",
+    "source_name": "滞环增大",
+    "target_name": "响应曲线检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "相关论文",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压检测包括零位检测、响应曲线检测、压力检测、流量检测和滞环增大检测",
+      "阀芯卡滞可通过响应曲线检测和滞环增大检测确认",
+      "阀芯卡滞可通过响应曲线检测确认，正常响应曲线应平滑对称，卡滞时曲线出现滞环增大和左右不对称"
+    ],
+    "evidence_spans": [
+      "滞环增大——响应曲线检测"
+    ],
+    "triple_id": "MRG-TRP-000112",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-滞环增大-由检测确认-压力检测",
+    "source": "滞环增大",
+    "target": "压力检测",
+    "source_name": "滞环增大",
+    "target_name": "压力检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压检测包括零位检测、响应曲线检测、压力检测、流量检测和滞环增大检测"
+    ],
+    "evidence_spans": [
+      "滞环增大——压力检测"
+    ],
+    "triple_id": "MRG-TRP-000113",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-滞环增大-由检测确认-流量检测",
+    "source": "滞环增大",
+    "target": "流量检测",
+    "source_name": "滞环增大",
+    "target_name": "流量检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压检测包括零位检测、响应曲线检测、压力检测、流量检测和滞环增大检测"
+    ],
+    "evidence_spans": [
+      "滞环增大——流量检测"
+    ],
+    "triple_id": "MRG-TRP-000114",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-由维修处理-更换液压油",
+    "source": "油液污染",
+    "target": "更换液压油",
+    "source_name": "油液污染",
+    "target_name": "更换液压油",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-DOC",
+      "SRC-CASE-001"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "某型液压伺服阀响应迟缓与压力波动故障分析案例"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "更换液压油和更换滤芯是油液污染后的基础维修措施",
+      "油液污染的维修措施包括更换液压油和更换滤芯",
+      "- 油液污染：长期未更换液压油和过滤器"
+    ],
+    "evidence_spans": [
+      "油液污染——更换液压油"
+    ],
+    "triple_id": "MRG-TRP-000115",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-由维修处理-更换滤芯",
+    "source": "油液污染",
+    "target": "更换滤芯",
+    "source_name": "油液污染",
+    "target_name": "更换滤芯",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "更换液压油和更换滤芯是油液污染后的基础维修措施",
+      "油液污染的维修措施包括更换液压油和更换滤芯"
+    ],
+    "evidence_spans": [
+      "油液污染——更换滤芯"
+    ],
+    "triple_id": "MRG-TRP-000116",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由维修处理-清洗阀芯",
+    "source": "喷嘴堵塞",
+    "target": "清洗阀芯",
+    "source_name": "喷嘴堵塞",
+    "target_name": "清洗阀芯",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "清洗阀芯和清洗喷嘴挡板是阀芯卡滞和喷嘴堵塞的标准维修方法"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——清洗阀芯"
+    ],
+    "triple_id": "MRG-TRP-000117",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-由维修处理-清洗喷嘴挡板",
+    "source": "阀芯卡滞",
+    "target": "清洗喷嘴挡板",
+    "source_name": "阀芯卡滞",
+    "target_name": "清洗喷嘴挡板",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "清洗阀芯和清洗喷嘴挡板是阀芯卡滞和喷嘴堵塞的标准维修方法"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞——清洗喷嘴挡板"
+    ],
+    "triple_id": "MRG-TRP-000118",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由维修处理-检查气隙垫片",
+    "source": "零位漂移",
+    "target": "检查气隙垫片",
+    "source_name": "零位漂移",
+    "target_name": "检查气隙垫片",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-MANUAL"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "检查气隙垫片和调整零位是零位漂移的标准处理流程"
+    ],
+    "evidence_spans": [
+      "零位漂移——检查气隙垫片"
+    ],
+    "triple_id": "MRG-TRP-000119",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由维修处理-调整零位",
+    "source": "零位漂移",
+    "target": "调整零位",
+    "source_name": "零位漂移",
+    "target_name": "调整零位",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "检查气隙垫片和调整零位是零位漂移的标准处理流程",
+      "零位漂移的维修措施包括调整零位和重新标定",
+      "维修零位漂移时应调整零位，通过调节零位螺钉校正",
+      "零位漂移的维修措施包括调整零位，通过零位调节螺钉将零位校回正常范围"
+    ],
+    "evidence_spans": [
+      "零位漂移——调整零位"
+    ],
+    "triple_id": "MRG-TRP-000120",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-复测响应曲线-复测验证-复测压力曲线",
+    "source": "复测响应曲线",
+    "target": "复测压力曲线",
+    "source_name": "复测响应曲线",
+    "target_name": "复测压力曲线",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "复测响应曲线、复测压力曲线和复测流量响应是维修后验证伺服阀性能的标准检测项目",
+      "维修后必须进行复测响应曲线、复测压力曲线和复测流量响应的全面验证"
+    ],
+    "evidence_spans": [
+      "复测响应曲线复测复测压力曲线"
+    ],
+    "triple_id": "MRG-TRP-000121",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-复测响应曲线-复测验证-复测流量响应",
+    "source": "复测响应曲线",
+    "target": "复测流量响应",
+    "source_name": "复测响应曲线",
+    "target_name": "复测流量响应",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "复测响应曲线、复测压力曲线和复测流量响应是维修后验证伺服阀性能的标准检测项目",
+      "维修后必须进行复测响应曲线、复测压力曲线和复测流量响应的全面验证"
+    ],
+    "evidence_spans": [
+      "复测响应曲线复测复测流量响应"
+    ],
+    "triple_id": "MRG-TRP-000122",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-复测压力曲线-复测验证-复测响应曲线",
+    "source": "复测压力曲线",
+    "target": "复测响应曲线",
+    "source_name": "复测压力曲线",
+    "target_name": "复测响应曲线",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "复测响应曲线、复测压力曲线和复测流量响应是维修后验证伺服阀性能的标准检测项目",
+      "维修后必须进行复测响应曲线、复测压力曲线和复测流量响应的全面验证"
+    ],
+    "evidence_spans": [
+      "复测压力曲线复测复测响应曲线"
+    ],
+    "triple_id": "MRG-TRP-000123",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-复测压力曲线-复测验证-复测流量响应",
+    "source": "复测压力曲线",
+    "target": "复测流量响应",
+    "source_name": "复测压力曲线",
+    "target_name": "复测流量响应",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "复测响应曲线、复测压力曲线和复测流量响应是维修后验证伺服阀性能的标准检测项目",
+      "维修后必须进行复测响应曲线、复测压力曲线和复测流量响应的全面验证"
+    ],
+    "evidence_spans": [
+      "复测压力曲线复测复测流量响应"
+    ],
+    "triple_id": "MRG-TRP-000124",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-复测流量响应-复测验证-复测响应曲线",
+    "source": "复测流量响应",
+    "target": "复测响应曲线",
+    "source_name": "复测流量响应",
+    "target_name": "复测响应曲线",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "复测响应曲线、复测压力曲线和复测流量响应是维修后验证伺服阀性能的标准检测项目",
+      "维修后必须进行复测响应曲线、复测压力曲线和复测流量响应的全面验证"
+    ],
+    "evidence_spans": [
+      "复测流量响应复测复测响应曲线"
+    ],
+    "triple_id": "MRG-TRP-000125",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-复测流量响应-复测验证-复测压力曲线",
+    "source": "复测流量响应",
+    "target": "复测压力曲线",
+    "source_name": "复测流量响应",
+    "target_name": "复测压力曲线",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-MANUAL",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修综合手册",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "复测响应曲线、复测压力曲线和复测流量响应是维修后验证伺服阀性能的标准检测项目",
+      "维修后必须进行复测响应曲线、复测压力曲线和复测流量响应的全面验证"
+    ],
+    "evidence_spans": [
+      "复测流量响应复测复测压力曲线"
+    ],
+    "triple_id": "MRG-TRP-000126",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-阀芯卡滞",
+    "source": "油液污染",
+    "target": "阀芯卡滞",
+    "source_name": "油液污染",
+    "target_name": "阀芯卡滞",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES",
+      "SRC-MANUAL-003",
+      "SRC-CASE-001"
+    ],
+    "source_types": [
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例",
+      "公开维修手册",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析",
+      "液压伺服阀测试曲线判读与故障识别手册",
+      "某型液压伺服阀响应迟缓与压力波动故障分析案例"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "1 油液污染导致阀芯卡滞的机理研究",
+      "第一节 油液污染引起的阀芯卡滞",
+      "油液污染导致阀芯卡滞，颗粒尺寸超过配合间隙时嵌入间隙",
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定",
+      "油液污染导致阀芯卡滞是",
+      "判断：油液污染导致阀芯表面受损和沉积物附着，引起阀芯卡滞"
+    ],
+    "evidence_spans": [
+      "油液污染导致阀芯卡滞",
+      "油液污染引起阀芯卡滞"
+    ],
+    "triple_id": "MRG-TRP-000127",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-污染颗粒进入伺服阀",
+    "source": "油液污染",
+    "target": "污染颗粒进入伺服阀",
+    "source_name": "油液污染",
+    "target_name": "污染颗粒进入伺服阀",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "相关论文",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "油液污染导致污染颗粒进入伺服阀，污染颗粒进入伺服阀导致阀芯阀套污染",
+      "油液污染导致污染颗粒进入伺服阀，固体颗粒随高压油液进入伺服阀内部流道",
+      "故障原因分析：油液污染导致污染颗粒进入伺服阀，系统油液长期未更换(超过8000工作小时未换油)"
+    ],
+    "evidence_spans": [
+      "油液污染导致污染颗粒进入伺服阀"
+    ],
+    "triple_id": "MRG-TRP-000128",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-阀芯阀套污染",
+    "source": "油液污染",
+    "target": "阀芯阀套污染",
+    "source_name": "油液污染",
+    "target_name": "阀芯阀套污染",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-PAPER"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "油液污染导致污染颗粒进入伺服阀，污染颗粒进入伺服阀导致阀芯阀套污染"
+    ],
+    "evidence_spans": [
+      "油液污染导致阀芯阀套污染"
+    ],
+    "triple_id": "MRG-TRP-000129",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-导致-流量控制异常",
+    "source": "阀芯卡滞",
+    "target": "流量控制异常",
+    "source_name": "阀芯卡滞",
+    "target_name": "流量控制异常",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-PAPER",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "相关论文",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞导致流量控制异常，伺服阀的输出流量无法精确跟踪输入信号",
+      "阀芯卡滞导致流量控制异常，保压流量无法精确控制"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞导致流量控制异常"
+    ],
+    "triple_id": "MRG-TRP-000130",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-流量控制异常-导致-压力波动",
+    "source": "流量控制异常",
+    "target": "压力波动",
+    "source_name": "流量控制异常",
+    "target_name": "压力波动",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "流量控制异常导致压力波动，系统压力出现周期性振荡",
+      "流量控制异常导致压力波动，系统压力出现不稳定",
+      "流量控制异常导致压力波动，保压压力不稳定"
+    ],
+    "evidence_spans": [
+      "流量控制异常导致压力波动"
+    ],
+    "triple_id": "MRG-TRP-000131",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-由检测确认-污染度检测",
+    "source": "油液污染",
+    "target": "污染度检测",
+    "source_name": "油液污染",
+    "target_name": "污染度检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "相关论文",
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "油液污染可通过污染度检测确认,按NAS 1638标准要求油液清洁度不低于6级",
+      "油液污染可通过污染度检测确认，按NAS 1638标准要求清洁度不低于6级",
+      "油液污染可通过污染度检测确认，定期取样检测油液颗粒度",
+      "检测过程：首先进行油液污染度检测，取样检测显示油液NAS等级为11级，远超伺服阀要求的6级"
+    ],
+    "evidence_spans": [
+      "油液污染——污染度检测"
+    ],
+    "triple_id": "MRG-TRP-000132",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-喷嘴堵塞",
+    "source": "油液污染",
+    "target": "喷嘴堵塞",
+    "source_name": "油液污染",
+    "target_name": "喷嘴堵塞",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-PAPER",
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "相关论文",
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述",
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "油液污染导致喷嘴污染",
+      "油液污染导致喷嘴污染，微小颗粒在喷嘴孔周围积聚",
+      "油液污染导致喷嘴污染，微小颗粒在喷嘴孔处积聚",
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定"
+    ],
+    "evidence_spans": [
+      "油液污染导致喷嘴污染",
+      "油液污染导致喷嘴堵塞"
+    ],
+    "triple_id": "MRG-TRP-000133",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-导致-零位漂移",
+    "source": "气隙不对称",
+    "target": "零位漂移",
+    "source_name": "气隙不对称",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-PAPER",
+      "SRC-TEXT-002",
+      "SRC-CASE-002",
+      "SRC-CASE-004"
+    ],
+    "source_types": [
+      "相关论文",
+      "液压教材",
+      "公开故障案例",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述",
+      "电液伺服阀设计与分析",
+      "电液伺服阀零位漂移故障诊断与维修案例",
+      "某型试验台伺服阀零位漂移反复故障分析与根治"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "3 气隙不对称导致零位漂移的研究",
+      "气隙不对称会导致力矩马达输出不对称，进而引起伺服阀零位漂移",
+      "根因分析：喷嘴部分堵塞(主因)和气隙不对称(次因)共同导致零位漂移增大",
+      "喷嘴磨损和气隙不对称共同导致零位漂移反复"
+    ],
+    "evidence_spans": [
+      "气隙不对称导致零位漂移"
+    ],
+    "triple_id": "MRG-TRP-000134",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由检测确认-红外测温",
+    "source": "线圈发热异常",
+    "target": "红外测温",
+    "source_name": "线圈发热异常",
+    "target_name": "红外测温",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-PAPER"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "电液伺服阀故障机理与性能退化研究综述"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈发热异常表现为线圈运行温度超过85度，可通过温升检测和红外测温确认"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——红外测温"
+    ],
+    "triple_id": "MRG-TRP-000135",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-污染颗粒进入伺服阀-导致-阀芯阀套污染",
+    "source": "污染颗粒进入伺服阀",
+    "target": "阀芯阀套污染",
+    "source_name": "污染颗粒进入伺服阀",
+    "target_name": "阀芯阀套污染",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "污染颗粒进入伺服阀导致阀芯阀套污染，颗粒在阀芯与阀套之间积聚",
+      "污染颗粒进入伺服阀导致阀芯阀套污染，颗粒在阀芯阀套间隙中积聚"
+    ],
+    "evidence_spans": [
+      "污染颗粒进入伺服阀导致阀芯阀套污染"
+    ],
+    "triple_id": "MRG-TRP-000136",
+    "matched_template_ids": [
+      "T1"
+    ],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-表现为-滞环增大",
+    "source": "阀芯卡滞",
+    "target": "滞环增大",
+    "source_name": "阀芯卡滞",
+    "target_name": "滞环增大",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞可通过响应曲线检测确认，正常响应曲线应平滑对称，卡滞时曲线出现滞环增大和左右不对称"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞出现滞环增大"
+    ],
+    "triple_id": "MRG-TRP-000137",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-表现为-左右不对称",
+    "source": "阀芯卡滞",
+    "target": "左右不对称",
+    "source_name": "阀芯卡滞",
+    "target_name": "左右不对称",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞可通过响应曲线检测确认，正常响应曲线应平滑对称，卡滞时曲线出现滞环增大和左右不对称"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞出现左右不对称"
+    ],
+    "triple_id": "MRG-TRP-000138",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-左右不对称-由检测确认-响应曲线检测",
+    "source": "左右不对称",
+    "target": "响应曲线检测",
+    "source_name": "左右不对称",
+    "target_name": "响应曲线检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞可通过响应曲线检测确认，正常响应曲线应平滑对称，卡滞时曲线出现滞环增大和左右不对称"
+    ],
+    "evidence_spans": [
+      "左右不对称——响应曲线检测"
+    ],
+    "triple_id": "MRG-TRP-000139",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯-包含-阀芯阀套",
+    "source": "阀芯",
+    "target": "阀芯阀套",
+    "source_name": "阀芯",
+    "target_name": "阀芯阀套",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞的维修措施包括清洗阀芯，使用清洁溶剂浸泡阀芯阀套组件",
+      "维修措施：阀芯卡滞的维修措施包括清洗阀芯，使用专用清洗剂浸泡阀芯阀套组件2小时后超声波清洗"
+    ],
+    "evidence_spans": [
+      "阀芯包含阀芯阀套"
+    ],
+    "triple_id": "MRG-TRP-000140",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯-包含-阀套",
+    "source": "阀芯",
+    "target": "阀套",
+    "source_name": "阀芯",
+    "target_name": "阀套",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞的维修措施包括清洗阀芯，使用清洁溶剂浸泡阀芯阀套组件",
+      "维修措施：阀芯卡滞的维修措施包括清洗阀芯，使用专用清洗剂浸泡阀芯阀套组件2小时后超声波清洗"
+    ],
+    "evidence_spans": [
+      "阀芯包含阀套"
+    ],
+    "triple_id": "MRG-TRP-000141",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯-包含-油液",
+    "source": "阀芯",
+    "target": "油液",
+    "source_name": "阀芯",
+    "target_name": "油液",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞的维修措施还包括更换液压油，将系统内的污染油液全部排出"
+    ],
+    "evidence_spans": [
+      "阀芯包含油液"
+    ],
+    "triple_id": "MRG-TRP-000142",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯-包含-液压伺服阀",
+    "source": "阀芯",
+    "target": "液压伺服阀",
+    "source_name": "阀芯",
+    "target_name": "液压伺服阀",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞的维修措施还包括更换滤芯，防止残留颗粒再次进入伺服阀"
+    ],
+    "evidence_spans": [
+      "阀芯包含伺服阀"
+    ],
+    "triple_id": "MRG-TRP-000143",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-由维修处理-更换滤芯",
+    "source": "阀芯卡滞",
+    "target": "更换滤芯",
+    "source_name": "阀芯卡滞",
+    "target_name": "更换滤芯",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯卡滞的维修措施还包括更换滤芯，防止残留颗粒再次进入伺服阀",
+      "阀芯卡滞的维修措施包括更换滤芯，更换系统所有滤芯"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞——更换滤芯"
+    ],
+    "triple_id": "MRG-TRP-000144",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由维修处理-超声波清洗",
+    "source": "喷嘴堵塞",
+    "target": "超声波清洗",
+    "source_name": "喷嘴堵塞",
+    "target_name": "超声波清洗",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用超声波清洗",
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴用放大镜检查并用超声波清洗",
+      "维修措施：喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用放大镜检查确认堵塞，超声波清洗10分钟"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——超声波清洗"
+    ],
+    "triple_id": "MRG-TRP-000145",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-由维修处理-检查气隙垫片",
+    "source": "气隙不对称",
+    "target": "检查气隙垫片",
+    "source_name": "气隙不对称",
+    "target_name": "检查气隙垫片",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "液压教材",
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称的维修措施包括检查气隙垫片，测量并记录两侧气隙厚度",
+      "维修气隙不对称时应检查气隙垫片，更换磨损的垫片",
+      "维修措施：气隙不对称的维修措施包括检查气隙垫片，更换磨损的左侧垫片"
+    ],
+    "evidence_spans": [
+      "气隙不对称——检查气隙垫片"
+    ],
+    "triple_id": "MRG-TRP-000146",
+    "matched_template_ids": [
+      "T3"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由维修处理-重新标定",
+    "source": "零位漂移",
+    "target": "重新标定",
+    "source_name": "零位漂移",
+    "target_name": "重新标定",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "液压教材",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "零位漂移的维修措施包括调整零位和重新标定",
+      "零位漂移的维修措施包括重新标定，调整增益使正反向对称"
+    ],
+    "evidence_spans": [
+      "零位漂移——重新标定"
+    ],
+    "triple_id": "MRG-TRP-000147",
+    "matched_template_ids": [
+      "T4"
+    ],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达-包含-线圈",
+    "source": "力矩马达",
+    "target": "线圈",
+    "source_name": "力矩马达",
+    "target_name": "线圈",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-PAPER-001",
+      "SRC-PAPER-003",
+      "SRC-TEXT-002",
+      "SRC-COMP-003"
+    ],
+    "source_types": [
+      "液压教材",
+      "相关论文",
+      "相关论文",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究",
+      "电液伺服阀力矩马达线圈发热异常诊断与预防",
+      "电液伺服阀设计与分析",
+      "力矩马达组件技术说明与维护指南"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达异常的维修措施包括检查力矩马达，检查线圈和永磁体状态",
+      "力矩马达将电信号转换为机械力矩，其异常主要包括线圈发热、线圈短路/",
+      "力矩马达线圈发热异常的主要原因包括：1)输入电流持续过大导致铜损增加",
+      "力矩马达的磁路由永磁体、衔铁、气隙垫片和线圈组成",
+      "力矩马达由永磁体、衔铁、线圈和气隙垫片组成"
+    ],
+    "evidence_spans": [
+      "力矩马达包含线圈"
+    ],
+    "triple_id": "MRG-TRP-000148",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达-包含-衔铁组件",
+    "source": "力矩马达",
+    "target": "衔铁组件",
+    "source_name": "力矩马达",
+    "target_name": "衔铁组件",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达异常的维修措施还包括检查衔铁组件，确认衔铁无机械变形"
+    ],
+    "evidence_spans": [
+      "力矩马达包含衔铁组件"
+    ],
+    "triple_id": "MRG-TRP-000149",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达-包含-衔铁",
+    "source": "力矩马达",
+    "target": "衔铁",
+    "source_name": "力矩马达",
+    "target_name": "衔铁",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-TEXT-002",
+      "SRC-COMP-003"
+    ],
+    "source_types": [
+      "液压教材",
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "电液伺服阀设计与分析",
+      "力矩马达组件技术说明与维护指南"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达异常的维修措施还包括检查衔铁组件，确认衔铁无机械变形",
+      "力矩马达的磁路由永磁体、衔铁、气隙垫片和线圈组成",
+      "力矩马达由永磁体、衔铁、线圈和气隙垫片组成"
+    ],
+    "evidence_spans": [
+      "力矩马达包含衔铁"
+    ],
+    "triple_id": "MRG-TRP-000150",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-更换密封组件-复测验证-维修后复测",
+    "source": "更换密封组件",
+    "target": "维修后复测",
+    "source_name": "更换密封组件",
+    "target_name": "维修后复测",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-TEXTBOOK",
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "液压伺服系统原理与维修（节选）",
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "更换密封组件后应复测验证维修后复测，确认泄漏量降至合格范围"
+    ],
+    "evidence_spans": [
+      "更换密封组件复测维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000151",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯-发生于-阀芯磨损",
+    "source": "阀芯",
+    "target": "阀芯磨损",
+    "source_name": "阀芯",
+    "target_name": "阀芯磨损",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯阀套发生于阀芯磨损，长期运行后阀芯表面的硬质涂层出现磨损"
+    ],
+    "evidence_spans": [
+      "阀芯→阀芯磨损"
+    ],
+    "triple_id": "MRG-TRP-000152",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯阀套-发生于-阀芯磨损",
+    "source": "阀芯阀套",
+    "target": "阀芯磨损",
+    "source_name": "阀芯阀套",
+    "target_name": "阀芯磨损",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "阀芯阀套发生于阀芯磨损，长期运行后阀芯表面的硬质涂层出现磨损"
+    ],
+    "evidence_spans": [
+      "阀芯阀套→阀芯磨损"
+    ],
+    "triple_id": "MRG-TRP-000153",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-由维修处理-超声波清洗",
+    "source": "阀芯卡滞",
+    "target": "超声波清洗",
+    "source_name": "阀芯卡滞",
+    "target_name": "超声波清洗",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修阀芯卡滞时应清洗阀芯，用超声波清洗设备清洗阀芯阀套",
+      "维修措施：阀芯卡滞的维修措施包括清洗阀芯，使用专用清洗剂浸泡阀芯阀套组件2小时后超声波清洗"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞——超声波清洗"
+    ],
+    "triple_id": "MRG-TRP-000154",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由检测确认-放大镜检查",
+    "source": "喷嘴堵塞",
+    "target": "放大镜检查",
+    "source_name": "喷嘴堵塞",
+    "target_name": "放大镜检查",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-DOC",
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "元件说明书",
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）",
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴用放大镜检查并用超声波清洗",
+      "维修措施：喷嘴堵塞的维修措施包括清洗喷嘴挡板，拆下喷嘴组件用放大镜检查确认堵塞，超声波清洗10分钟"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——放大镜检查"
+    ],
+    "triple_id": "MRG-TRP-000155",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙垫片-发生于-气隙垫片厚度不一致",
+    "source": "气隙垫片",
+    "target": "气隙垫片厚度不一致",
+    "source_name": "气隙垫片",
+    "target_name": "气隙垫片厚度不一致",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙垫片发生于气隙垫片厚度不一致，两侧垫片磨损不均匀或装配误差导致厚度偏差"
+    ],
+    "evidence_spans": [
+      "气隙垫片→气隙垫片厚度不一致"
+    ],
+    "triple_id": "MRG-TRP-000156",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达磁路不平衡-表现为-零位漂移",
+    "source": "力矩马达磁路不平衡",
+    "target": "零位漂移",
+    "source_name": "力矩马达磁路不平衡",
+    "target_name": "零位漂移",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达磁路不平衡导致零位漂移，伺服阀出现零位偏移"
+    ],
+    "evidence_spans": [
+      "力矩马达磁路不平衡出现零位偏移"
+    ],
+    "triple_id": "MRG-TRP-000157",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-磁路不平衡-表现为-零位漂移",
+    "source": "磁路不平衡",
+    "target": "零位漂移",
+    "source_name": "磁路不平衡",
+    "target_name": "零位漂移",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达磁路不平衡导致零位漂移，伺服阀出现零位偏移"
+    ],
+    "evidence_spans": [
+      "磁路不平衡出现零位偏移"
+    ],
+    "triple_id": "MRG-TRP-000158",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-表现为-零位漂移",
+    "source": "零位漂移",
+    "target": "零位漂移",
+    "source_name": "零位漂移",
+    "target_name": "零位漂移",
+    "relation": "表现为",
+    "relation_zh": "表现为",
+    "label_zh": "表现为",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达磁路不平衡导致零位漂移，伺服阀出现零位偏移"
+    ],
+    "evidence_spans": [
+      "零位漂移出现零位偏移"
+    ],
+    "triple_id": "MRG-TRP-000159",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#F39C12",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈与磁路-发生于-线圈发热异常",
+    "source": "线圈与磁路",
+    "target": "线圈发热异常",
+    "source_name": "线圈与磁路",
+    "target_name": "线圈发热异常",
+    "relation": "发生于",
+    "relation_zh": "发生于",
+    "label_zh": "发生于",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-DOC"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "力士乐电液伺服阀技术说明书（节选）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "线圈与磁路发生于线圈发热异常，当线圈过载或散热不良时温度升高"
+    ],
+    "evidence_spans": [
+      "线圈与磁路→线圈发热异常"
+    ],
+    "triple_id": "MRG-TRP-000160",
+    "matched_template_ids": [],
+    "置信度": 0.65,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由维修处理-更换滤芯",
+    "source": "喷嘴堵塞",
+    "target": "更换滤芯",
+    "source_name": "喷嘴堵塞",
+    "target_name": "更换滤芯",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的维修措施包括更换液压油和更换滤芯"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——更换滤芯"
+    ],
+    "triple_id": "MRG-TRP-000161",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由维修处理-清洗喷嘴挡板",
+    "source": "零位漂移",
+    "target": "清洗喷嘴挡板",
+    "source_name": "零位漂移",
+    "target_name": "清洗喷嘴挡板",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "清洗喷嘴挡板后应复测验证零位检测，零位漂移恢复至1.8%"
+    ],
+    "evidence_spans": [
+      "零位漂移——清洗喷嘴挡板"
+    ],
+    "triple_id": "MRG-TRP-000162",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由检测确认-维修后复测",
+    "source": "零位漂移",
+    "target": "维修后复测",
+    "source_name": "零位漂移",
+    "target_name": "维修后复测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "调整零位后应复测验证维修后复测，零位漂移恢复至1.3%，正反向增益比恢复至1:0.97"
+    ],
+    "evidence_spans": [
+      "零位漂移——维修后复测"
+    ],
+    "triple_id": "MRG-TRP-000163",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈-包含-力矩马达",
+    "source": "线圈",
+    "target": "力矩马达",
+    "source_name": "线圈",
+    "target_name": "力矩马达",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修措施：线圈发热异常的维修措施包括检查线圈电阻，确认线圈电阻异常后更换力矩马达线圈组件"
+    ],
+    "evidence_spans": [
+      "线圈包含力矩马达"
+    ],
+    "triple_id": "MRG-TRP-000164",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-线圈发热异常-由维修处理-更换力矩马达线圈组件",
+    "source": "线圈发热异常",
+    "target": "更换力矩马达线圈组件",
+    "source_name": "线圈发热异常",
+    "target_name": "更换力矩马达线圈组件",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "维修措施：线圈发热异常的维修措施包括检查线圈电阻，确认线圈电阻异常后更换力矩马达线圈组件"
+    ],
+    "evidence_spans": [
+      "线圈发热异常——更换力矩马达线圈组件"
+    ],
+    "triple_id": "MRG-TRP-000165",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-液压伺服阀-包含-油液",
+    "source": "液压伺服阀",
+    "target": "油液",
+    "source_name": "液压伺服阀",
+    "target_name": "油液",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-COMP-CASES",
+      "SRC-TEXT-006"
+    ],
+    "source_types": [
+      "公开故障案例",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析",
+      "液压伺服系统故障诊断学"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定",
+      "伺服阀故障诊断的基本方法包括观察法(目视检查泄漏和异常)、听诊法(异常噪声判断)、测温法(红外检测异常温升)、油液分析法(颗粒度和光谱分析)和曲线分析法(零位、滞环、响应曲线判读)"
+    ],
+    "evidence_spans": [
+      "液压伺服阀包含油液",
+      "伺服阀包含油液"
+    ],
+    "triple_id": "MRG-TRP-000166",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-气隙不对称",
+    "source": "油液污染",
+    "target": "气隙不对称",
+    "source_name": "油液污染",
+    "target_name": "气隙不对称",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定"
+    ],
+    "evidence_spans": [
+      "油液污染导致气隙不对称"
+    ],
+    "triple_id": "MRG-TRP-000167",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-零位漂移",
+    "source": "油液污染",
+    "target": "零位漂移",
+    "source_name": "油液污染",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定"
+    ],
+    "evidence_spans": [
+      "油液污染导致零位漂移"
+    ],
+    "triple_id": "MRG-TRP-000168",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-内泄漏",
+    "source": "油液污染",
+    "target": "内泄漏",
+    "source_name": "油液污染",
+    "target_name": "内泄漏",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定"
+    ],
+    "evidence_spans": [
+      "油液污染导致内泄漏"
+    ],
+    "triple_id": "MRG-TRP-000169",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-输出不稳定",
+    "source": "油液污染",
+    "target": "输出不稳定",
+    "source_name": "油液污染",
+    "target_name": "输出不稳定",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-CASES"
+    ],
+    "source_types": [
+      "公开故障案例"
+    ],
+    "source_titles": [
+      "液压伺服阀典型故障案例分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "说明：以上五个案例表明，液压伺服阀的常见故障包括油液污染导致的阀芯卡滞和喷嘴堵塞、气隙不对称导致的零位漂移、密封磨损导致的内泄漏、线圈发热导致的输出不稳定"
+    ],
+    "evidence_spans": [
+      "油液污染导致输出不稳定"
+    ],
+    "triple_id": "MRG-TRP-000170",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-更换液压油-复测验证-复测响应曲线",
+    "source": "更换液压油",
+    "target": "复测响应曲线",
+    "source_name": "更换液压油",
+    "target_name": "复测响应曲线",
+    "relation": "复测验证",
+    "relation_zh": "复测验证",
+    "label_zh": "复测验证",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-MANUAL-001"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀日常维护与故障检修手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "6. 更换液压油并复测响应曲线"
+    ],
+    "evidence_spans": [
+      "更换液压油复测复测响应曲线"
+    ],
+    "triple_id": "MRG-TRP-000171",
+    "matched_template_ids": [],
+    "置信度": 0.7,
+    "说明": "",
+    "lineStyle": {
+      "color": "#1ABC9C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-气隙不对称-导致-输出偏差",
+    "source": "气隙不对称",
+    "target": "输出偏差",
+    "source_name": "气隙不对称",
+    "target_name": "输出偏差",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-MANUAL-001",
+      "SRC-TEXT-002"
+    ],
+    "source_types": [
+      "公开维修手册",
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服阀日常维护与故障检修手册",
+      "电液伺服阀设计与分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "- 气隙不对称导致输出不对称",
+      "气隙不对称会导致力矩马达输出不对称，进而引起伺服阀零位漂移"
+    ],
+    "evidence_spans": [
+      "气隙不对称导致输出不对称"
+    ],
+    "triple_id": "MRG-TRP-000172",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-导致-滞环增大",
+    "source": "阀芯卡滞",
+    "target": "滞环增大",
+    "source_name": "阀芯卡滞",
+    "target_name": "滞环增大",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-PAPER-001",
+      "SRC-TEXT-006"
+    ],
+    "source_types": [
+      "相关论文",
+      "液压教材"
+    ],
+    "source_titles": [
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究",
+      "液压伺服系统故障诊断学"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "在响应特性监测中，阀芯卡滞会导致滞环增大、",
+      "本章收录15个伺服阀典型故障案例：阀芯卡滞导致滞环增大、喷嘴堵塞导致零位漂移、力矩马达线圈短路导致输出不对称、气隙垫片磨损导致正反向特性不一致、反馈杆疲劳导致响应迟缓等"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞导致滞环增大"
+    ],
+    "triple_id": "MRG-TRP-000173",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴挡板-包含-喷嘴",
+    "source": "喷嘴挡板",
+    "target": "喷嘴",
+    "source_name": "喷嘴挡板",
+    "target_name": "喷嘴",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-001"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "的主要原因包括喷嘴挡板磨损、反馈杆变形、油液温度变化和气隙不对称"
+    ],
+    "evidence_spans": [
+      "喷嘴挡板包含喷嘴"
+    ],
+    "triple_id": "MRG-TRP-000174",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴挡板-包含-挡板",
+    "source": "喷嘴挡板",
+    "target": "挡板",
+    "source_name": "喷嘴挡板",
+    "target_name": "挡板",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-001"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "的主要原因包括喷嘴挡板磨损、反馈杆变形、油液温度变化和气隙不对称"
+    ],
+    "evidence_spans": [
+      "喷嘴挡板包含挡板"
+    ],
+    "triple_id": "MRG-TRP-000175",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴挡板-包含-反馈杆",
+    "source": "喷嘴挡板",
+    "target": "反馈杆",
+    "source_name": "喷嘴挡板",
+    "target_name": "反馈杆",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-001"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "的主要原因包括喷嘴挡板磨损、反馈杆变形、油液温度变化和气隙不对称"
+    ],
+    "evidence_spans": [
+      "喷嘴挡板包含反馈杆"
+    ],
+    "triple_id": "MRG-TRP-000176",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴挡板-包含-油液",
+    "source": "喷嘴挡板",
+    "target": "油液",
+    "source_name": "喷嘴挡板",
+    "target_name": "油液",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-001"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "基于油液分析与响应特性监测的液压伺服阀故障诊断方法研究"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "的主要原因包括喷嘴挡板磨损、反馈杆变形、油液温度变化和气隙不对称"
+    ],
+    "evidence_spans": [
+      "喷嘴挡板包含油液"
+    ],
+    "triple_id": "MRG-TRP-000177",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-导致-零位漂移",
+    "source": "喷嘴堵塞",
+    "target": "零位漂移",
+    "source_name": "喷嘴堵塞",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-004"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "电液伺服阀喷嘴挡板堵塞故障的早期检测方法"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞会导致伺服阀零位漂移增大、"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞导致零位漂移"
+    ],
+    "triple_id": "MRG-TRP-000178",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-油液污染-导致-滞环增大",
+    "source": "油液污染",
+    "target": "滞环增大",
+    "source_name": "油液污染",
+    "target_name": "滞环增大",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-005"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "基于机器学习的液压伺服阀滞环增大预测方法"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "油液污染是导致伺服阀滞环增大的最重要因素"
+    ],
+    "evidence_spans": [
+      "油液污染导致滞环增大"
+    ],
+    "triple_id": "MRG-TRP-000179",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-滞环增大-由维修处理-更换液压油",
+    "source": "滞环增大",
+    "target": "更换液压油",
+    "source_name": "滞环增大",
+    "target_name": "更换液压油",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-005"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "基于机器学习的液压伺服阀滞环增大预测方法"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "机器预测模型建立预防性维护策略，在滞环增大前更换液压油和滤芯"
+    ],
+    "evidence_spans": [
+      "滞环增大——更换液压油"
+    ],
+    "triple_id": "MRG-TRP-000180",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴-包含-液压伺服阀",
+    "source": "喷嘴",
+    "target": "液压伺服阀",
+    "source_name": "喷嘴",
+    "target_name": "液压伺服阀",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-TEXT-001"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服控制系统（第三版）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴挡板式伺服阀由力矩马达、喷嘴挡板前置级和滑阀功率级组成"
+    ],
+    "evidence_spans": [
+      "喷嘴包含伺服阀"
+    ],
+    "triple_id": "MRG-TRP-000181",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴-包含-力矩马达",
+    "source": "喷嘴",
+    "target": "力矩马达",
+    "source_name": "喷嘴",
+    "target_name": "力矩马达",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-TEXT-001"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服控制系统（第三版）"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴挡板式伺服阀由力矩马达、喷嘴挡板前置级和滑阀功率级组成"
+    ],
+    "evidence_spans": [
+      "喷嘴包含力矩马达"
+    ],
+    "triple_id": "MRG-TRP-000182",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达-包含-磁路",
+    "source": "力矩马达",
+    "target": "磁路",
+    "source_name": "力矩马达",
+    "target_name": "磁路",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-TEXT-002"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "电液伺服阀设计与分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达的磁路由永磁体、衔铁、气隙垫片和线圈组成"
+    ],
+    "evidence_spans": [
+      "力矩马达包含磁路"
+    ],
+    "triple_id": "MRG-TRP-000183",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-力矩马达-包含-气隙垫片",
+    "source": "力矩马达",
+    "target": "气隙垫片",
+    "source_name": "力矩马达",
+    "target_name": "气隙垫片",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-TEXT-002",
+      "SRC-COMP-003"
+    ],
+    "source_types": [
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "电液伺服阀设计与分析",
+      "力矩马达组件技术说明与维护指南"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "力矩马达的磁路由永磁体、衔铁、气隙垫片和线圈组成",
+      "力矩马达由永磁体、衔铁、线圈和气隙垫片组成"
+    ],
+    "evidence_spans": [
+      "力矩马达包含气隙垫片"
+    ],
+    "triple_id": "MRG-TRP-000184",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-输出偏差-导致-零位漂移",
+    "source": "输出偏差",
+    "target": "零位漂移",
+    "source_name": "输出偏差",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "多来源融合",
+    "source_ids": [
+      "SRC-TEXT-002",
+      "SRC-COMP-003"
+    ],
+    "source_types": [
+      "液压教材",
+      "元件说明书"
+    ],
+    "source_titles": [
+      "电液伺服阀设计与分析",
+      "力矩马达组件技术说明与维护指南"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "气隙不对称会导致力矩马达输出不对称，进而引起伺服阀零位漂移",
+      "会导致力矩马达输出不对称，引起伺服阀零位漂移"
+    ],
+    "evidence_spans": [
+      "输出不对称引起零位漂移"
+    ],
+    "triple_id": "MRG-TRP-000185",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴-包含-油液",
+    "source": "喷嘴",
+    "target": "油液",
+    "source_name": "喷嘴",
+    "target_name": "油液",
+    "relation": "包含",
+    "relation_zh": "包含",
+    "label_zh": "包含",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-TEXT-003"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压系统故障诊断与可靠性分析"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "喷嘴堵塞的下一级原因包括油液污染和过滤"
+    ],
+    "evidence_spans": [
+      "喷嘴包含油液"
+    ],
+    "triple_id": "MRG-TRP-000186",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#9B59B6",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由维修处理-清洗阀芯",
+    "source": "零位漂移",
+    "target": "清洗阀芯",
+    "source_name": "零位漂移",
+    "target_name": "清洗阀芯",
+    "relation": "由维修处理",
+    "relation_zh": "由维修处理",
+    "label_zh": "由维修处理",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-COMP-001"
+    ],
+    "source_types": [
+      "元件说明书"
+    ],
+    "source_titles": [
+      "电液伺服阀 D633 系列技术说明书"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "当零位漂移超过2%且清洗阀芯后仍未改善时，需检查喷嘴："
+    ],
+    "evidence_spans": [
+      "零位漂移——清洗阀芯"
+    ],
+    "triple_id": "MRG-TRP-000187",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#2ECC71",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-零位漂移-由检测确认-响应曲线检测",
+    "source": "零位漂移",
+    "target": "响应曲线检测",
+    "source_name": "零位漂移",
+    "target_name": "响应曲线检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-MANUAL-005"
+    ],
+    "source_types": [
+      "公开维修手册"
+    ],
+    "source_titles": [
+      "液压伺服阀故障诊断与维修手册"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "液压检测包括零位漂移、滞环和响应曲线检测"
+    ],
+    "evidence_spans": [
+      "零位漂移——响应曲线检测"
+    ],
+    "triple_id": "MRG-TRP-000188",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-喷嘴堵塞-由检测确认-零位检测",
+    "source": "喷嘴堵塞",
+    "target": "零位检测",
+    "source_name": "喷嘴堵塞",
+    "target_name": "零位检测",
+    "relation": "由检测确认",
+    "relation_zh": "由检测确认",
+    "label_zh": "由检测确认",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-PAPER-008"
+    ],
+    "source_types": [
+      "相关论文"
+    ],
+    "source_titles": [
+      "喷嘴挡板式伺服阀前置级堵塞故障的声发射检测方法"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "该方法可在喷嘴堵塞初期发出预警，比传统零位检测方法提前约150工作小时"
+    ],
+    "evidence_spans": [
+      "喷嘴堵塞——零位检测"
+    ],
+    "triple_id": "MRG-TRP-000189",
+    "matched_template_ids": [],
+    "置信度": 0.72,
+    "说明": "",
+    "lineStyle": {
+      "color": "#3498DB",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-导致-喷嘴堵塞",
+    "source": "阀芯卡滞",
+    "target": "喷嘴堵塞",
+    "source_name": "阀芯卡滞",
+    "target_name": "喷嘴堵塞",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-TEXT-006"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统故障诊断学"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "本章收录15个伺服阀典型故障案例：阀芯卡滞导致滞环增大、喷嘴堵塞导致零位漂移、力矩马达线圈短路导致输出不对称、气隙垫片磨损导致正反向特性不一致、反馈杆疲劳导致响应迟缓等"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞导致喷嘴堵塞"
+    ],
+    "triple_id": "MRG-TRP-000190",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-导致-零位漂移",
+    "source": "阀芯卡滞",
+    "target": "零位漂移",
+    "source_name": "阀芯卡滞",
+    "target_name": "零位漂移",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-TEXT-006"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统故障诊断学"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "本章收录15个伺服阀典型故障案例：阀芯卡滞导致滞环增大、喷嘴堵塞导致零位漂移、力矩马达线圈短路导致输出不对称、气隙垫片磨损导致正反向特性不一致、反馈杆疲劳导致响应迟缓等"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞导致零位漂移"
+    ],
+    "triple_id": "MRG-TRP-000191",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  },
+  {
+    "id": "LINK-阀芯卡滞-导致-输出偏差",
+    "source": "阀芯卡滞",
+    "target": "输出偏差",
+    "source_name": "阀芯卡滞",
+    "target_name": "输出偏差",
+    "relation": "导致",
+    "relation_zh": "导致",
+    "label_zh": "导致",
+    "edge_source": "公开资料抽取",
+    "source_ids": [
+      "SRC-TEXT-006"
+    ],
+    "source_types": [
+      "液压教材"
+    ],
+    "source_titles": [
+      "液压伺服系统故障诊断学"
+    ],
+    "paragraph_ids": [
+      0
+    ],
+    "evidence_ids": [],
+    "evidence_texts": [
+      "本章收录15个伺服阀典型故障案例：阀芯卡滞导致滞环增大、喷嘴堵塞导致零位漂移、力矩马达线圈短路导致输出不对称、气隙垫片磨损导致正反向特性不一致、反馈杆疲劳导致响应迟缓等"
+    ],
+    "evidence_spans": [
+      "阀芯卡滞导致输出不对称"
+    ],
+    "triple_id": "MRG-TRP-000192",
+    "matched_template_ids": [],
+    "置信度": 0.75,
+    "说明": "",
+    "lineStyle": {
+      "color": "#E74C3C",
+      "width": 2
+    }
+  }
+]

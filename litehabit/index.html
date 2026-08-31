@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f5f7f2">
+    <meta name="description" content="LiteHabit 轻习惯：轻量、私密、可持续的习惯追踪工具。">
+    <title>轻习惯 LiteHabit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-shell" id="app">
+        <section class="page active" id="page-home" aria-labelledby="homeTitle">
+            <header class="topbar">
+                <div><p class="eyebrow" id="todayLabel">今天</p><h1 id="homeTitle">轻习惯 <span>LiteHabit</span></h1></div>
+                <div class="streak-pill" id="streakDisplay" aria-label="当前连续打卡天数">🔥 0 天</div>
+            </header>
+            <section class="progress-card" aria-label="今日进度">
+                <div class="progress-copy">
+                    <p class="section-kicker">今日进度</p><h2 id="progressHeadline">从一件小事开始</h2>
+                    <p id="progressCaption">添加一个想坚持的习惯，今天就能开始。</p>
+                    <div class="mini-metrics"><span><b id="doneToday">0</b> 已完成</span><span><b id="leftToday">0</b> 待完成</span></div>
+                </div>
+                <div class="progress-ring" id="progressRing" style="--progress: 0deg"><div><strong id="progressPercent">0%</strong><span>完成率</span></div></div>
+            </section>
+            <section class="coach-card" id="coachCard">
+                <div class="coach-icon" aria-hidden="true">✦</div>
+                <div><p class="coach-label">轻教练 · 本地洞察</p><p id="coachTip">先建立一个足够小的目标，比追求完美更容易坚持。</p></div>
+            </section>
+            <div class="section-heading">
+                <div><p class="section-kicker">今日清单</p><h2>我的习惯</h2></div>
+                <button class="text-button" type="button" data-open-habit-dialog>＋ 自定义</button>
+            </div>
+            <div id="habitList" class="habit-list"></div>
+            <div class="empty-state" id="emptyHint" hidden>
+                <div class="empty-visual" aria-hidden="true"><span>✓</span></div><h3>你的第一项小坚持</h3>
+                <p>从每天两分钟开始，让改变小到不会失败。</p>
+                <button class="primary-button" type="button" data-page-jump="page-discover">去发现习惯</button>
+            </div>
+        </section>
+
+        <section class="page" id="page-discover" aria-labelledby="discoverTitle">
+            <header class="page-header"><p class="eyebrow">灵感库</p><h1 id="discoverTitle">找到适合你的节奏</h1><p>先选一个低门槛动作，再慢慢加码。</p></header>
+            <div class="category-tabs" id="categoryTabs" aria-label="习惯分类"></div>
+            <div class="preset-grid" id="presetGrid"></div>
+            <button class="custom-habit-banner" type="button" data-open-habit-dialog>
+                <span class="banner-icon">＋</span><span><strong>没找到想要的？</strong><small>创建一个属于你的习惯</small></span><span aria-hidden="true">›</span>
+            </button>
+        </section>
+
+        <section class="page" id="page-insights" aria-labelledby="insightsTitle">
+            <header class="page-header compact"><p class="eyebrow">趋势洞察</p><h1 id="insightsTitle">看见每一次积累</h1><p>数据只保存在你的浏览器中。</p></header>
+            <div class="stats-grid">
+                <article class="stat-card"><span>累计打卡</span><strong id="statCheckins">0</strong><small>次</small></article>
+                <article class="stat-card"><span>活跃连续</span><strong id="statCurrentStreak">0</strong><small>天</small></article>
+                <article class="stat-card"><span>历史最长</span><strong id="statLongestStreak">0</strong><small>天</small></article>
+            </div>
+            <section class="panel chart-panel">
+                <div class="panel-heading"><div><p class="section-kicker">最近 7 天</p><h2>完成趋势</h2></div><span class="trend-badge" id="trendBadge">等待积累</span></div>
+                <canvas id="weekChart" height="190" aria-label="最近七天打卡趋势图"></canvas>
+            </section>
+            <section class="panel">
+                <div class="panel-heading"><div><p class="section-kicker">最近 28 天</p><h2>坚持足迹</h2></div><span class="subtle-label">颜色越深完成越多</span></div>
+                <div class="heatmap" id="heatmap" aria-label="最近二十八天打卡热力图"></div>
+            </section>
+            <section class="panel">
+                <div class="panel-heading"><div><p class="section-kicker">里程碑</p><h2>我的成就</h2></div><span class="subtle-label" id="achievementCount">0 / 4</span></div>
+                <div class="achievement-list" id="achievementList"></div>
+            </section>
+        </section>
+
+        <section class="page" id="page-profile" aria-labelledby="profileTitle">
+            <header class="profile-hero"><div class="profile-avatar">L</div><div><p class="eyebrow">个人空间</p><h1 id="profileTitle">我的轻习惯</h1><p id="profileSummary">从今天开始，积累微小改变。</p></div></header>
+            <section class="panel settings-panel">
+                <div class="setting-row"><div class="setting-icon green">☼</div><div><strong>每日提醒</strong><small>在习惯卡片中展示提醒时间</small></div><label class="switch"><input type="checkbox" id="reminderToggle"><span></span></label></div>
+                <div class="setting-row"><div class="setting-icon blue">◐</div><div><strong>深色模式</strong><small>跟随你的阅读偏好</small></div><label class="switch"><input type="checkbox" id="themeToggle"><span></span></label></div>
+            </section>
+            <section class="panel action-panel">
+                <button type="button" id="exportJson"><span>⇩</span><div><strong>导出备份</strong><small>下载 JSON 数据文件</small></div><b>›</b></button>
+                <button type="button" id="exportCsv"><span>▤</span><div><strong>导出打卡记录</strong><small>下载 CSV 表格</small></div><b>›</b></button>
+                <button type="button" class="danger-action" id="resetData"><span>⌫</span><div><strong>重置全部数据</strong><small>清除习惯与历史记录</small></div><b>›</b></button>
+            </section>
+            <p class="privacy-note">🔒 无账号、无上传，数据默认只存储在当前设备</p><p class="version-note">LiteHabit · Local MVP 2.0</p>
+        </section>
+
+        <nav class="bottom-nav" aria-label="主导航">
+            <button class="nav-item active" data-page="page-home"><span>⌂</span><b>今日</b></button>
+            <button class="nav-item" data-page="page-discover"><span>✦</span><b>发现</b></button>
+            <button class="nav-item" data-page="page-insights"><span>▥</span><b>洞察</b></button>
+            <button class="nav-item" data-page="page-profile"><span>○</span><b>我的</b></button>
+        </nav>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div><div class="celebration" id="celebration" aria-hidden="true"></div>
+    </main>
+
+    <dialog class="habit-dialog" id="habitDialog">
+        <form method="dialog" id="habitForm">
+            <div class="dialog-handle"></div>
+            <div class="dialog-heading"><div><p class="section-kicker">新建习惯</p><h2>让目标小到容易开始</h2></div><button class="close-button" value="cancel" aria-label="关闭">×</button></div>
+            <label class="field-label" for="habitName">习惯名称</label><input class="text-input" id="habitName" name="habitName" maxlength="12" placeholder="例如：散步 10 分钟" required>
+            <span class="field-label">选择图标</span><div class="emoji-picker" id="emojiPicker"></div>
+            <div class="form-grid">
+                <label><span class="field-label">分类</span><select id="habitCategory" name="habitCategory"><option>健康</option><option>成长</option><option>生活</option><option>专注</option></select></label>
+                <label><span class="field-label">提醒时间</span><input type="time" id="habitReminder" name="habitReminder" value="20:00"></label>
+            </div>
+            <p class="form-note">当前版本为每日习惯；提醒时间会显示在卡片中，不会主动发送系统通知。</p>
+            <button class="primary-button full" type="submit" value="default">创建并开始</button>
+        </form>
+    </dialog>
+    <script src="app.js"></script>
+</body>
+</html>

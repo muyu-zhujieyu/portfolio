@@ -1,0 +1,250 @@
+[
+  {
+    "template_id": "T1",
+    "name": "LeakageFault_Chain",
+    "description": "泄漏故障演化链：密封失效→内泄漏→流量损失→压力下降→执行元件动作缓慢",
+    "chain": [
+      {
+        "step": 1,
+        "event_type": "FaultEvent",
+        "fault_mode": "LeakageFault",
+        "component": "HydraulicCylinder",
+        "trigger_patterns": ["密封失效", "密封磨损", "密封圈破损", "油封老化", "密封件损坏"]
+      },
+      {
+        "step": 2,
+        "event_type": "StateEvent",
+        "abnormal_state": "InternalLeakage",
+        "parameter": "FlowRate",
+        "direction": "loss",
+        "trigger_patterns": ["内泄漏", "内部泄漏", "液压油内泄"]
+      },
+      {
+        "step": 3,
+        "event_type": "StateEvent",
+        "abnormal_state": "PressureDrop",
+        "parameter": "Pressure",
+        "direction": "decrease",
+        "trigger_patterns": ["压力下降", "压力不足", "工作压力低", "系统压力降低"]
+      },
+      {
+        "step": 4,
+        "event_type": "StateEvent",
+        "abnormal_state": "ActuatorSlowdown",
+        "parameter": "Speed",
+        "direction": "decrease",
+        "trigger_patterns": ["动作缓慢", "速度下降", "无力", "执行缓慢", "油缸动作慢"]
+      }
+    ],
+    "constraints": {
+      "order_must_follow": ["LeakageFault → InternalLeakage → PressureDrop → ActuatorSlowdown"],
+      "component_consistency": "all events must involve the same hydraulic actuator component",
+      "causal_chain_full": "all 4 steps must be present for a complete match",
+      "causal_chain_partial": "at least 3 steps with consecutive order for a partial match"
+    }
+  },
+  {
+    "template_id": "T2",
+    "name": "FilterBlockage_Chain",
+    "description": "过滤器堵塞演化链：滤芯堵塞→入口阻力增大→泵气蚀→噪声增大",
+    "chain": [
+      {
+        "step": 1,
+        "event_type": "FaultEvent",
+        "fault_mode": "FilterBlockage",
+        "component": "Filter",
+        "trigger_patterns": ["过滤器堵塞", "滤芯堵塞", "过滤器压差异常", "过滤器报警"]
+      },
+      {
+        "step": 2,
+        "event_type": "StateEvent",
+        "abnormal_state": "InletResistanceIncrease",
+        "parameter": "Pressure",
+        "direction": "decrease",
+        "trigger_patterns": ["吸油阻力增大", "入口真空度高", "入口压力低", "吸油不畅"]
+      },
+      {
+        "step": 3,
+        "event_type": "FaultEvent",
+        "fault_mode": "Cavitation",
+        "component": "HydraulicPump",
+        "trigger_patterns": ["气蚀", "泵气蚀", "空化", "气泡析出"]
+      },
+      {
+        "step": 4,
+        "event_type": "StateEvent",
+        "abnormal_state": "NoiseIncrease",
+        "parameter": "NoiseLevel",
+        "direction": "increase",
+        "trigger_patterns": ["噪声增大", "异响", "尖锐噪声", "异常噪音", "泵噪声大"]
+      }
+    ],
+    "constraints": {
+      "order_must_follow": ["FilterBlockage → InletResistanceIncrease → Cavitation → NoiseIncrease"],
+      "component_consistency": "step 1 involves Filter, steps 2-4 involve HydraulicPump",
+      "causal_chain_full": "all 4 steps must be present for a complete match",
+      "causal_chain_partial": "at least 3 steps with consecutive order for a partial match"
+    }
+  },
+  {
+    "template_id": "T3",
+    "name": "CoolingFailure_Chain",
+    "description": "冷却失效演化链：冷却故障→油温升高→粘度下降→泄漏增大",
+    "chain": [
+      {
+        "step": 1,
+        "event_type": "FaultEvent",
+        "fault_mode": "CoolingFailure",
+        "component": "Cooler",
+        "trigger_patterns": ["冷却失效", "风扇故障", "散热器堵塞", "冷却不足", "冷却系统故障"]
+      },
+      {
+        "step": 2,
+        "event_type": "StateEvent",
+        "abnormal_state": "OilTemperatureRise",
+        "parameter": "Temperature",
+        "direction": "increase",
+        "trigger_patterns": ["油温升高", "油温过高", "液压油温度超标", "油温报警"]
+      },
+      {
+        "step": 3,
+        "event_type": "StateEvent",
+        "abnormal_state": "ViscosityDrop",
+        "parameter": "Viscosity",
+        "direction": "decrease",
+        "trigger_patterns": ["粘度下降", "粘度降低", "油液变稀", "运动粘度降低"]
+      },
+      {
+        "step": 4,
+        "event_type": "StateEvent",
+        "abnormal_state": "LeakageIncrease",
+        "parameter": "FlowRate",
+        "direction": "loss",
+        "trigger_patterns": ["泄漏增大", "泄漏量增加", "内泄漏加剧", "密封泄漏"]
+      }
+    ],
+    "constraints": {
+      "order_must_follow": ["CoolingFailure → OilTemperatureRise → ViscosityDrop → LeakageIncrease"],
+      "component_consistency": "starts with Cooler, propagates to seals across system",
+      "causal_chain_full": "all 4 steps must be present for a complete match",
+      "causal_chain_partial": "at least 3 steps with consecutive order for a partial match",
+      "cross_chain_trigger": "LeakageIncrease from T3 can trigger LeakageFault in T1"
+    }
+  },
+  {
+    "template_id": "T4",
+    "name": "AccumulatorPressureLoss_Chain",
+    "description": "蓄能器压力丧失演化链：皮囊破裂→压力保持失效→系统压力波动",
+    "chain": [
+      {
+        "step": 1,
+        "event_type": "FaultEvent",
+        "fault_mode": "AccumulatorPressureLoss",
+        "component": "Accumulator",
+        "trigger_patterns": ["蓄能器故障", "皮囊破裂", "充气压力为零", "皮囊破损", "蓄能器失效"]
+      },
+      {
+        "step": 2,
+        "event_type": "StateEvent",
+        "abnormal_state": "PressureHoldingFailure",
+        "parameter": "Pressure",
+        "direction": "loss",
+        "trigger_patterns": ["压力保持失效", "无法保压", "蓄能器不能蓄能", "压力维持失败"]
+      },
+      {
+        "step": 3,
+        "event_type": "StateEvent",
+        "abnormal_state": "PressureFluctuation",
+        "parameter": "Pressure",
+        "direction": "fluctuation",
+        "trigger_patterns": ["压力波动", "压力摆动", "压力不稳定", "压力周期性变化", "压力脉动"]
+      }
+    ],
+    "constraints": {
+      "order_must_follow": ["AccumulatorPressureLoss → PressureHoldingFailure → PressureFluctuation"],
+      "component_consistency": "all events centered on Accumulator and system pressure circuit",
+      "causal_chain_full": "all 3 steps must be present for a complete match",
+      "causal_chain_partial": "at least 2 steps with consecutive order for a partial match"
+    }
+  },
+  {
+    "template_id": "T5",
+    "name": "OilContamination_Chain",
+    "description": "油液污染演化链：油液污染→阀芯磨损/卡滞→流量控制异常→压力波动",
+    "chain": [
+      {
+        "step": 1,
+        "event_type": "FaultEvent",
+        "fault_mode": "OilContamination",
+        "component": "OilTank",
+        "trigger_patterns": ["油液污染", "清洁度超标", "颗粒物超标", "油液中", "NAS等级", "ISO4406"]
+      },
+      {
+        "step": 2,
+        "event_type": "FaultEvent",
+        "fault_mode": "ValveWearOrSticking",
+        "component": "DirectionalValve",
+        "trigger_patterns": ["阀芯磨损", "阀芯卡滞", "阀磨损", "滑阀卡死", "阀芯运动不灵活"]
+      },
+      {
+        "step": 3,
+        "event_type": "StateEvent",
+        "abnormal_state": "FlowControlAbnormality",
+        "parameter": "FlowRate",
+        "direction": "fluctuation",
+        "trigger_patterns": ["流量控制异常", "流量不稳定", "流量偏差", "控制精度差"]
+      },
+      {
+        "step": 4,
+        "event_type": "StateEvent",
+        "abnormal_state": "PressureFluctuation",
+        "parameter": "Pressure",
+        "direction": "fluctuation",
+        "trigger_patterns": ["压力波动", "压力不稳", "压力震荡", "系统压力波动"]
+      }
+    ],
+    "constraints": {
+      "order_must_follow": ["OilContamination → ValveWearOrSticking → FlowControlAbnormality → PressureFluctuation"],
+      "component_consistency": "starts with OilTank, propagates to DirectionalValve, affects system-wide Pressure",
+      "causal_chain_full": "all 4 steps must be present for a complete match",
+      "causal_chain_partial": "at least 3 steps with consecutive order for a partial match",
+      "cross_chain_trigger": "PressureFluctuation from T5 can trigger ReliefValveAbnormality in T6"
+    }
+  },
+  {
+    "template_id": "T6",
+    "name": "ReliefValveAbnormality_Chain",
+    "description": "溢流阀异常演化链：溢流阀异常→系统压力异常→负载能力下降",
+    "chain": [
+      {
+        "step": 1,
+        "event_type": "FaultEvent",
+        "fault_mode": "ReliefValveAbnormality",
+        "component": "ReliefValve",
+        "trigger_patterns": ["溢流阀故障", "溢流阀异常", "溢流压力漂移", "溢流阀设定值异常", "先导阀磨损"]
+      },
+      {
+        "step": 2,
+        "event_type": "StateEvent",
+        "abnormal_state": "SystemPressureAbnormality",
+        "parameter": "Pressure",
+        "direction": "decrease",
+        "trigger_patterns": ["系统压力异常", "压力达不到额定值", "最大压力不足", "工作压力偏低"]
+      },
+      {
+        "step": 3,
+        "event_type": "StateEvent",
+        "abnormal_state": "LoadCapacityDecline",
+        "parameter": "Force",
+        "direction": "decrease",
+        "trigger_patterns": ["负载能力下降", "无法达到额定负载", "出力不足", "压制力不足", "负载不足"]
+      }
+    ],
+    "constraints": {
+      "order_must_follow": ["ReliefValveAbnormality → SystemPressureAbnormality → LoadCapacityDecline"],
+      "component_consistency": "starts with ReliefValve, affects entire hydraulic system load capacity",
+      "causal_chain_full": "all 3 steps must be present for a complete match",
+      "causal_chain_partial": "at least 2 steps with consecutive order for a partial match"
+    }
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "ontology_name": "Hydraulic Fault Evolution Event Ontology",
+  "version": "1.0.0",
+  "description": "液压故障演化过程的事件本体定义，包含 6 类事件类型及其参数槽位与约束",
+  "entity_types": [
+    {
+      "entity_type": "Component",
+      "description": "液压系统组件",
+      "examples": ["HydraulicCylinder", "HydraulicPump", "DirectionalValve", "ReliefValve", "Filter", "Cooler", "Accumulator", "HydraulicMotor", "FlowControlValve", "CheckValve", "OilTank"]
+    },
+    {
+      "entity_type": "Parameter",
+      "description": "可测量物理参数",
+      "examples": ["Pressure", "FlowRate", "Temperature", "Viscosity", "FluidLevel", "ContaminationLevel", "VibrationLevel", "NoiseLevel", "Position", "Speed"]
+    },
+    {
+      "entity_type": "FaultMode",
+      "description": "故障模式",
+      "examples": ["LeakageFault", "FilterBlockage", "CoolingFailure", "AccumulatorPressureLoss", "OilContamination", "ReliefValveAbnormality", "SealWear", "ValveWearOrSticking", "SpringFatigue", "BladderRupture"]
+    },
+    {
+      "entity_type": "AbnormalState",
+      "description": "异常状态",
+      "examples": ["FlowLoss", "PressureDrop", "ActuatorSlowdown", "InletResistanceIncrease", "Cavitation", "NoiseIncrease", "OilTemperatureRise", "ViscosityDrop", "LeakageIncrease", "PressureHoldingFailure", "PressureFluctuation", "FlowControlAbnormality", "SystemPressureAbnormality", "LoadCapacityDecline"]
+    },
+    {
+      "entity_type": "Cause",
+      "description": "故障原因",
+      "examples": ["Wear", "Fatigue", "OilContamination", "ImproperInstallation", "Overload", "Corrosion", "Aging", "InsufficientMaintenance"]
+    },
+    {
+      "entity_type": "MaintenanceAction",
+      "description": "维修动作",
+      "examples": ["SealReplacement", "FilterCleaning", "OilChange", "ComponentReplacement", "PressureCalibration", "ChemicalCleaning", "SurfaceFinishing", "SpringReplacement"]
+    },
+    {
+      "entity_type": "Sensor",
+      "description": "传感器",
+      "examples": ["PressureSensor", "FlowMeter", "TemperatureSensor", "ViscositySensor", "ParticleCounter", "VibrationSensor", "NoiseSensor", "PositionSensor", "SpeedSensor"]
+    },
+    {
+      "entity_type": "SourceDocument",
+      "description": "源文档",
+      "examples": ["MaintenanceManual", "FMEA", "FaultCase", "InspectionRecord", "OilAnalysisReport"]
+    },
+    {
+      "entity_type": "MechanismTemplate",
+      "description": "液压机理模板，定义故障演化路径",
+      "examples": ["T1_LeakageFault", "T2_FilterBlockage", "T3_CoolingFailure", "T4_AccumulatorPressureLoss", "T5_OilContamination", "T6_ReliefValveAbnormality"]
+    }
+  ],
+  "event_types": [
+    {
+      "event_type": "FaultEvent",
+      "label": "故障事件",
+      "description": "表示液压系统中一个可观测的故障现象或故障模式的触发",
+      "slots": {
+        "trigger": {"type": "string", "description": "故障触发条件或短语", "required": true},
+        "component": {"type": "Component", "description": "发生故障的组件", "required": true},
+        "fault_mode": {"type": "FaultMode", "description": "故障模式", "required": true},
+        "detection_method": {"type": "string", "description": "故障检测方法", "required": false},
+        "severity": {"type": "string", "description": "严重程度", "required": false, "domain": ["low", "medium", "high", "critical"]}
+      },
+      "domain_constraints": "fault_mode must be a valid FaultMode entity",
+      "range_constraints": "component must be a valid Component entity"
+    },
+    {
+      "event_type": "StateEvent",
+      "label": "状态事件",
+      "description": "表示故障发生后系统参数的异常变化状态",
+      "slots": {
+        "trigger": {"type": "string", "description": "状态触发描述", "required": true},
+        "parameter": {"type": "Parameter", "description": "发生变化的参数", "required": true},
+        "component": {"type": "Component", "description": "受影响的组件", "required": true},
+        "abnormal_state": {"type": "AbnormalState", "description": "异常状态类型", "required": true},
+        "direction": {"type": "string", "required": false, "domain": ["increase", "decrease", "fluctuation", "loss"]},
+        "measured_value": {"type": "string", "description": "实测值", "required": false},
+        "normal_value": {"type": "string", "description": "正常值范围", "required": false}
+      },
+      "domain_constraints": "abnormal_state must be a valid AbnormalState entity",
+      "range_constraints": "parameter must be a valid Parameter entity; component must be a valid Component entity"
+    },
+    {
+      "event_type": "InspectionEvent",
+      "label": "检修事件",
+      "description": "表示对液压系统进行检测、诊断、巡检的活动",
+      "slots": {
+        "trigger": {"type": "string", "description": "检修触发原因", "required": true},
+        "component": {"type": "Component", "description": "被检修的组件", "required": true},
+        "inspection_method": {"type": "string", "description": "检修方法", "required": true},
+        "findings": {"type": "string", "description": "检查发现的问题", "required": false},
+        "measured_parameters": {"type": "object", "description": "测量的参数值", "required": false}
+      },
+      "domain_constraints": "inspection_method must be a valid inspection technique",
+      "range_constraints": "component must be a valid Component entity"
+    },
+    {
+      "event_type": "MaintenanceEvent",
+      "label": "维修事件",
+      "description": "表示对液压系统进行的维修、更换、保养活动",
+      "slots": {
+        "trigger": {"type": "string", "description": "维修触发原因", "required": true},
+        "component": {"type": "Component", "description": "被维修的组件", "required": true},
+        "action": {"type": "MaintenanceAction", "description": "维修动作", "required": true},
+        "parts_replaced": {"type": "array", "description": "更换的零件列表", "required": false},
+        "result": {"type": "string", "description": "维修结果", "required": false}
+      },
+      "domain_constraints": "action must be a valid MaintenanceAction entity",
+      "range_constraints": "component must be a valid Component entity"
+    },
+    {
+      "event_type": "PropagationEvent",
+      "label": "传播事件",
+      "description": "表示一个故障事件向另一个故障事件的传播或耦合关系",
+      "slots": {
+        "trigger": {"type": "string", "description": "传播触发描述", "required": true},
+        "source_fault": {"type": "FaultMode", "description": "源故障模式", "required": true},
+        "target_fault": {"type": "FaultMode", "description": "目标故障模式", "required": true},
+        "propagation_mechanism": {"type": "string", "description": "传播机制说明", "required": true},
+        "coupling_strength": {"type": "string", "required": false, "domain": ["direct", "indirect", "weak"]}
+      },
+      "domain_constraints": "source_fault and target_fault must be valid FaultMode entities",
+      "range_constraints": "propagation must involve at least two distinct faults"
+    },
+    {
+      "event_type": "EvidenceEvent",
+      "label": "证据事件",
+      "description": "将一条事件记录与源文档中的证据文本进行锚定",
+      "slots": {
+        "trigger": {"type": "string", "description": "锚定触发描述", "required": true},
+        "source_id": {"type": "SourceDocument", "description": "源文档ID", "required": true},
+        "evidence_span": {"type": "string", "description": "原文证据片段", "required": true},
+        "reliability": {"type": "string", "required": false, "domain": ["high", "medium", "low"]},
+        "extractor": {"type": "string", "description": "抽取方法", "required": true}
+      },
+      "domain_constraints": "source_id must be a valid SourceDocument entity",
+      "range_constraints": "each event must have at least one evidence anchor"
+    }
+  ],
+  "relation_types": [
+    {"relation_type": "cause", "description": "前一个事件是后一个事件的原因"},
+    {"relation_type": "lead_to", "description": "前一个事件导致后一个事件的发生"},
+    {"relation_type": "worsen", "description": "前一个事件加剧后一个事件的严重程度"},
+    {"relation_type": "trigger", "description": "前一个事件触发了后一个事件"},
+    {"relation_type": "has_evidence", "description": "事件有证据支撑"},
+    {"relation_type": "validated_by", "description": "事件被机理模板校验通过"},
+    {"relation_type": "merged_from", "description": "实体由旧实体合并而来"},
+    {"relation_type": "resolved_by", "description": "故障由维修动作解决"},
+    {"relation_type": "detected_by", "description": "故障由检修事件检测到"},
+    {"relation_type": "propagates_to", "description": "故障传播到另一个故障"}
+  ]
+}

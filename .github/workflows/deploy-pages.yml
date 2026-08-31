@@ -1,4 +1,4 @@
-name: Deploy LiteHabit to GitHub Pages
+name: Deploy AI Product Portfolio to GitHub Pages
 
 on:
   push:

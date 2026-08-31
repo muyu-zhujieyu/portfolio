@@ -1,0 +1,353 @@
+[
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P001",
+    "sentence_id": "DOC001_P001_S01",
+    "doc_type": "maintenance_manual",
+    "equipment": "Hydraulic Cylinder (Boom Cylinder, YG-250)",
+    "text": "液压缸活塞密封件在长期使用中会因磨损、老化和油液污染导致密封失效，引发内泄漏。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P001",
+    "sentence_id": "DOC001_P001_S02",
+    "doc_type": "maintenance_manual",
+    "equipment": "Hydraulic Cylinder (Boom Cylinder, YG-250)",
+    "text": "密封失效导致的内泄漏会引起系统流量损失，进而造成工作压力下降，最终表现为油缸动作缓慢无力。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P002",
+    "sentence_id": "DOC001_P002_S01",
+    "doc_type": "maintenance_manual",
+    "equipment": "Hydraulic Pump Inlet Filter (LF-100)",
+    "text": "液压泵入口过滤器滤芯堵塞会导致吸油阻力增大，当入口真空度过高时，油液中溶解的空气析出，引发泵气蚀现象。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P002",
+    "sentence_id": "DOC001_P002_S02",
+    "doc_type": "maintenance_manual",
+    "equipment": "Hydraulic Pump Inlet Filter (LF-100)",
+    "text": "气蚀发生后，泵内会产生异常噪声和振动，同时泵的容积效率显著下降。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P003",
+    "sentence_id": "DOC001_P003_S01",
+    "doc_type": "maintenance_manual",
+    "equipment": "Hydraulic System Cooling Circuit (HE-500)",
+    "text": "冷却系统风扇故障或散热器堵塞将导致液压油温度持续升高，当油温超过70°C时，油液粘度急剧下降。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P003",
+    "sentence_id": "DOC001_P003_S02",
+    "doc_type": "maintenance_manual",
+    "equipment": "Hydraulic System Cooling Circuit (HE-500)",
+    "text": "粘度下降会削弱油膜的承载能力，加剧各密封面的内泄漏，形成油温升高-泄漏增大-油位下降-冷却不足的恶性循环。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P004",
+    "sentence_id": "DOC001_P004_S01",
+    "doc_type": "maintenance_manual",
+    "equipment": "Bladder Accumulator (NXQ-40)",
+    "text": "皮囊式蓄能器皮囊破裂后，蓄能器丧失压力保持能力，导致系统压力在负载变化时产生剧烈波动。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P004",
+    "sentence_id": "DOC001_P004_S02",
+    "doc_type": "maintenance_manual",
+    "equipment": "Bladder Accumulator (NXQ-40)",
+    "text": "蓄能器压力保持失效还会导致泵频繁启停，加速泵的疲劳损坏。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P005",
+    "sentence_id": "DOC001_P005_S01",
+    "doc_type": "maintenance_manual",
+    "equipment": "Proportional Directional Valve (4WRA-10)",
+    "text": "液压油液污染是比例阀故障的首要原因，污染物颗粒会磨损阀芯配合面或导致阀芯卡滞，破坏流量控制精度。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P005",
+    "sentence_id": "DOC001_P005_S02",
+    "doc_type": "maintenance_manual",
+    "equipment": "Proportional Directional Valve (4WRA-10)",
+    "text": "流量控制异常会引发系统压力波动，影响所有执行元件的运动平稳性。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P006",
+    "sentence_id": "DOC001_P006_S01",
+    "doc_type": "maintenance_manual",
+    "equipment": "Pilot-Operated Relief Valve (DBW-20)",
+    "text": "先导式溢流阀弹簧疲劳或先导阀口磨损会导致溢流压力设定值漂移，系统压力无法维持在额定值。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC001",
+    "paragraph_id": "DOC001_P006",
+    "sentence_id": "DOC001_P006_S02",
+    "doc_type": "maintenance_manual",
+    "equipment": "Pilot-Operated Relief Valve (DBW-20)",
+    "text": "系统压力异常直接导致液压缸和液压马达的负载能力下降，设备无法完成额定工况作业。",
+    "source_date": "2024-03-01"
+  },
+  {
+    "source_id": "DOC002",
+    "paragraph_id": "DOC002_P001",
+    "sentence_id": "DOC002_P001_S01",
+    "doc_type": "fmea",
+    "equipment": "Hydraulic Cylinder (Boom Cylinder, YG-250)",
+    "text": "FMEA分析显示，油缸密封件失效的发生概率为B级（偶尔发生），严重度为8（动作失效），RPN=96，属高风险项。",
+    "source_date": "2024-04-10"
+  },
+  {
+    "source_id": "DOC002",
+    "paragraph_id": "DOC002_P001",
+    "sentence_id": "DOC002_P001_S02",
+    "doc_type": "fmea",
+    "equipment": "Hydraulic Cylinder (Boom Cylinder, YG-250)",
+    "text": "建议每2000工作小时更换活塞密封组件，每次检修时检查活塞杆表面有无划伤。",
+    "source_date": "2024-04-10"
+  },
+  {
+    "source_id": "DOC002",
+    "paragraph_id": "DOC002_P002",
+    "sentence_id": "DOC002_P002_S01",
+    "doc_type": "fmea",
+    "equipment": "Hydraulic Pump Inlet Filter (LF-100)",
+    "text": "FMEA评估过滤器堵塞的严重度为6（容积效率下降），检测难度为3（在线监测可行），RPN=54。",
+    "source_date": "2024-04-10"
+  },
+  {
+    "source_id": "DOC002",
+    "paragraph_id": "DOC002_P003",
+    "sentence_id": "DOC002_P003_S01",
+    "doc_type": "fmea",
+    "equipment": "Hydraulic System Cooling Circuit (HE-500)",
+    "text": "冷却系统失效FMEA：冷却风扇故障发生概率C级，严重度7（系统过热停机），RPN=84，建议每500小时检查风扇运行状况。",
+    "source_date": "2024-04-10"
+  },
+  {
+    "source_id": "DOC002",
+    "paragraph_id": "DOC002_P004",
+    "sentence_id": "DOC002_P004_S01",
+    "doc_type": "fmea",
+    "equipment": "Bladder Accumulator (NXQ-40)",
+    "text": "蓄能器皮囊FMEA：皮囊破裂概率B级，严重度7（压力冲击），RPN=84。推荐每年检测一次充气压力。",
+    "source_date": "2024-04-10"
+  },
+  {
+    "source_id": "DOC002",
+    "paragraph_id": "DOC002_P005",
+    "sentence_id": "DOC002_P005_S01",
+    "doc_type": "fmea",
+    "equipment": "Proportional Directional Valve (4WRA-10)",
+    "text": "比例阀FMEA：油液污染导致阀芯卡滞的概率A级（频繁发生），严重度8（控制失效），RPN=128，属最高风险等级。",
+    "source_date": "2024-04-10"
+  },
+  {
+    "source_id": "DOC002",
+    "paragraph_id": "DOC002_P006",
+    "sentence_id": "DOC002_P006_S01",
+    "doc_type": "fmea",
+    "equipment": "Pilot-Operated Relief Valve (DBW-20)",
+    "text": "溢流阀FMEA：弹簧疲劳发生概率C级，严重度7（系统压力异常），RPN=63。推荐每年校验溢流压力设定值。",
+    "source_date": "2024-04-10"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P001",
+    "sentence_id": "DOC003_P001_S01",
+    "doc_type": "fault_case",
+    "equipment": "Hydraulic Cylinder (Boom Cylinder, YG-250)",
+    "text": "2024-06-12，现场反馈挖掘机大臂油缸动作缓慢无力。经拆检发现活塞密封圈严重磨损，缸筒内壁有轻微拉伤，确认存在内泄漏故障。",
+    "source_date": "2024-06-12"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P001",
+    "sentence_id": "DOC003_P001_S02",
+    "doc_type": "fault_case",
+    "equipment": "Hydraulic Cylinder (Boom Cylinder, YG-250)",
+    "text": "更换密封组件并修磨缸筒后，油缸动作恢复正常。更换密封时，维修人员清洗了液压油箱并更换了全部液压油。",
+    "source_date": "2024-06-12"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P002",
+    "sentence_id": "DOC003_P002_S01",
+    "doc_type": "fault_case",
+    "equipment": "Hydraulic Pump System (A10VSO-140)",
+    "text": "2024-06-20，操作人员报告液压泵站有尖锐异响。检查发现入口过滤器已严重堵塞（压差指示器显示红色），泵体表面温度偏高。",
+    "source_date": "2024-06-20"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P002",
+    "sentence_id": "DOC003_P002_S02",
+    "doc_type": "fault_case",
+    "equipment": "Hydraulic Pump System (A10VSO-140)",
+    "text": "清洗过滤器滤芯并更换新液压油后异响消除，泵容积效率恢复至92%。拆解旧滤芯发现大量金属磨屑和黑色沉淀物。",
+    "source_date": "2024-06-20"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P003",
+    "sentence_id": "DOC003_P003_S01",
+    "doc_type": "fault_case",
+    "equipment": "Hydraulic System Cooling Circuit (HE-500)",
+    "text": "2024-07-05，设备运行4小时后出现液压油温过高报警（油温>80°C）。排查发现冷却风扇电机绕组烧毁，散热器翅片大面积堵塞。",
+    "source_date": "2024-07-05"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P003",
+    "sentence_id": "DOC003_P003_S02",
+    "doc_type": "fault_case",
+    "equipment": "Hydraulic System Cooling Circuit (HE-500)",
+    "text": "更换冷却风扇电机并清洗散热器后，油温恢复正常。后续检查发现多个液压缸密封件出现早期老化迹象，判断与长期高温运行有关。",
+    "source_date": "2024-07-05"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P004",
+    "sentence_id": "DOC003_P004_S01",
+    "doc_type": "fault_case",
+    "equipment": "Bladder Accumulator (NXQ-40)",
+    "text": "2024-07-18，操作人员观察到系统压力表指针在负载不变的情况下出现±15 bar的周期性摆动。检测蓄能器充气压力为零，判断皮囊已完全破裂。",
+    "source_date": "2024-07-18"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P005",
+    "sentence_id": "DOC003_P005_S01",
+    "doc_type": "fault_case",
+    "equipment": "Proportional Directional Valve (4WRA-10)",
+    "text": "2024-08-02，CNC液压工装定位精度超差。油液取样分析显示ISO 4406清洁度等级为21/19/16（超标），比例阀阀芯存在明显卡滞。",
+    "source_date": "2024-08-02"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P005",
+    "sentence_id": "DOC003_P005_S02",
+    "doc_type": "fault_case",
+    "equipment": "Proportional Directional Valve (4WRA-10)",
+    "text": "清洗比例阀阀芯和阀体配合面后，更换新液压油并加装高精度旁路过滤器，定位精度恢复。后续每周进行油液清洁度检测。",
+    "source_date": "2024-08-02"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P006",
+    "sentence_id": "DOC003_P006_S01",
+    "doc_type": "fault_case",
+    "equipment": "Pilot-Operated Relief Valve (DBW-20)",
+    "text": "2024-08-15，液压机无法达到额定压制力（2200吨），最大仅能达到1750吨。检查发现溢流阀设定压力从22 MPa漂移至17.5 MPa。",
+    "source_date": "2024-08-15"
+  },
+  {
+    "source_id": "DOC003",
+    "paragraph_id": "DOC003_P006",
+    "sentence_id": "DOC003_P006_S02",
+    "doc_type": "fault_case",
+    "equipment": "Pilot-Operated Relief Valve (DBW-20)",
+    "text": "拆解溢流阀发现主阀弹簧长度较标准值缩短1.2 mm，刚度下降约15%。更换弹簧并重新标定压力后，设备负载能力恢复。",
+    "source_date": "2024-08-15"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P001",
+    "sentence_id": "DOC004_P001_S01",
+    "doc_type": "inspection_record",
+    "equipment": "Hydraulic Cylinder System",
+    "text": "2024-09-01例行检修：测量各油缸内泄漏量，发现3#油缸内泄漏量达120 ml/min（标准<30 ml/min），判定密封失效，安排更换。",
+    "source_date": "2024-09-01"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P001",
+    "sentence_id": "DOC004_P001_S02",
+    "doc_type": "inspection_record",
+    "equipment": "Hydraulic Cylinder System",
+    "text": "同时检查系统压力，3#油缸工作压力仅18 MPa（额定25 MPa），压力损失达28%。",
+    "source_date": "2024-09-01"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P002",
+    "sentence_id": "DOC004_P002_S01",
+    "doc_type": "inspection_record",
+    "equipment": "Hydraulic Pump Station",
+    "text": "2024-09-05巡检：泵站入口过滤器压差0.35 bar（报警值0.30 bar），油箱液位正常，泵壳温度62°C（正常<55°C）。",
+    "source_date": "2024-09-05"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P002",
+    "sentence_id": "DOC004_P002_S02",
+    "doc_type": "inspection_record",
+    "equipment": "Hydraulic Pump Station",
+    "text": "安排滤芯清洗，清洗后压差恢复至0.08 bar。油液光谱分析显示铁含量28 ppm，铜含量6 ppm，硅含量15 ppm（灰尘污染）。",
+    "source_date": "2024-09-05"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P003",
+    "sentence_id": "DOC004_P003_S01",
+    "doc_type": "inspection_record",
+    "equipment": "Hydraulic Cooling System",
+    "text": "2024-09-10巡检：冷却风扇运行正常，散热器进出口温差仅5°C（标准>15°C），判断散热器内部存在堵塞，安排化学清洗。",
+    "source_date": "2024-09-10"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P004",
+    "sentence_id": "DOC004_P004_S01",
+    "doc_type": "inspection_record",
+    "equipment": "Bladder Accumulator (NXQ-40)",
+    "text": "2024-09-15检查蓄能器：充气压力检测仪显示氮气压力为0 bar（额定45 bar），判定皮囊破损，安排更换蓄能器总成。",
+    "source_date": "2024-09-15"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P005",
+    "sentence_id": "DOC004_P005_S01",
+    "doc_type": "inspection_record",
+    "equipment": "Proportional Directional Valve (4WRA-10)",
+    "text": "2024-09-20油液检测报告：NAS 1638等级11级，超过换油标准（9级）。颗粒计数显示>14μm颗粒数超标5倍。",
+    "source_date": "2024-09-20"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P006",
+    "sentence_id": "DOC004_P006_S01",
+    "doc_type": "inspection_record",
+    "equipment": "Pilot-Operated Relief Valve (DBW-20)",
+    "text": "2024-09-25压力校验：溢流阀设定值22 MPa，实测开启压力17.8 MPa，偏差-19.1%。记录显示上次校验时间为2023-09-25，已满一年。",
+    "source_date": "2024-09-25"
+  },
+  {
+    "source_id": "DOC004",
+    "paragraph_id": "DOC004_P006",
+    "sentence_id": "DOC004_P006_S02",
+    "doc_type": "inspection_record",
+    "equipment": "Pilot-Operated Relief Valve (DBW-20)",
+    "text": "拆检发现先导阀座有轻微冲蚀痕迹，主阀芯弹簧自由长度较新件短1.0 mm。更换弹簧和先导阀座后，开启压力恢复至21.8 MPa。",
+    "source_date": "2024-09-25"
+  }
+]

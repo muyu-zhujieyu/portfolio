@@ -1,0 +1,26 @@
+{
+  "name": "hydraulic-fault-kg-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "液压故障演化过程的机理约束事件知识图谱与大模型问答系统 - 前端",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0",
+    "element-plus": "^2.9.0",
+    "echarts": "^5.5.0",
+    "axios": "^1.7.0",
+    "@element-plus/icons-vue": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.1.0"
+  }
+}

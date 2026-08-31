@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+backend/venv/
+backend/.venv/
+.venv/
+venv/
+
+# Runtime databases and logs
+backend/*.db
+backend/*.db-wal
+backend/*.db-shm
+*.log
+
+# Node / frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Runtime uploads and generated sample images
+uploads/
+data/sample_analysis/raw_images/
+data/sample_analysis/analysis_outputs/
+
+# Source documents that may carry size or licensing restrictions
+data/raw_sources/
+*.docx
+*.pptx
+*.mp4
+*.vsdx
+*.x_t
+*.SLDASM
+*.SLDPRT
+*.STEP
+*.stp
+*.igs
+*.dwg
+*.dxf
+
+# Internal report-generation helpers
+make_ppt.py
+fix_ppt.py

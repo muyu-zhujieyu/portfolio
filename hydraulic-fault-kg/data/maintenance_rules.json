@@ -1,0 +1,184 @@
+[
+  {
+    "rule_id": "R001",
+    "fault_mode": "LeakageFault",
+    "matched_template": "T1",
+    "matched_states": ["InternalLeakage", "FlowLoss", "PressureDrop", "ActuatorSlowdown"],
+    "recommended_actions": [
+      "拆检液压缸，测量内泄漏量",
+      "更换活塞密封组件（密封圈、导向环、防尘圈）",
+      "检查活塞杆表面有无划伤，必要时修磨或更换",
+      "检查缸筒内壁有无拉伤，必要时珩磨修复",
+      "清洗液压油箱并更换液压油",
+      "复测油缸工作压力和动作速度"
+    ],
+    "priority": "high",
+    "risk_level": "critical",
+    "estimated_downtime_hours": 8,
+    "reason": "密封失效导致内泄漏→流量损失→压力下降→执行元件动作缓慢，若不及时处理将导致油缸完全失效并污染油液"
+  },
+  {
+    "rule_id": "R002",
+    "fault_mode": "FilterBlockage",
+    "matched_template": "T2",
+    "matched_states": ["InletResistanceIncrease", "Cavitation", "NoiseIncrease"],
+    "recommended_actions": [
+      "立即停机检查过滤器压差指示器",
+      "清洗或更换入口过滤器滤芯",
+      "检查油液清洁度，必要时更换液压油",
+      "检查泵体有无气蚀损伤痕迹",
+      "检查油箱液位和吸油管路密封性",
+      "恢复运行后监测泵壳温度和噪声水平"
+    ],
+    "priority": "high",
+    "risk_level": "high",
+    "estimated_downtime_hours": 3,
+    "reason": "过滤器堵塞→入口阻力增大→泵气蚀→噪声增大，长期气蚀将导致泵体永久性损伤"
+  },
+  {
+    "rule_id": "R003",
+    "fault_mode": "CoolingFailure",
+    "matched_template": "T3",
+    "matched_states": ["OilTemperatureRise", "ViscosityDrop", "LeakageIncrease"],
+    "recommended_actions": [
+      "检查冷却风扇电机运行状态，测量电流和绝缘电阻",
+      "清洗散热器翅片和内部管路（化学清洗）",
+      "检测散热器进出口温差，判断清洗效果",
+      "检查液压油粘度和酸值，评估油品状态",
+      "检查所有密封件有无高温老化迹象",
+      "考虑加装油温在线监测和报警系统"
+    ],
+    "priority": "high",
+    "risk_level": "high",
+    "estimated_downtime_hours": 6,
+    "reason": "冷却失效→油温升高→粘度下降→泄漏增大，高温连锁反应将导致全系统密封件加速老化"
+  },
+  {
+    "rule_id": "R004",
+    "fault_mode": "AccumulatorPressureLoss",
+    "matched_template": "T4",
+    "matched_states": ["PressureHoldingFailure", "PressureFluctuation"],
+    "recommended_actions": [
+      "使用充气检测仪测量蓄能器氮气压力",
+      "若压力为零，判定皮囊破裂，更换蓄能器总成",
+      "更换后按额定值充入氮气",
+      "检查系统压力波动是否消除",
+      "评估泵频繁启停对泵寿命的影响",
+      "制定蓄能器年检计划（每12个月检查充气压力）"
+    ],
+    "priority": "medium",
+    "risk_level": "medium",
+    "estimated_downtime_hours": 4,
+    "reason": "皮囊破裂→压力保持失效→系统压力波动，若持续运行将加速液压泵疲劳损坏"
+  },
+  {
+    "rule_id": "R005",
+    "fault_mode": "OilContamination",
+    "matched_template": "T5",
+    "matched_states": ["ValveWearOrSticking", "FlowControlAbnormality", "PressureFluctuation"],
+    "recommended_actions": [
+      "立即取样进行油液清洁度分析（ISO 4406或NAS 1638）",
+      "若清洁度超标，实施离线过滤或更换全部液压油",
+      "拆检比例阀/伺服阀，清洗阀芯和阀体配合面",
+      "检查阀芯和阀套的磨损程度，严重者更换",
+      "加装高精度旁路过滤器（建议β3≥200）",
+      "建立每周油液清洁度检测制度",
+      "排查污染源：检查油箱呼吸器、活塞杆防尘圈、管路接头"
+    ],
+    "priority": "critical",
+    "risk_level": "critical",
+    "estimated_downtime_hours": 12,
+    "reason": "油液污染→阀芯磨损/卡滞→流量控制异常→压力波动，这是液压系统最常见的故障链且危害面最广"
+  },
+  {
+    "rule_id": "R006",
+    "fault_mode": "ReliefValveAbnormality",
+    "matched_template": "T6",
+    "matched_states": ["SystemPressureAbnormality", "LoadCapacityDecline"],
+    "recommended_actions": [
+      "校验溢流阀开启压力和设定压力",
+      "拆检溢流阀主阀芯、先导阀座和弹簧",
+      "测量主阀弹簧自由长度和刚度",
+      "更换疲劳弹簧和磨损的先导阀座",
+      "重新标定压力设定值",
+      "测试系统最大负载能力",
+      "制定年度压力校验计划"
+    ],
+    "priority": "medium",
+    "risk_level": "medium",
+    "estimated_downtime_hours": 4,
+    "reason": "溢流阀弹簧疲劳→系统压力异常→负载能力下降，直接影响设备作业能力"
+  },
+  {
+    "rule_id": "R007",
+    "fault_mode": "Cavitation",
+    "matched_template": "T2",
+    "matched_states": ["InletResistanceIncrease", "NoiseIncrease"],
+    "recommended_actions": [
+      "排查泵入口管路所有可能的节流点",
+      "清洗或更换入口过滤器",
+      "检查油箱液位是否正常",
+      "检查吸油管路管径是否偏小或弯头过多",
+      "检查液压油粘度是否过高（冷启动时注意预热）",
+      "拆检泵体检查气蚀损伤情况"
+    ],
+    "priority": "high",
+    "risk_level": "high",
+    "estimated_downtime_hours": 5,
+    "reason": "泵气蚀是过滤器堵塞的直接后果，气蚀产生的气泡爆破会迅速损坏泵内部件"
+  },
+  {
+    "rule_id": "R008",
+    "fault_mode": "ValveWearOrSticking",
+    "matched_template": "T5",
+    "matched_states": ["FlowControlAbnormality", "PressureFluctuation"],
+    "recommended_actions": [
+      "拆检阀芯阀套配合面磨损情况",
+      "测量阀芯和阀孔的配合间隙",
+      "若间隙超标，更换阀总成",
+      "若仅为轻微卡滞，超声波清洗后复装测试",
+      "彻底过滤或更换液压油",
+      "评估是否需要在阀前加装精密过滤器"
+    ],
+    "priority": "high",
+    "risk_level": "critical",
+    "estimated_downtime_hours": 8,
+    "reason": "阀芯卡滞是油液污染的直接后果，若不根治污染源，短期内将再次发生"
+  },
+  {
+    "rule_id": "R009",
+    "fault_mode": "LeakageIncrease",
+    "matched_template": "T3",
+    "matched_states": ["OilTemperatureRise", "ViscosityDrop"],
+    "recommended_actions": [
+      "检查所有液压缸、阀和管接头密封状况",
+      "高温运行后测量各执行元件的内泄漏量",
+      "评估油液粘度是否仍在推荐范围内",
+      "排查冷却系统效能",
+      "考虑更换为耐高温型密封材料",
+      "建立油温和密封状态的关联监测机制"
+    ],
+    "priority": "medium",
+    "risk_level": "medium",
+    "estimated_downtime_hours": 6,
+    "reason": "泄漏增大是冷却失效的次生危害，需要同时处理冷却系统和密封件"
+  },
+  {
+    "rule_id": "R010",
+    "fault_mode": "SpringFatigue",
+    "matched_template": "T6",
+    "matched_states": ["SystemPressureAbnormality", "LoadCapacityDecline"],
+    "recommended_actions": [
+      "拆检溢流阀，测量弹簧自由长度和新品对比",
+      "若长度缩短>1mm或刚度下降>10%，更换弹簧",
+      "检查先导阀座密封面冲蚀情况",
+      "更换弹簧后重新标定压力",
+      "记录弹簧使用时间和压力漂移量，评估最佳更换周期",
+      "建议将弹簧作为定期更换项（每2年）纳入预防性维护计划"
+    ],
+    "priority": "medium",
+    "risk_level": "medium",
+    "estimated_downtime_hours": 3,
+    "reason": "弹簧疲劳是一个渐进过程，可通过定期校验提前发现和预防"
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "relation_id": "REL001",
+    "source_event": "EVT001",
+    "relation_type": "cause",
+    "target_event": "EVT002",
+    "template_id": "T1",
+    "confidence": 0.90,
+    "evidence_id": "EVD001"
+  },
+  {
+    "relation_id": "REL002",
+    "source_event": "EVT002",
+    "relation_type": "lead_to",
+    "target_event": "EVT003",
+    "template_id": "T1",
+    "confidence": 0.88,
+    "evidence_id": "EVD003"
+  },
+  {
+    "relation_id": "REL003",
+    "source_event": "EVT003",
+    "relation_type": "lead_to",
+    "target_event": "EVT004",
+    "template_id": "T1",
+    "confidence": 0.85,
+    "evidence_id": "EVD004"
+  },
+  {
+    "relation_id": "REL004",
+    "source_event": "EVT004",
+    "relation_type": "lead_to",
+    "target_event": "EVT005",
+    "template_id": "T1",
+    "confidence": 0.87,
+    "evidence_id": "EVD005"
+  },
+  {
+    "relation_id": "REL005",
+    "source_event": "EVT005",
+    "relation_type": "trigger",
+    "target_event": "EVT006",
+    "template_id": null,
+    "confidence": 0.95,
+    "evidence_id": "EVD006"
+  },
+  {
+    "relation_id": "REL006",
+    "source_event": "EVT007",
+    "relation_type": "cause",
+    "target_event": "EVT008",
+    "template_id": "T2",
+    "confidence": 0.92,
+    "evidence_id": "EVD007"
+  },
+  {
+    "relation_id": "REL007",
+    "source_event": "EVT008",
+    "relation_type": "lead_to",
+    "target_event": "EVT009",
+    "template_id": "T2",
+    "confidence": 0.86,
+    "evidence_id": "EVD009"
+  },
+  {
+    "relation_id": "REL008",
+    "source_event": "EVT009",
+    "relation_type": "lead_to",
+    "target_event": "EVT010",
+    "template_id": "T2",
+    "confidence": 0.89,
+    "evidence_id": "EVD010"
+  },
+  {
+    "relation_id": "REL009",
+    "source_event": "EVT010",
+    "relation_type": "trigger",
+    "target_event": "EVT011",
+    "template_id": null,
+    "confidence": 0.93,
+    "evidence_id": "EVD011"
+  },
+  {
+    "relation_id": "REL010",
+    "source_event": "EVT012",
+    "relation_type": "detected_by",
+    "target_event": "EVT007",
+    "template_id": null,
+    "confidence": 0.82,
+    "evidence_id": "EVD012"
+  },
+  {
+    "relation_id": "REL011",
+    "source_event": "EVT013",
+    "relation_type": "cause",
+    "target_event": "EVT014",
+    "template_id": "T3",
+    "confidence": 0.94,
+    "evidence_id": "EVD013"
+  },
+  {
+    "relation_id": "REL012",
+    "source_event": "EVT014",
+    "relation_type": "lead_to",
+    "target_event": "EVT015",
+    "template_id": "T3",
+    "confidence": 0.87,
+    "evidence_id": "EVD015"
+  },
+  {
+    "relation_id": "REL013",
+    "source_event": "EVT015",
+    "relation_type": "lead_to",
+    "target_event": "EVT016",
+    "template_id": "T3",
+    "confidence": 0.83,
+    "evidence_id": "EVD016"
+  },
+  {
+    "relation_id": "REL014",
+    "source_event": "EVT014",
+    "relation_type": "trigger",
+    "target_event": "EVT017",
+    "template_id": null,
+    "confidence": 0.96,
+    "evidence_id": "EVD017"
+  },
+  {
+    "relation_id": "REL015",
+    "source_event": "EVT018",
+    "relation_type": "detected_by",
+    "target_event": "EVT013",
+    "template_id": null,
+    "confidence": 0.84,
+    "evidence_id": "EVD018"
+  },
+  {
+    "relation_id": "REL016",
+    "source_event": "EVT019",
+    "relation_type": "cause",
+    "target_event": "EVT020",
+    "template_id": "T4",
+    "confidence": 0.93,
+    "evidence_id": "EVD020"
+  },
+  {
+    "relation_id": "REL017",
+    "source_event": "EVT020",
+    "relation_type": "lead_to",
+    "target_event": "EVT021",
+    "template_id": "T4",
+    "confidence": 0.90,
+    "evidence_id": "EVD021"
+  },
+  {
+    "relation_id": "REL018",
+    "source_event": "EVT021",
+    "relation_type": "trigger",
+    "target_event": "EVT022",
+    "template_id": null,
+    "confidence": 0.97,
+    "evidence_id": "EVD022"
+  },
+  {
+    "relation_id": "REL019",
+    "source_event": "EVT023",
+    "relation_type": "cause",
+    "target_event": "EVT024",
+    "template_id": "T5",
+    "confidence": 0.91,
+    "evidence_id": "EVD023"
+  },
+  {
+    "relation_id": "REL020",
+    "source_event": "EVT024",
+    "relation_type": "lead_to",
+    "target_event": "EVT025",
+    "template_id": "T5",
+    "confidence": 0.87,
+    "evidence_id": "EVD025"
+  },
+  {
+    "relation_id": "REL021",
+    "source_event": "EVT025",
+    "relation_type": "lead_to",
+    "target_event": "EVT026",
+    "template_id": "T5",
+    "confidence": 0.85,
+    "evidence_id": "EVD026"
+  },
+  {
+    "relation_id": "REL022",
+    "source_event": "EVT026",
+    "relation_type": "trigger",
+    "target_event": "EVT027",
+    "template_id": null,
+    "confidence": 0.94,
+    "evidence_id": "EVD027"
+  },
+  {
+    "relation_id": "REL023",
+    "source_event": "EVT028",
+    "relation_type": "detected_by",
+    "target_event": "EVT023",
+    "template_id": null,
+    "confidence": 0.88,
+    "evidence_id": "EVD028"
+  },
+  {
+    "relation_id": "REL024",
+    "source_event": "EVT029",
+    "relation_type": "cause",
+    "target_event": "EVT030",
+    "template_id": "T6",
+    "confidence": 0.92,
+    "evidence_id": "EVD030"
+  },
+  {
+    "relation_id": "REL025",
+    "source_event": "EVT030",
+    "relation_type": "lead_to",
+    "target_event": "EVT031",
+    "template_id": "T6",
+    "confidence": 0.91,
+    "evidence_id": "EVD031"
+  },
+  {
+    "relation_id": "REL026",
+    "source_event": "EVT031",
+    "relation_type": "trigger",
+    "target_event": "EVT032",
+    "template_id": null,
+    "confidence": 0.95,
+    "evidence_id": "EVD032"
+  },
+  {
+    "relation_id": "REL027",
+    "source_event": "EVT033",
+    "relation_type": "detected_by",
+    "target_event": "EVT029",
+    "template_id": null,
+    "confidence": 0.86,
+    "evidence_id": "EVD033"
+  },
+  {
+    "relation_id": "REL028",
+    "source_event": "EVT026",
+    "relation_type": "propagates_to",
+    "target_event": "EVT034",
+    "template_id": "T5",
+    "confidence": 0.72,
+    "evidence_id": "EVD034"
+  },
+  {
+    "relation_id": "REL029",
+    "source_event": "EVT034",
+    "relation_type": "worsen",
+    "target_event": "EVT029",
+    "template_id": null,
+    "confidence": 0.70,
+    "evidence_id": "EVD034"
+  },
+  {
+    "relation_id": "REL030",
+    "source_event": "EVT015",
+    "relation_type": "propagates_to",
+    "target_event": "EVT035",
+    "template_id": "T3",
+    "confidence": 0.75,
+    "evidence_id": "EVD035"
+  },
+  {
+    "relation_id": "REL031",
+    "source_event": "EVT035",
+    "relation_type": "worsen",
+    "target_event": "EVT001",
+    "template_id": null,
+    "confidence": 0.73,
+    "evidence_id": "EVD035"
+  },
+  {
+    "relation_id": "REL032",
+    "source_event": "EVT006",
+    "relation_type": "resolved_by",
+    "target_event": "EVT001",
+    "template_id": null,
+    "confidence": 0.96,
+    "evidence_id": "EVD006"
+  },
+  {
+    "relation_id": "REL033",
+    "source_event": "EVT011",
+    "relation_type": "resolved_by",
+    "target_event": "EVT007",
+    "template_id": null,
+    "confidence": 0.95,
+    "evidence_id": "EVD011"
+  },
+  {
+    "relation_id": "REL034",
+    "source_event": "EVT017",
+    "relation_type": "resolved_by",
+    "target_event": "EVT013",
+    "template_id": null,
+    "confidence": 0.97,
+    "evidence_id": "EVD017"
+  },
+  {
+    "relation_id": "REL035",
+    "source_event": "EVT027",
+    "relation_type": "resolved_by",
+    "target_event": "EVT024",
+    "template_id": null,
+    "confidence": 0.94,
+    "evidence_id": "EVD027"
+  },
+  {
+    "relation_id": "REL036",
+    "source_event": "EVT032",
+    "relation_type": "resolved_by",
+    "target_event": "EVT029",
+    "template_id": null,
+    "confidence": 0.96,
+    "evidence_id": "EVD032"
+  }
+]

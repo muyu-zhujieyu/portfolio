@@ -1,0 +1,151 @@
+/* ── 大屏汇报截图模式 ── */
+:root {
+  --primary-dark: #1a3a5c;
+  --primary-blue: #2c5f8a;
+  --primary-light: #e8f0f8;
+  --accent-red: #c41e3a;
+  --accent-orange: #e6a23c;
+  --accent-green: #67c23a;
+  --border-blue: #409eff;
+  --border-light: #d9e1e8;
+  --bg-white: #ffffff;
+  --bg-gray: #f5f7fa;
+  --text-dark: #303133;
+  --text-regular: #606266;
+  --text-muted: #909399;
+  --shadow-card: 0 2px 12px rgba(0,0,0,0.08);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+
+/* ── 全局超大字号基准 ── */
+body {
+  font-family: 'Microsoft YaHei','PingFang SC',sans-serif;
+  background: var(--bg-gray); color: var(--text-dark);
+  font-size: 19px; line-height: 1.55;
+}
+
+/* ── 截图友好容器 ── */
+.report-screen {
+  padding: 16px 20px !important;
+  max-width: 100% !important;
+}
+.report-screen h2 { font-size: 34px !important; font-weight: 800 !important; }
+.report-screen h3 { font-size: 24px !important; font-weight: 700 !important; }
+
+/* ── 超大标题 ── */
+.section-title {
+  font-size: 34px; font-weight: 800; color: var(--primary-dark);
+  border-left: 6px solid var(--accent-red); padding-left: 16px;
+  margin-bottom: 14px; line-height: 1.2;
+}
+.sub-title { font-size: 22px; font-weight: 700; color: var(--primary-blue); margin-bottom: 8px; }
+
+/* ── 页面容器收紧 ── */
+.page-container { padding: 14px 18px !important; max-width: 100% !important; }
+
+/* ── 卡片 ── */
+.research-card {
+  background: var(--bg-white); border-radius: 12px;
+  box-shadow: var(--shadow-card); padding: 18px 22px; margin-bottom: 14px;
+  border: 1px solid var(--border-light);
+}
+
+/* ── 超大统计数字卡片 ── */
+.metric-card { background: var(--bg-white); border-radius: 12px;
+  box-shadow: var(--shadow-card); padding: 16px 18px; text-align: center;
+}
+.metric-card .metric-value { font-size: 44px; font-weight: 800; color: var(--primary-dark); }
+.metric-card .metric-label { font-size: 19px; color: var(--text-muted); margin-top: 6px; }
+
+/* ── 伺服阀模块 ── */
+.servo-valve-module {
+  background: var(--bg-white); border-radius: 14px;
+  box-shadow: var(--shadow-card); padding: 20px 24px; margin-bottom: 16px;
+  border-left: 6px solid var(--primary-dark);
+}
+.servo-valve-module .sv-title { font-size: 28px; font-weight: 800; color: var(--primary-dark); margin-bottom: 14px; }
+.servo-valve-module .sv-desc { font-size: 19px; color: var(--text-regular); line-height: 1.7; }
+.servo-valve-module .sv-parts .sv-part-tag {
+  background: var(--primary-light); color: var(--primary-dark);
+  padding: 8px 16px; border-radius: 22px; font-size: 17px; font-weight: 700;
+}
+
+/* ── 构建步骤 ── */
+.step-badge {
+  display:inline-flex; align-items:center; justify-content:center;
+  width:44px; height:44px; border-radius:50%;
+  background:var(--primary-dark); color:white;
+  font-weight:800; font-size:20px; flex-shrink:0;
+}
+.step-badge.completed { background: var(--accent-green); }
+
+/* ── Element Plus 全局超大 ── */
+.el-menu-item { font-size: 17px !important; height: 54px !important; line-height: 54px !important; }
+.el-sub-menu__title { font-size: 17px !important; height: 54px !important; line-height: 54px !important; }
+
+.el-table { font-size: 18px !important; }
+.el-table th.el-table__cell {
+  background: var(--primary-dark) !important; color: white !important;
+  font-weight: 700; font-size: 18px !important; padding: 14px 10px !important;
+}
+.el-table td.el-table__cell { font-size: 17px !important; padding: 12px 10px !important; }
+.el-table .cell { line-height: 1.6 !important; }
+
+.el-button { font-size: 18px !important; }
+.el-button--large { font-size: 20px !important; height: 48px !important; }
+.el-button--primary { background: var(--primary-blue) !important; border-color: var(--primary-blue) !important; }
+.el-button--danger { background: var(--accent-red) !important; border-color: var(--accent-red) !important; }
+
+.el-tag { font-size: 15px !important; }
+.el-input__inner { font-size: 18px !important; height: 44px !important; }
+.el-select .el-input__inner { font-size: 18px !important; }
+.el-statistic__head { font-size: 19px !important; }
+.el-statistic__number { font-size: 36px !important; font-weight: 800 !important; }
+
+.el-tabs__item { font-size: 19px !important; }
+.el-card__header { font-size: 20px !important; font-weight: 700 !important; padding: 16px 22px !important; }
+.el-card__body { padding: 18px 22px !important; }
+
+.el-descriptions__label { font-size: 18px !important; }
+.el-descriptions__content { font-size: 18px !important; }
+
+.el-alert__title { font-size: 19px !important; }
+.el-step__title { font-size: 18px !important; font-weight: 700 !important; }
+.el-step__description { font-size: 16px !important; }
+
+.el-collapse-item__header { font-size: 18px !important; font-weight: 700 !important; }
+.el-collapse-item__content { font-size: 17px !important; }
+
+/* ── 报告横幅 ── */
+.report-banner {
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary-blue));
+  color: white; padding: 28px 36px; text-align: center;
+  font-size: 22px; line-height: 1.8; font-weight: 700;
+}
+
+/* ── 大屏截图模式类 ── */
+.big-font-page { font-size: 19px; }
+.big-font-page h2 { font-size: 34px; font-weight: 800; }
+.big-font-page h3 { font-size: 24px; font-weight: 700; }
+.big-font-page p { font-size: 18px; }
+.big-font-page .el-statistic__number { font-size: 42px !important; }
+
+/* ── 工具类 ── */
+.flex-between { display:flex; justify-content:space-between; align-items:center; }
+.mt-16 { margin-top:16px; } .mb-16 { margin-bottom:16px; }
+.text-center { text-align:center; } .text-red { color:var(--accent-red); }
+.text-muted { color:var(--text-muted); }
+
+/* ── 模型图片区域 ── */
+.model-img-container {
+  min-height: 280px; display: flex; align-items: center; justify-content: center;
+  background: #fafbfc; border: 2px dashed #d9e1e8; border-radius: 12px; padding: 16px;
+}
+.model-img { max-width: 100%; max-height: 320px; object-fit: contain; }
+.model-img-fallback { text-align: center; padding: 20px; }
+.fallback-icon { font-size: 48px; margin-bottom: 12px; }
+.fallback-title { font-size: 20px; font-weight: 700; color: #E6A23C; margin-bottom: 12px; }
+.fallback-desc { font-size: 17px; color: #606266; line-height: 1.8; margin-bottom: 12px; }
+.fallback-ref { font-size: 15px; color: #909399; }
+.fallback-ref a { color: #409EFF; }
+.model-source { font-size: 15px; color: #909399; margin-top: 8px; line-height: 1.6; }
