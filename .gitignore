@@ -1,0 +1,7 @@
+.artifacts/
+.vscode/
+.publish-ai-product-portfolio/
+LiteHabit-作品集-GitHub.zip
+*.log
+.DS_Store
+Thumbs.db
