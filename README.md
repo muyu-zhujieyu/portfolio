@@ -1,6 +1,6 @@
 # muyu-zhujieyu · AI 产品作品集
 
-作品集目前包含四个并列案例：轻量习惯养成与本地数据体验、工业知识图谱与可信维护决策、面向中文菜谱的垂直 RAG，以及液压泵端—边—Web 近端巡检平台。重点呈现我如何从需求分析出发，将产品逻辑转化为可运行原型或全栈系统，并通过数据边界、证据追溯和验收标准提高交付可靠性。
+作品集目前包含五个并列案例：轻量习惯养成、工业知识图谱、中文菜谱 RAG、液压泵端—边—Web 近端巡检，以及 G1 人形机器人 SLAM 导航与安全运动平台。重点呈现我如何从需求分析出发，将产品逻辑转化为可运行原型或全栈系统，并通过数据边界、证据追溯和验收标准提高交付可靠性。
 
 **[打开在线作品集总览](https://muyu-zhujieyu.github.io/portfolio/portfolio/index.html)**
 
@@ -12,6 +12,7 @@
 | 02 · 液压伺服阀故障知识图谱 | [项目说明](hydraulic-fault-kg/README.md) | 阅读架构与产品说明；完整体验按项目 README 启动前后端 |
 | 03 · 尝尝咸淡 Recipe RAG | [项目说明](recipe-rag/README.md) · [架构说明](recipe-rag/docs/architecture.md) | 使用演示菜谱，按项目 README 配置密钥并启动 CLI |
 | 04 · 液压泵近端巡检状态监测平台 | [项目说明](near-end-inspection/README.md) · [产品需求文档](near-end-inspection/docs/PRD.md) | [打开脱敏交互 Demo](https://muyu-zhujieyu.github.io/portfolio/near-end-inspection/)，无需安装 |
+| 05 · G1 SLAM 导航与安全运动平台 | [项目说明](g1-robotics/README.md) · [产品需求文档](g1-robotics/docs/PRD.md) | [打开公开仿真](https://muyu-zhujieyu.github.io/portfolio/g1-robotics/)，无需机器人 |
 
 ## 01 · 轻习惯 LiteHabit
 
@@ -37,6 +38,12 @@
 
 作品集版本提供脱敏交互 Demo，以本地模拟数据展示趋势、巡检记录、状态切换与 CSV 导出，不连接真实硬件或现场服务。
 
+## 05 · G1 SLAM 导航与安全运动平台
+
+基于 G1、MID360、FAST-LIO 与 Nav2 建立实机 SLAM 导航闭环，覆盖三维点云到二维地图、固定起点定位、路径预验证、受限速度桥接和到点/异常安全收口；并延伸到双臂轨迹编辑、FK/IK 与视觉目标触碰的安全预演。
+
+公开仿真用合成地图展示启动前安全确认、连续目标导航、STOP 与 IK fail-closed 逻辑，不包含现场网络、真实点云、地图、模型权重或真机控制代码。
+
 ## 仓库结构
 
 ```text
@@ -46,6 +53,7 @@
 ├── hydraulic-fault-kg/        # 项目 02：工业知识图谱全栈平台
 ├── recipe-rag/                # 项目 03：中文菜谱混合检索 RAG
 ├── near-end-inspection/       # 项目 04：液压泵近端巡检交互演示
+├── g1-robotics/               # 项目 05：G1 SLAM 导航与安全运动仿真
 ├── index.html                 # GitHub Pages 入口跳转
 └── README.md                  # 仓库总览
 ```
@@ -56,6 +64,7 @@
 - 工业知识图谱项目只公开源码、词典、规则和必要的派生示例。
 - 菜谱 RAG 只公开核心代码与自编演示数据，不提交向量索引和原始素材库。
 - 近端巡检项目不公开软著材料、协议签章、硬件地址、现场配置和真实采集数据。
+- G1 机器人项目不公开现场账号/IP、真实地图/点云、模型权重、标定文件和可直接驱动真机的控制源码。
 - 不公开模型密钥、运行数据库、用户上传文件、虚拟环境和本地构建产物。
 - 不公开大体积 DOCX、PPTX、视频、CAD/三维模型或可能受授权限制的资料全文。
 - 工业维护建议属于研究与辅助决策展示，正式使用必须由专业人员复核。

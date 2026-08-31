@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="G1 人形机器人 SLAM 导航与安全运动平台作品集演示。">
+  <title>G1 SLAM 导航与安全运动平台</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><span>G1</span><strong>FIELD ROBOTICS LAB</strong></a>
+    <div class="top-meta"><span class="sim-badge">公开仿真</span><span id="globalState" class="state ready"><i></i>系统待命</span></div>
+  </header>
+
+  <main id="top" class="shell">
+    <section class="intro">
+      <div>
+        <p class="eyebrow">PROJECT 05 · HUMANOID ROBOTICS</p>
+        <h1>把建图、定位、规划和运动执行，收敛成可验证的实机闭环。</h1>
+        <p>基于 G1、MID360、FAST-LIO 与 Nav2 的机器人导航工程，并延伸到双臂运动编辑与视觉触碰实验。本页仅运行浏览器仿真，不连接机器人。</p>
+      </div>
+      <div class="baseline"><span>已验证基线</span><strong>v0.1 · Fixed-start</strong><small>连续目标导航，不包含任意位置重定位</small></div>
+    </section>
+
+    <section class="pipeline" aria-label="机器人数据链路">
+      <article><span>01 · 感知</span><strong>MID360 点云 + IMU</strong><small>ROS 2 topics</small></article>
+      <article><span>02 · 里程计</span><strong>FAST-LIO</strong><small>3D PCD / Odometry</small></article>
+      <article><span>03 · 规划</span><strong>Nav2</strong><small>2D occupancy map</small></article>
+      <article><span>04 · 执行</span><strong>G1 Motion Bridge</strong><small>限幅 + STOP 收口</small></article>
+    </section>
+
+    <section class="workspace">
+      <article class="panel map-panel">
+        <div class="panel-head">
+          <div><p class="section-label">NAVIGATION SIMULATOR</p><h2>固定起点导航任务</h2></div>
+          <span id="missionBadge" class="mission-badge">等待目标</span>
+        </div>
+        <div class="map-wrap"><canvas id="navMap" aria-label="机器人二维导航仿真地图"></canvas></div>
+        <div class="map-legend"><span class="robot-key">机器人</span><span class="goal-key">目标点</span><span class="path-key">规划路径</span><span class="wall-key">障碍区域</span></div>
+      </article>
+
+      <aside class="panel mission-panel">
+        <p class="section-label">MISSION CONTROL</p>
+        <h2>任务与安全闸门</h2>
+        <div class="goal-picker">
+          <span>选择目标点</span>
+          <div><button class="goal" data-x="16" data-y="2">A · 装配区</button><button class="goal" data-x="17" data-y="11">B · 检查区</button><button class="goal" data-x="2" data-y="11">HOME</button></div>
+        </div>
+        <fieldset>
+          <legend>启动前确认</legend>
+          <label><input type="checkbox" class="gate">机器人位于地图原点附近</label>
+          <label><input type="checkbox" class="gate">FAST-LIO 里程计稳定且静止</label>
+          <label><input type="checkbox" class="gate">二维地图和坐标原点已核对</label>
+          <label><input type="checkbox" class="gate">现场清空，急停可用</label>
+        </fieldset>
+        <div class="mission-actions"><button id="startMission" class="primary" disabled>开始导航</button><button id="stopMission" class="stop">STOP</button></div>
+        <div class="telemetry"><div><span>当前位置</span><strong id="positionText">(0.00, 0.00)</strong></div><div><span>桥接状态</span><strong id="bridgeText">LOCKED</strong></div><div><span>任务状态</span><strong id="taskText">IDLE</strong></div></div>
+      </aside>
+    </section>
+
+    <section class="lower-grid">
+      <article class="panel health-panel">
+        <div class="panel-head"><div><p class="section-label">SYSTEM HEALTH</p><h2>初始化状态机</h2></div><button id="resetDemo" class="ghost">重置仿真</button></div>
+        <ol class="health-list">
+          <li class="done"><span>雷达数据</span><strong>点云与 IMU 正常</strong></li>
+          <li class="done"><span>FAST-LIO</span><strong>/Odometry 健康</strong></li>
+          <li class="done"><span>地图服务</span><strong>脱敏地图已加载</strong></li>
+          <li id="plannerHealth"><span>Nav2 规划</span><strong>等待目标</strong></li>
+          <li id="motionHealth"><span>运动桥接</span><strong>默认锁定</strong></li>
+        </ol>
+        <div id="eventLog" class="event-log" aria-live="polite"></div>
+      </article>
+
+      <article class="panel arm-panel">
+        <div class="panel-head"><div><p class="section-label">TARGET TOUCH · DRY RUN</p><h2>视觉触碰安全预演</h2></div><span class="dry-badge">不下发关节命令</span></div>
+        <p class="arm-copy">演示“检测—锁点—IK 校验”的决策链。生产能力仍需 RGB/Depth 对齐、eye-to-hand、工具 TCP、碰撞规划与力/触觉停止条件。</p>
+        <div class="vision-stage">
+          <div class="camera-grid"><span class="target-box"><i></i>目标候选</span><span class="depth-point"></span><span class="tcp-point"></span></div>
+          <div class="vision-data"><span>目标深度<strong id="depthValue">0.74 m</strong></span><span>TCP 残差<strong id="residualValue">--</strong></span><span>条件数<strong id="conditionValue">--</strong></span></div>
+        </div>
+        <div class="arm-actions"><button id="lockTarget" class="ghost">1 · 锁定目标</button><button id="solveIk" class="ghost" disabled>2 · 生成端点 IK</button><button class="disabled-action" disabled>3 · 真机执行未开放</button></div>
+        <p id="armStatus" class="arm-status">等待手动锁定稳定目标。</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>公开仿真不连接机器人 · 所有真机动作必须在安全监护和硬件急停条件下验证</footer>
+  <script src="app.js"></script>
+</body>
+</html>
