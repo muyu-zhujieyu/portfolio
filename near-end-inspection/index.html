@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="液压泵近端巡检状态监测平台作品集演示：四通道趋势、链路状态、巡检记录与 CSV 导出。">
+  <title>近端巡检状态监测平台 · 交互演示</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">NE</span>
+      <div><strong>近端巡检</strong><small>液压泵状态监测平台</small></div>
+    </div>
+    <div class="top-status">
+      <span class="demo-pill">作品集模拟数据</span>
+      <span id="terminalBadge" class="status-badge online"><i></i>采集终端在线</span>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="overview" aria-labelledby="pageTitle">
+      <div>
+        <p class="eyebrow">NEAR-END INSPECTION · V1.1 DEMO</p>
+        <h1 id="pageTitle">把采集链路状态和四路运行参数放在同一现场视图中</h1>
+        <p>当前页面使用本地模拟数据，展示真实产品的信息结构与关键交互，不连接现场设备。</p>
+      </div>
+      <div class="device-panel">
+        <span>当前设备</span><strong>HP-DEMO-04</strong><small id="latestTime">等待数据</small>
+      </div>
+    </section>
+
+    <section class="link-state" aria-label="数据链路状态">
+      <div><span>数据服务</span><strong id="serviceState"><i></i>已连接</strong></div>
+      <div><span>采集终端</span><strong id="deviceState"><i></i>在线</strong></div>
+      <div><span>数据时效</span><strong id="freshnessState"><i></i>正常接收</strong></div>
+      <div><span>当前缓存</span><strong id="recordCount">0 条</strong></div>
+    </section>
+
+    <nav class="tabs" aria-label="功能导航">
+      <button class="tab active" data-tab="monitor" aria-pressed="true">状态监测</button>
+      <button class="tab" data-tab="records" aria-pressed="false">巡检记录</button>
+      <button class="tab" data-tab="explain" aria-pressed="false">数据说明</button>
+      <button class="tab" data-tab="system" aria-pressed="false">系统状态</button>
+    </nav>
+
+    <section id="monitor" class="view active-view">
+      <div class="metrics" id="metricCards"></div>
+      <article class="panel chart-panel">
+        <div class="panel-head">
+          <div><p class="kicker">LIVE TREND</p><h2>四通道总体趋势</h2></div>
+          <div class="chart-actions">
+            <button id="pauseButton" class="control">暂停显示</button>
+            <button id="disconnectButton" class="control warning">模拟终端离线</button>
+          </div>
+        </div>
+        <div class="canvas-wrap"><canvas id="trendChart" aria-label="四通道实时趋势图"></canvas></div>
+        <div id="legend" class="legend"></div>
+      </article>
+    </section>
+
+    <section id="records" class="view" hidden>
+      <article class="panel">
+        <div class="panel-head">
+          <div><p class="kicker">INSPECTION LOG</p><h2>最近巡检记录</h2></div>
+          <button id="exportButton" class="primary">导出 CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>采集时间</th><th>泄油口温度</th><th>泄油口压力</th><th>油口 A 压力</th><th>油口 B 压力</th></tr></thead>
+            <tbody id="recordRows"></tbody>
+          </table>
+        </div>
+        <p class="table-note">演示最多保留 200 条浏览器内存记录；导出文件采用 UTF-8 CSV。</p>
+      </article>
+    </section>
+
+    <section id="explain" class="view" hidden>
+      <div class="info-grid" id="sensorNotes"></div>
+      <article class="panel note-panel">
+        <p class="kicker">READING PRINCIPLE</p>
+        <h2>按“测点—时间—工况”解读数据</h2>
+        <p>四路参数的单位和物理含义不同，曲线高低不能直接横向比较。正式判断前应先确认设备编号、传感器量程、安装位置、通道映射和工况记录；本平台用于状态展示与巡检留痕，不直接给出液压泵故障结论。</p>
+      </article>
+    </section>
+
+    <section id="system" class="view" hidden>
+      <article class="panel system-grid">
+        <div><span>运行模式</span><strong>本地模拟</strong><small>不连接真实 TCP / WebSocket</small></div>
+        <div><span>目标产品链路</span><strong>终端 → TCP → WS → PWA</strong><small>分层定位页面、网络与采集问题</small></div>
+        <div><span>刷新节奏</span><strong>约 1 Hz</strong><small>作品集演示节奏</small></div>
+        <div><span>累计生成</span><strong id="generatedCount">0 条</strong><small>当前浏览器会话</small></div>
+        <div><span>数据留存</span><strong>会话内存</strong><small>刷新页面后重新生成</small></div>
+        <div><span>操作</span><button id="resetButton" class="control">重置演示数据</button><small>清空并生成新的起始序列</small></div>
+      </article>
+    </section>
+  </main>
+
+  <footer>作品集交互演示 · 模拟数据仅用于展示产品能力，不用于工程判断</footer>
+  <script src="app.js"></script>
+</body>
+</html>
