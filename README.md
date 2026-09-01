@@ -2,15 +2,15 @@
 
 作品集目前包含五个并列案例：轻量习惯养成、工业知识图谱、中文菜谱 RAG、液压泵端—边—Web 近端巡检，以及 G1 人形机器人 SLAM 导航与安全运动平台。重点呈现我如何从需求分析出发，将产品逻辑转化为可运行原型或全栈系统，并通过数据边界、证据追溯和验收标准提高交付可靠性。
 
-**[打开在线作品集总览](https://muyu-zhujieyu.github.io/portfolio/portfolio/index.html)**
+**[打开在线作品集总览](https://muyu-zhujieyu.github.io/portfolio/)**
 
 ## 推荐浏览路线
 
 | 项目 | 先看什么 | 如何体验 |
 | --- | --- | --- |
 | 01 · 轻习惯 LiteHabit | [项目说明](litehabit/README.md) · [产品需求文档](litehabit/LiteHabit_PRD_v2.0.docx) | [打开交互 Demo](https://muyu-zhujieyu.github.io/portfolio/litehabit/)，无需安装 |
-| 02 · 液压伺服阀故障知识图谱 | [项目说明](hydraulic-fault-kg/README.md) | 阅读架构与产品说明；完整体验按项目 README 启动前后端 |
-| 03 · 尝尝咸淡 Recipe RAG | [项目说明](recipe-rag/README.md) · [架构说明](recipe-rag/docs/architecture.md) | 使用演示菜谱，按项目 README 配置密钥并启动 CLI |
+| 02 · 液压伺服阀故障知识图谱 | [项目说明](hydraulic-fault-kg/README.md) | [打开公开交互 Demo](https://muyu-zhujieyu.github.io/portfolio/hydraulic-fault-kg/)，无需安装；完整体验按 README 启动前后端 |
+| 03 · 尝尝咸淡 Recipe RAG | [项目说明](recipe-rag/README.md) · [架构说明](recipe-rag/docs/architecture.md) | [打开浏览器 Demo](https://muyu-zhujieyu.github.io/portfolio/recipe-rag/)，无需密钥；完整体验按 README 启动 CLI |
 | 04 · 液压泵近端巡检状态监测平台 | [项目说明](near-end-inspection/README.md) · [产品需求文档](near-end-inspection/docs/PRD.md) | [打开脱敏交互 Demo](https://muyu-zhujieyu.github.io/portfolio/near-end-inspection/)，无需安装 |
 | 05 · G1 SLAM 导航与安全运动平台 | [项目说明](g1-robotics/README.md) · [产品需求文档](g1-robotics/docs/PRD.md) | [打开公开仿真](https://muyu-zhujieyu.github.io/portfolio/g1-robotics/)，无需机器人 |
 
@@ -68,6 +68,13 @@
 - 不公开模型密钥、运行数据库、用户上传文件、虚拟环境和本地构建产物。
 - 不公开大体积 DOCX、PPTX、视频、CAD/三维模型或可能受授权限制的资料全文。
 - 工业维护建议属于研究与辅助决策展示，正式使用必须由专业人员复核。
+
+## GitHub Pages 发布
+
+本仓库是纯静态多项目作品集，不需要额外构建。GitHub 仓库中选择 **Settings → Pages → Deploy from a branch → main → /(root)** 后保存，即可从以下地址访问：
+
+- 总览：`https://muyu-zhujieyu.github.io/portfolio/`
+- 五个项目：分别位于 `/litehabit/`、`/hydraulic-fault-kg/`、`/recipe-rag/`、`/near-end-inspection/`、`/g1-robotics/`
 
 ---
 
