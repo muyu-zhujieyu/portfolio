@@ -1,6 +1,6 @@
 # 作品集｜液压伺服阀故障知识图谱与智能维护平台
 
-**[打开公开交互演示](https://muyu-zhujieyu.github.io/portfolio/hydraulic-fault-kg/)** · 无需安装，使用合成数据展示图谱节点、证据追溯与受约束问答。
+**[打开原 Vue 管理端静态预览](https://muyu-zhujieyu.github.io/portfolio/hydraulic-fault-kg/)** · 无需安装，可查看原项目页面、导航和前端交互；数据处理、文件上传、图谱问答与维修推荐需要本地启动 FastAPI 后端。
 
 > 将公开液压故障资料转化为可追溯、可校验、可用于辅助维修决策的事件知识图谱系统。
 

@@ -9,7 +9,7 @@
 | 项目 | 先看什么 | 如何体验 |
 | --- | --- | --- |
 | 01 · 轻习惯 LiteHabit | [项目说明](litehabit/README.md) · [产品需求文档](litehabit/LiteHabit_PRD_v2.0.docx) | [打开交互 Demo](https://muyu-zhujieyu.github.io/portfolio/litehabit/)，无需安装 |
-| 02 · 液压伺服阀故障知识图谱 | [项目说明](hydraulic-fault-kg/README.md) | [打开公开交互 Demo](https://muyu-zhujieyu.github.io/portfolio/hydraulic-fault-kg/)，无需安装；完整体验按 README 启动前后端 |
+| 02 · 液压伺服阀故障知识图谱 | [项目说明](hydraulic-fault-kg/README.md) | [打开原 Vue 管理端预览](https://muyu-zhujieyu.github.io/portfolio/hydraulic-fault-kg/)；完整数据与 AI 功能按 README 启动前后端 |
 | 03 · 尝尝咸淡 Recipe RAG | [项目说明](recipe-rag/README.md) · [架构说明](recipe-rag/docs/architecture.md) | [打开浏览器 Demo](https://muyu-zhujieyu.github.io/portfolio/recipe-rag/)，无需密钥；完整体验按 README 启动 CLI |
 | 04 · 液压泵近端巡检状态监测平台 | [项目说明](near-end-inspection/README.md) · [产品需求文档](near-end-inspection/docs/PRD.md) | [打开脱敏交互 Demo](https://muyu-zhujieyu.github.io/portfolio/near-end-inspection/)，无需安装 |
 | 05 · G1 SLAM 导航与安全运动平台 | [项目说明](g1-robotics/README.md) · [产品需求文档](g1-robotics/docs/PRD.md) | [打开公开仿真](https://muyu-zhujieyu.github.io/portfolio/g1-robotics/)，无需机器人 |

@@ -3,6 +3,9 @@ import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 
 export default defineConfig({
+  // GitHub Pages publishes this app below /portfolio/hydraulic-fault-kg/.
+  // Relative assets keep the same build usable locally and under that subpath.
+  base: './',
   plugins: [vue()],
   resolve: {
     alias: {

@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 
 const routes: RouteRecordRaw[] = [
   { path: '/login', name: 'Login', component: () => import('@/views/LoginView.vue'), meta: { title: '登录' } },
@@ -18,7 +18,8 @@ const routes: RouteRecordRaw[] = [
   { path: '/report', name: 'Report', component: () => import('@/views/ReportView.vue'), meta: { title: '汇报展示' } },
 ]
 
-const router = createRouter({ history: createWebHistory(), routes })
+// Hash routing avoids server-side rewrite requirements on GitHub Pages.
+const router = createRouter({ history: createWebHashHistory(), routes })
 
 router.beforeEach((to, _from, next) => {
   document.title = (to.meta.title as string) || '液压故障知识图谱系统'

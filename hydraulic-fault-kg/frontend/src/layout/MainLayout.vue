@@ -63,7 +63,9 @@
       <el-header style="background: #fff; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e4e7ed; padding: 0 20px; height: 50px">
         <span style="font-size: 16px; font-weight: 600">{{ route.meta.title }}</span>
         <div>
-          <el-tag type="success" size="small" style="margin-right: 12px">后端: 127.0.0.1:8000</el-tag>
+          <el-tag :type="publicPreview ? 'warning' : 'success'" size="small" style="margin-right: 12px">
+            {{ publicPreview ? '公开前端演示 · 后端功能需本地启动' : '后端: 127.0.0.1:8000' }}
+          </el-tag>
           <el-button size="small" @click="$router.push('/login')">退出</el-button>
         </div>
       </el-header>
@@ -77,4 +79,5 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 const route = useRoute()
+const publicPreview = import.meta.env.PROD
 </script>

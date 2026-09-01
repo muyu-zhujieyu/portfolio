@@ -1,7 +1,11 @@
 <template>
-  <router-view />
+  <router-view v-if="route.path === '/login'" />
+  <MainLayout v-else />
 </template>
 
 <script setup lang="ts">
-// 根组件，直接渲染路由视图
+import { useRoute } from 'vue-router'
+import MainLayout from '@/layout/MainLayout.vue'
+
+const route = useRoute()
 </script>

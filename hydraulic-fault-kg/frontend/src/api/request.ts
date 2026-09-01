@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
 const request = axios.create({
-  baseURL: 'http://127.0.0.1:8000',
+  baseURL: import.meta.env.PROD ? '' : 'http://127.0.0.1:8000',
   timeout: 30000
 })
 
@@ -22,8 +22,13 @@ request.interceptors.request.use(
 request.interceptors.response.use(
   (response) => response.data,
   (error) => {
-    const msg = error.response?.data?.detail || error.message || '请求失败'
-    ElMessage.error(msg)
+    // The GitHub Pages build is a frontend-only public preview. Keep the real
+    // error feedback in local full-stack development, but do not flood the
+    // public preview with expected 404 messages when no FastAPI service exists.
+    if (!import.meta.env.PROD) {
+      const msg = error.response?.data?.detail || error.message || '请求失败'
+      ElMessage.error(msg)
+    }
     return Promise.reject(error)
   }
 )

@@ -116,7 +116,7 @@ import { ref, onMounted } from 'vue'
 import { getDashboardSummary } from '@/api/kgApi'
 
 const imgError = ref(false)
-const modelImgSrc = '/servo_valve_model.png'
+const modelImgSrc = import.meta.env.BASE_URL + 'servo_valve_model.png'
 
 const stats = ref([
   { label: '公开资料', value: '—', color: '#1ABC9C' },
